@@ -25,5 +25,115 @@
       background: #f3c948;
       border-radius: 3px;
     }
+
     /* Custom button style */
     .btn-gold {
+      background-color: #f3c948;
+      color: #141414;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .btn-gold:hover, .btn-gold:focus {
+      background-color: #e1b72c;
+      outline: none;
+      color: #121212;
+    }
+
+    /* Mini cart bubble */
+    .cart-bubble {
+      background-color: #da2c38;
+      color: white;
+      font-weight: 700;
+      font-size: 0.7rem;
+      padding: 0 6px;
+      border-radius: 9999px;
+      position: absolute;
+      right: 0;
+      top: -6px;
+      user-select: none;
+    }
+    /* Link arrow icon */
+    .arrow-link::after {
+      content: '→';
+      margin-left: 0.3em;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body class="max-w-sm mx-auto">
+
+  <!-- HEADER -->
+  <header class="flex items-center justify-between bg-[#1C1C1C] px-4 py-3 fixed top-0 inset-x-0 z-30 shadow-md">
+    <button aria-label="Menü öffnen" class="text-2xl text-[#f3c948]">&#9776;</button>
+    <div class="text-center">
+      <h1 class="font-bold text-xl text-[#f3c948]">Aura</h1>
+      <p class="text-xs text-gray-400 leading-tight">Asia Cuisine and Sushi</p>
+    </div>
+    <button aria-label="Warenkorb" class="relative text-yellow-400 text-2xl">
+      🛒
+      <span class="cart-bubble">3</span>
+    </button>
+  </header>
+
+  <main class="pt-20 pb-16 px-4 space-y-8">
+
+    <!-- Hero Text & Buttons -->
+    <section class="space-y-3 text-center">
+      <h2 class="text-2xl font-extrabold">Regionale Zutaten<br>Frisch zubereitet.</h2>
+      <p class="text-sm text-gray-300 max-w-sm mx-auto leading-relaxed">
+        Genießen Sie frisch zubereitetes Sushi,<br>
+        kreative Wokgerichte und vietnamesische Spezialitäten – serviert in stilvoller Atmosphäre.
+      </p>
+
+      <div class="flex justify-center gap-4 mt-3">
+        <button class="btn-gold rounded px-4 py-2 shadow-md hover:bg-yellow-400">Zur Speisekarte</button>
+        <button class="btn-gold rounded px-4 py-2 shadow-md hover:bg-yellow-400 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.279a2 2 0 011.895 1.316l1.046 3.139a1 1 0 01-.217 1.09l-1.12 1.12a11.042 11.042 0 005.516 5.516l1.12-1.12a1 1 0 011.09-.217l3.138 1.046A2 2 0 0119 16.721V19a2 2 0 01-2 2h-1c-7.18 0-13-5.82-13-13V5z" />
+          </svg>
+          Jetzt anrufen
+        </button>
+      </div>
+    </section>
+
+    <!-- Featured Image -->
+    <section>
+      <img src="https://placehold.co/600x400?text=Table+of+Fresh+Asian+Cuisine+Dishes" 
+           alt="Eine elegante Anordnung von verschiedenen frisch zubereiteten asiatischen Gerichten auf einem Holztisch mit frischen Zutaten wie Kräutern und Gemüse" 
+           class="rounded-xl shadow-lg w-full object-cover" 
+           onerror="this.style.display='none'"/>
+    </section>
+
+    <p class="text-center text-gray-300 text-xs mt-2">
+      Wählen Sie Ihre Lieblingsgerichte bequem über unsere Online-Speisekarte.
+    </p>
+
+    <!-- Sections Titles -->
+    <section class="space-y-6 mt-6">
+
+      <h3 class="font-semibold text-lg border-b border-yellow-500 pb-1">Beliebte Gerichte</h3>
+      <h3 class="font-semibold text-lg border-b border-yellow-500 pb-1">Set Menü</h3>
+      <h3 class="font-semibold text-lg border-b border-yellow-500 pb-1">Unsere Kategorien</h3>
+      <h3 class="font-semibold text-lg border-b border-yellow-500 pb-1">Unsere Getränke</h3>
+      <p class="text-gray-300 text-xs">Asiatische Tees, kreative Cocktails &amp; frisches Bier jetzt entdecken.</p>
+
+      <div class="overflow-hidden rounded-lg shadow-lg my-4">
+        <img src="https://placehold.co/600x320?text=Assorted+Asian+Drinks" 
+             alt="Ansicht eines leuchtend gestalteten Tresens mit asiatischen Tees, kreativen Cocktails und frischen Bieren in verschiedenfarbigen Gläsern auf dunklem Hintergrund" 
+             class="w-full object-cover" 
+             onerror="this.style.display='none'"/>
+      </div>
+
+      <a href="#" class="text-yellow-400 text-sm inline-block arrow-link underline mb-4">Weitere Gerichte anzeigen</a>
+
+    </section>
+
+    <!-- Unsere Mission -->
+    <section>
+      <h3 class="font-semibold text-lg border-b border-yellow-500 pb-1">Unsere Mission</h3>
+      <p class="text-gray-300 text-xs">Wir streben danach, Ihnen die besten asiatischen Gerichte mit frischen Zutaten und einem unvergesslichen Erlebnis zu bieten.</p>
+    </section>
+
+  </main>
+</body>
+</html>
