@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aura - Asia Cuisine and Sushi</title>
+  <link rel="icon" type="image/svg+xml" href="image/logo.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom styles for dark background and gold accents */
+    body {
+      background-color: #141414; /* Main background color */
+      color: #f3c948;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    /* Header background color */
+    header {
+      background-color: #1C1C1C; /* Dark gray for header */
+    }
+    /* Main content background color */
+    main {
+      background-color: #222; /* Slightly lighter gray for main content */
+    }
+    /* Scrollbar styling for mobile */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1f1f1f;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #f3c948;
+      border-radius: 3px;
+    }
+
+    /* Custom button style */
+    .btn-gold {
+      background-color: #f3c948;
+      color: #141414;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .btn-gold:hover, .btn-gold:focus {
+      background-color: #e1b72c;
+      outline: none;
+      color: #121212;
+    }
+
+    /* Mini cart bubble */
+    .cart-bubble {
+      background-color: #da2c38;
+      color: white;
+      font-weight: 700;
+      font-size: 0.7rem;
+      padding: 0 6px;
+      border-radius: 9999px;
+      position: absolute;
+      right: 0;
+      top: -6px;
+      user-select: none;
+    }
+    /* Link arrow icon */
+    .arrow-link::after {
+      content: '→';
+      margin-left: 0.3em;
+      font-weight: 700;
+    }
+    .logo {
+      height: 40px;
+    }
+      .carousel {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      overflow: hidden;
+      margin: auto;
+  }
+  .carousel-images {
+      display: flex;
+      transition: transform 0.5s ease;
+  }
+  .carousel img {
+      width: 100%;
+      height: auto;
+  }
+  .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(255, 255, 255, 0.5);
+      border: none;
+      cursor: pointer;
+  }
+  .prev {
+      left: 20px;
+      padding: 5px;
+  }
+  .next {
+      right: 20px;
+    padding: 5px;
+
+  }
+  
+  </style>
+
+</head>
+<body class="w-[414px] mx-auto" style="background-color: #0A0A0A;">
+
+  <!-- HEADER -->
+  <header class="flex items-center justify-between px-6 py-4 fixed top-0 w-[414px] z-30 shadow-lg border-b border-yellow-500/20" style="background-color: #000000;">
+    <button aria-label="Menü öffnen" class="text-2xl text-yellow-400 hover:text-yellow-300 transition-colors">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+    <a href="index.html" class="flex items-center gap-1">
+    <img src="image/logo.svg" alt="Logo" class="logo h-10">
+    <div class="text-center">
+        <h1 class="font-bold text-xl bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">AURA</h1>
+        <p class="text-xs text-gray-300 italic tracking-wider">Asia Cuisine and Sushi</p>
+    </div>
+    </a>
+
+
+    <button aria-label="Warenkorb" class="relative text-yellow-400 hover:text-yellow-300 transition-colors ml-4">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+      </svg>
+      <span class="cart-bubble">3</span>
+    </button>
+  </header>
+
+  <main class="pt-24 pb-10 px-6 space-y-8" style="background-color: #121212;">
+   <div class="carousel">
+      <div class="carousel-images">
+          <img src="image/menu/Menu AURA_page-0002.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0003.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0004.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0005.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0006.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0007.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0008.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0009.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0010.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0011.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0012.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0013.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0014.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0015.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0016.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0017.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0018.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0019.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0020.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0021.jpg" alt="Sushi Dish 1">
+          <img src="image/menu/Menu AURA_page-0022.jpg" alt="Sushi Dish 1">     
+      </div>
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+  </div>
+  <script>
+  const carousel = document.querySelector('.carousel-images');
+const images = document.querySelectorAll('.carousel-images img');
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+
+let currentIndex = 0;
+let imageWidth = images[0].clientWidth;
+
+function updateCarousel() {
+  carousel.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
+}
+
+nextBtn.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % images.length;
+  updateCarousel();
+});
+
+prevBtn.addEventListener('click', () => {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  updateCarousel();
+});
+
+// Optional: make it responsive on resize
+window.addEventListener('resize', () => {
+  imageWidth = images[0].clientWidth;
+  updateCarousel();
+});
+
+</script>
+
+   </main>
+  <!-- FOOTER -->
+  <footer class="px-6 py-10 text-white" style="background-color: #101820;">
+    <div class="text-3xl font-bold text-center text-yellow-400 mb-1">Aura</div>
+    <p class="text-sm text-gray-400 text-center italic mb-6">Asia Cuisine and Sushi</p>
+    <div class="text-sm mb-6 text-align">
+      <h3 class="font-semibold mb-1">Öffnungszeiten</h3>
+      <p>Mo – So: 11:00 – 15:00 Uhr &amp; 17:00 – 22:00 Uhr</p>
+    </div>
+    <div class="text-sm mb-6 text-align">
+      <h3 class="font-semibold mb-1">Kontakt</h3>
+      <p>📍 Gerberstraße 6 - 91710 Gunzenhausen</p>
+      <p>📞 +49 123 456789</p>
+    </div>
+    <div class="mb-4 text-align">
+      <h3 class="font-semibold mb-2">Folgen Sie uns</h3>
+      <div class="flex gap-4">
+        <a href="https://facebook.com" target="_blank" class="text-while-500 text-xl">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank" class="text-pink-1000 text-xl">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      </div>
+      <p class="text-xs text-gray-400 mt-2">Folgen Sie uns für Neuigkeiten und Einblicke in unseren Restaurantalltag.</p>
+    </div>
+    <p class="text-xs text-gray-500 mt-6">© 2025 AURA – Asia Cuisine & Sushi. Alle Rechte vorbehalten.</p>
+  </footer>
+</body>
+</html>
