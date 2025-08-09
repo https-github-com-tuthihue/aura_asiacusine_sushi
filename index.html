@@ -4,10 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="keywords" content="Aura Restaurant, Aura Asia Cuisine and Sushi, Sushi, Asia Restaurant, Asia Restaurant in Feuchtwangen, Asia Restaurant Gunzenhausen, Asia Cuisine, Asiatisches Restaurant, Sushi Feuchtwangen, Sushi Gunzenhausen, Asiatische Küche, Vietnamesische Spezialitäten">
-  <title>Aura - Asia Cuisine and Sushi</title>
-  <meta name="description" content="Asia Cuisine & Sushi in Feuchtwangen und Gunzenhausen.">
-  <link rel="icon" type="image/svg+xml" href="image/logo.svg">
-  <link rel="alternate icon" type="image/x-icon" href="image/favicon.ico">
+  <title>Aura – Asia Cuisine & Sushi in Feuchtwangen & Gunzenhausen</title>
+  <meta name="description" content="Aura Restaurant – Asiatische Küche, Asia Cuisine, Sushi, Wokgerichte und vietnamesische Spezialitäten in Feuchtwangen und Gunzenhausen.">
+  <!-- Ưu tiên SVG -->
+  <link rel="icon" type="image/svg+xml" href="./image/logo.svg">
+
+  <!-- Fallback cho trình duyệt không hỗ trợ SVG -->
+  <link rel="icon" type="image/png" href="./image/favicon.png">
+
+  <!-- Fallback cho định dạng .ico -->
+  <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -77,6 +84,31 @@
     }
 
   </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Aura – Asia Cuisine & Sushi",
+      "image": "https://aurarestaurant.site/image/logo.svg",
+      "@id": "",
+      "url": "https://aurarestaurant.site",
+      "telephone": "+49 9831 8822868",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gerberstraße 6",
+        "addressLocality": "Gunzenhausen",
+        "postalCode": "91710",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 49.116049,
+        "longitude": 10.753977
+      },
+      "servesCuisine": ["Sushi", "Asiatische Küche", "Vietnamesische Spezialitäten"],
+      "priceRange": "$$"
+    }
+  </script>
 </head>
 <body class="w-[414px] mx-auto" style="background-color: #0A0A0A;">
 
@@ -88,7 +120,7 @@
       </svg>
     </button>
     <div class="flex items-center gap-1">
-      <img src="image/logo.svg" alt="Logo" class="logo h-10">
+      <img src="./image/logo.svg" alt="Aura Asia Cuisine & Sushi Logo" class="logo h-10">
       <div class="text-center">
         <h1 class="font-bold text-xl bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent">AURA</h1>
         <p class="text-xs text-gray-300 italic tracking-wider">Asia Cuisine and Sushi</p>
@@ -109,8 +141,7 @@
     <section class="space-y-3 text-center">
       <h2 class="text-3xl font-extrabold pt-2">Regionale Zutaten<br>Frisch zubereitet.</h2>
       <p class="text-sm text-gray-300 max-w-sm mx-auto leading-relaxed">
-        Genießen Sie frisch zubereitetes Sushi,<br>
-        kreative Wokgerichte und vietnamesische Spezialitäten – serviert in stilvoller Atmosphäre.
+        Willkommen im Aura Restaurant <br>Genießen Sie frisches Sushi, köstliche Wokgerichte und vietnamesische Spezialitäten in stilvollem Ambiente.
       </p>
 
       <div class="flex justify-center gap-2 mt-3">
@@ -127,16 +158,31 @@
 
     <!-- Featured Image -->
     <section class="w-[368px]">
-      <img src="image/image 1.png" 
+      <img src="./image/image1.png" 
            alt="Eine elegante Anordnung von verschiedenen frisch zubereiteten asiatischen Gerichten auf einem Holztisch mit frischen Zutaten wie Kräutern und Gemüse" 
            class="rounded-xl shadow-lg w-full object-cover" 
            onerror="this.style.display='none'"/>
+       <p class="text-center text-gray-300 mt-2" style="font-size: 13px;"">
+         Wählen Sie Ihre Lieblingsgerichte bequem über unsere Online-Speisekarte.
+      </p>
     </section>
 
-    <p class="text-center text-gray-300 text-sm mt-2">
-      Wählen Sie Ihre Lieblingsgerichte bequem über unsere Online-Speisekarte.
-    </p>
-
+   
+<!-- unsere Getranke -->
+   <section class="space-y-1 text-center">
+      <h2 class="text-2xl font-extrabold">Unsere Getränke</h2>
+      <p class="text-center text-gray-200 text-sm mt-4">
+        Asiatische Tees, kreative Cocktails & frisches Bier <br>jetzt entdecken.
+      </p>
+      <section class="w-[368px]">
+        <img src="./image/Getränke.png" 
+            alt="  Entdecken Sie unsere Auswahl an asiatischen Tees, kreativen Cocktails und frischem Bier – perfekt, um Ihr Sushi- und Asia-Dining-Erlebnis zu ergänzen." 
+            class="rounded-xl shadow-lg w-full object-cover" 
+            onerror="this.style.display='none'"/>
+      </section>   
+    </section>
+    
+    
     <!-- Sections Titles -->
     <!-- <section class="space-y-6 mt-6">
 
@@ -158,10 +204,44 @@
     </section> -->
 
     <!-- Unsere Mission -->
-    <!-- <section>
-      <h3 class="font-semibold text-lg border-b border-yellow-500 pb-1">Unsere Mission</h3>
-      <p class="text-gray-300 text-sm">Wir streben danach, Ihnen die besten asiatischen Gerichte mit frischen Zutaten und einem unvergesslichen Erlebnis zu bieten.</p>
-    </section> -->
+     <section class="space-y-1 text-center">
+      <h2 class="text-2xl font-extrabold">Unsere Mission</h2>
+      <p class="text-center text-yellow-300 mt-2" style="font-size: 15px;"">
+        Mehr als nur gutes Essen      
+      </p>
+      <p class="text-left text-gray-200 mt-4 pb-4" style="font-size: 13px;">
+        Bei AURA in Feuchtwangen und Gunzenhausen ist jedes Gericht Ausdruck unserer Leidenschaft für die asiatische Küche, Sushi und vietnamesische Spezialitäten – frisch, authentisch und voller Geschmack.
+      <p>
+      <div class="space-y-2 text-gray-200 text-sm">
+        <div class="flex items-start gap-2">
+          <span class="text-yellow-400">✔</span>
+          <span>Kochen ist unsere Kunst.</span>
+        </div>
+        <div class="flex items-start gap-2">
+          <span class="text-yellow-400">✔</span>
+          <span>Jedes Gericht wird mit Hingabe zubereitet.</span>
+        </div>
+        <div class="flex items-start gap-2">
+          <span class="text-yellow-400">✔</span>
+          <span>Kultur zum Schmecken.</span>
+        </div>
+        <div class="flex items-start gap-2">
+          <span class="text-yellow-400">✔</span>
+          <span>Geschmack, der verbindet.</span>
+        </div>
+      </div>
+      <div class="flex justify-left gap-1 mt-3">
+        <a href="tel:09831-8822868" 
+        class="inline-flex items-center gap-2 border border-yellow-400 text-yellow-400 px-4 py-2 rounded-md mt-4 hover:bg-yellow-400 hover:text-black transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 5a2 2 0 012-2h2.28a2 2 0 011.9 1.32l1.04 3.14a1 1 0 01-.22 1.09l-1.12 1.12a11.04 11.04 0 005.52 5.52l1.12-1.12a1 1 0 011.09-.22l3.14 1.04A2 2 0 0119 16.72V19a2 2 0 01-2 2h-1c-7.18 0-13-5.82-13-13V5z"/>
+        </svg>
+        Jetzt anrufen
+      </a>
+      </div>
+    </section>
+    
     <section class="space-y-1 text-center">
       <h2 class="text-2xl font-extrabold">Besuchen Sie uns in </h2>
       <p class="text-sm text-gray-300 font-medium text-left pt-4 max-w-sm leading-relaxed">
@@ -176,7 +256,7 @@
       <h2 class="text-1xl font-extrabold pb-2">Im September eröffnet ein neues <br> kulinarisches Erlebnis!</h2>
       
       <section class="w-[370px]">
-      <img src="image/banner.png" 
+      <img src="./image/banner.png" 
            alt="Eine elegante Anordnung von verschiedenen frisch zubereiteten asiatischen Gerichten auf einem Holztisch mit frischen Zutaten wie Kräutern und Gemüse" 
            class="rounded-xl shadow-lg w-full object-cover" 
            onerror="this.style.display='none'"/>
