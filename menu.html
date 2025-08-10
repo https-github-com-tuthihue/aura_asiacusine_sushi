@@ -253,35 +253,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const images = carousel.querySelectorAll('img');
     const prevBtn = carouselContainer.querySelector('.prev');
     const nextBtn = carouselContainer.querySelector('.next');
-    
+
     let currentIndex = 0;
     let imageWidth = 0;
-    let loadedCount = 0;
-
-    // Đảm bảo preload tất cả ảnh
-    images.forEach((img) => {
-      if (img.complete) {
-        loadedCount++;
-      } else {
-        img.addEventListener('load', () => {
-          loadedCount++;
-          if (loadedCount === images.length) {
-            setupCarousel();
-          }
-        });
-      }
-    });
-
-    if (loadedCount === images.length) {
-      setupCarousel();
-    }
-
-    function setupCarousel() {
-      imageWidth = images[0].clientWidth;
-      updateCarousel();
-      addEvents();
-      preloadImage(currentIndex + 1);
-    }
 
     function updateCarousel() {
       carousel.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
@@ -293,28 +267,59 @@ document.addEventListener("DOMContentLoaded", () => {
       img.src = images[nextIndex].src;
     }
 
-    function addEvents() {
-      nextBtn.addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % images.length;
-        updateCarousel();
-        preloadImage(currentIndex + 1);
-      });
-
-      prevBtn.addEventListener('click', () => {
+    function setImageWidthAndEvents() {
+      imageWidth = images[0].clientWidth;
+      updateCarousel();
+      prevBtn.onclick = () => {
         currentIndex = (currentIndex - 1 + images.length) % images.length;
         updateCarousel();
         preloadImage(currentIndex - 1);
-      });
-
+      };
+      nextBtn.onclick = () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        updateCarousel();
+        preloadImage(currentIndex + 1);
+      };
       window.addEventListener('resize', () => {
         imageWidth = images[0].clientWidth;
         updateCarousel();
       });
     }
+
+    // Chỉ khởi tạo khi ảnh đầu tiên đã load
+    if (images[0].complete) {
+      setImageWidthAndEvents();
+    } else {
+      images[0].addEventListener('load', setImageWidthAndEvents);
+    }
   }
 
-  // Init cho từng carousel
-  document.querySelectorAll('.carousel').forEach(initCarousel);
+  // Quản lý tab
+  const tabs = document.querySelectorAll(".tab");
+  const contents = [
+    document.getElementById("tab-content"),
+    document.getElementById("tab-content2")
+  ];
+
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+
+      contents.forEach((c, i) => {
+        c.style.display = i === index ? "block" : "none";
+        if (i === index) {
+          initCarousel(c); // Khởi tạo carousel khi tab hiển thị
+        }
+      });
+    });
+  });
+
+  // Mặc định mở tab đầu
+  contents.forEach((c, i) => {
+    c.style.display = i === 0 ? "block" : "none";
+    if (i === 0) initCarousel(c);
+  });
 });
 </script>
 
