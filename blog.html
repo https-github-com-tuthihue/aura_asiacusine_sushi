@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="Aura Restaurant, Aura Asia Cuisine and Sushi, Sushi, Asia Restaurant, Asia Restaurant in Feuchtwangen, Asia Restaurant Gunzenhausen, Asia Cuisine, Asiatisches Restaurant, Sushi Feuchtwangen, Sushi Gunzenhausen, Asiatische Küche, Vietnamesische Spezialitäten">
+  <title>Aura – Asia Cuisine & Sushi in Feuchtwangen & Gunzenhausen</title>
+  <meta name="description" content="Aura Restaurant – Asiatische Küche, Asia Cuisine, Sushi, Wokgerichte und vietnamesische Spezialitäten in Feuchtwangen und Gunzenhausen.">
+  <script>
+    fetch("components/favicon.html")
+      .then(res => res.text())
+      .then(data => {
+        document.head.insertAdjacentHTML("beforeend", data);
+    });
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* Custom styles for dark background and gold accents */
+    body {
+      background-color: #141414; /* Main background color */
+      color: #f3c948;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    /* Header background color */
+    header {
+      background-color: #1C1C1C; /* Dark gray for header */
+    }
+    /* Main content background color */
+    main {
+      background-color: #222; /* Slightly lighter gray for main content */
+    }
+    /* Scrollbar styling for mobile */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1f1f1f;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #f3c948;
+      border-radius: 3px;
+    }
+
+    /* Custom button style */
+    .btn-gold {
+      background-color: #f3c948;
+      color: #141414;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .btn-gold:hover, .btn-gold:focus {
+      background-color: #e1b72c;
+      outline: none;
+      color: #121212;
+    }
+
+    /* Mini cart bubble */
+    .cart-bubble {
+      background-color: #da2c38;
+      color: white;
+      font-weight: 700;
+      font-size: 0.7rem;
+      padding: 0 6px;
+      border-radius: 9999px;
+      position: absolute;
+      right: 0;
+      top: -6px;
+      user-select: none;
+    }
+    /* Link arrow icon */
+    .arrow-link::after {
+      content: '→';
+      margin-left: 0.3em;
+      font-weight: 700;
+    }
+    .logo {
+      height: 40px;
+    }
+
+  </style>
+</head>
+<body class="w-[414px] mx-auto" style="background-color: #0A0A0A;">
+
+  <!-- HEADER -->
+  <div id="header"></div>
+  
+  <main class="pt-20 pb-16 px-6 space-y-8" style="background-color: #121212;">
+
+    
+  </main>
+  <!-- FOOTER -->
+  <div id="footer"></div>
+    <!-- Side Menu -->
+  <div id="sidemenu"></div>
+
+  <script>
+    // Load header
+    fetch("components/header.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("header").innerHTML = data;
+        attachMenuEvents(); // sau khi header load thì gắn sự kiện
+      });
+
+    // Load footer
+    fetch("components/footer.html")
+      .then(res => res.text())
+      .then(data => document.getElementById("footer").innerHTML = data);
+
+    // Load sidemenu
+    fetch("components/sidemenu.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("sidemenu").innerHTML = data;
+        attachMenuEvents(); // sau khi sidemenu load thì gắn sự kiện
+      });
+
+    function attachMenuEvents() {
+      const menuToggle = document.getElementById("menu-toggle");
+      const sideMenu = document.getElementById("side-menu");
+      const closeMenu = document.getElementById("close-menu");
+      const overlay = document.getElementById("overlay");
+      const linkContact = document.getElementById("link-contact");
+      const linkHome = document.getElementById("link-home");
+      const linkSpeisekarte = document.getElementById("link-speisekarte");
+      const linkBlog = document.getElementById("link-blog");
+
+
+      if (menuToggle && sideMenu && closeMenu && overlay) {
+        menuToggle.onclick = () => {
+          sideMenu.classList.remove("-translate-x-full");
+          overlay.classList.remove("hidden");
+        };
+        closeMenu.onclick = () => {
+          sideMenu.classList.add("-translate-x-full");
+          overlay.classList.add("hidden");
+        };
+        overlay.onclick = () => {
+          sideMenu.classList.add("-translate-x-full");
+          overlay.classList.add("hidden");
+        };
+      }
+
+      // 👉 chuyển sang contact.html
+      if (linkContact) {
+        linkContact.onclick = () => {
+          window.location.href = "contact.html";
+        };
+      }
+
+      // 👉 chuyển sang index.html
+      if (linkHome) {
+        linkHome.onclick = () => {
+          window.location.href = "index.html";
+        };
+      }
+      
+      if (linkSpeisekarte) {
+        linkSpeisekarte.onclick = () => {
+          window.location.href = "menu.html";
+        };
+      }
+
+      if (linkBlog) {
+        linkBlog.onclick = () => {
+          window.location.href = "blog.html";
+        };
+      }
+
+    }
+
+  </script>
+</body>
+</html>
