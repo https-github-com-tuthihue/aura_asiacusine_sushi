@@ -1,0 +1,224 @@
+---
+import data from "../libs/data.json";
+import { parseFoods } from "../libs/utils";
+import '../global.css';
+
+const foods = parseFoods(data);
+const categories = Array.from(new Set(foods.map(f => f.category).filter(Boolean)));
+const cartCount = 3; // static demo
+---
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="keywords" content="Aura Restaurant, Aura Asia Cuisine and Sushi, Sushi, Asia Restaurant, Asia Restaurant in Feuchtwangen, Asia Restaurant Gunzenhausen, Asia Cuisine, Asiatisches Restaurant, Sushi Feuchtwangen, Sushi Gunzenhausen, Asiatische Küche, Vietnamesische Spezialitäten">
+	<title>Aura – Asia Cuisine & Sushi in Feuchtwangen & Gunzenhausen</title>
+	<meta name="description" content="Aura Restaurant – Asiatische Küche, Asia Cuisine, Sushi, Wokgerichte und vietnamesische Spezialitäten in Feuchtwangen und Gunzenhausen.">
+	<meta name="image" content="image/menu/Aura Restaurant.jpg">
+	<meta name="msapplication-config" content="logo/browserconfig.xml">
+	<link rel="apple-touch-icon" sizes="57x57" href="logo/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="logo/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="logo/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="logo/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="logo/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="logo/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="logo/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="logo/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="logo/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="logo/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#F0F0F0">
+	<meta name="msapplication-TileImage" content="logo/mstile-144x144.png">
+	<meta name="msapplication-square70x70logo" content="logo/mstile-70x70.png">
+	<meta name="msapplication-square150x150logo" content="logo/mstile-150x150.png">
+	<meta name="msapplication-wide310x150logo" content="logo/mstile-310x150.png">
+	<meta name="msapplication-square310x310logo" content="logo/mstile-310x310.png">
+	<link rel="shortcut icon" href="logo/favicon.ico" type="image/x-icon">
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "Restaurant",
+		  "name": "Aura – Asia Cuisine & Sushi",
+		  "logo": "https://aurarestaurant.site/logo/favicon-16x16.png",
+		  "image": "https://aurarestaurant.site/logo/android-chrome-192x192.png",
+		  "@id": "",
+		  "url": "https://aurarestaurant.site",
+		  "telephone": "+49 9831 8822868",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "Gerberstraße 6",
+			"addressLocality": "Gunzenhausen",
+			"postalCode": "91710",
+			"addressCountry": "DE"
+		  },
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 49.116049,
+			"longitude": 10.753977
+		  },
+		  "servesCuisine": ["Sushi", "Asiatische Küche", "Vietnamesische Spezialitäten"],
+		  "priceRange": "$$"
+		}
+	  </script>
+</head>
+<body>
+	<div class="min-h-screen bg-black text-white">
+		<!-- Header -->
+		<header class="fixed top-0 left-0 right-0 bg-black border-b border-gray-800 z-50">
+			<div class="flex items-center justify-between px-4 py-3">
+				<button class="p-2">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+						<line x1="4" x2="20" y1="12" y2="12"></line>
+						<line x1="4" x2="20" y1="6" y2="6"></line>
+						<line x1="4" x2="20" y1="18" y2="18"></line>
+					</svg>
+				</button>
+
+				<a class="flex items-center gap-3" href="/">
+					<img 
+						src="https://aurarestaurant.site/image/logo.svg"
+						class="w-10 h-10 rounded-full object-cover"
+						alt="Aura Logo" 
+					/>
+					<div>
+						<h1 class="text-yellow-500 text-2xl font-bold">
+							Aura
+						</h1>
+						<p class="text-white text-sm -mt-1 italic">
+							Asia Cuisine and Sushi
+						</p>
+					</div>
+				</a>
+
+				<button class="relative p-2">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-yellow-500">
+						<circle cx="8" cy="21" r="1"></circle>
+						<circle cx="19" cy="21" r="1"></circle>
+						<path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+					</svg>
+					<span class="absolute -top-1 -right-1 bg-red-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">
+						{cartCount}
+					</span>
+				</button>
+			</div>
+		</header>
+
+		<!-- Main Content -->
+		<main class="pt-20 pb-8">
+			<!-- Title -->
+			<h2 class="text-yellow-500 text-3xl font-bold text-center py-6">
+				Unsere Speisekarte
+			</h2>
+
+			<!-- Tabs -->
+			<div class="flex overflow-x-auto px-4 gap-4 mb-6 scrollbar-hide">
+				{categories.map((tab, index) => (
+					<button
+						data-tab={tab}
+						class={`tab-button whitespace-nowrap pb-2 px-2 font-medium text-sm transition-colors ${
+							index === 0
+								? "text-yellow-500 border-b-2 border-yellow-500"
+								: "text-gray-400"
+						}`}
+					>
+						{tab}
+					</button>
+				))}
+			</div>
+
+			<!-- Menu Items -->
+			<div class="px-4 space-y-4">
+				{foods.map((item) => (
+					<div
+						data-category={item.category}
+						class={`menu-item bg-gray-900 rounded-2xl p-5 border border-gray-800 ${
+							item.category !== categories[0] ? "hidden" : ""
+						}`}
+					>
+						<div class="flex justify-between items-start mb-2">
+							<h3 class="text-white text-xl font-bold">
+								{item.id}. {item.name}
+							</h3>
+							<span class="text-yellow-500 text-xl font-bold whitespace-nowrap ml-4">
+								{item.price || item.upgratedPrice}€
+							</span>
+						</div>
+
+						<p class="text-gray-400 text-sm leading-relaxed mb-4">
+							{item.description}
+						</p>
+
+						{item.toppings && item.toppings.length > 0 && (
+							<div class="space-y-3">
+								{item.topping?.name && (
+									<div class="flex justify-between items-center">
+										<span class="text-white text-base">
+											{item.topping.name}
+										</span>
+										<div class="flex gap-3">
+											{item.topping.upgratedPrice && (
+												<span class="text-yellow-500 font-bold">
+													{item.topping.upgratedPrice}€
+												</span>
+											)}
+										</div>
+									</div>
+								)}
+								{item.toppings.map((option) => (
+									<div class="flex justify-between items-center">
+										<span class="text-white text-base">
+											{option.name}
+										</span>
+										<div class="flex gap-3">
+											{option.upgratedPrice && (
+												<span class="text-yellow-500 font-bold">
+													{option.upgratedPrice}€
+												</span>
+											)}
+										</div>
+									</div>
+								))}
+							</div>
+						)}
+					</div>
+				))}
+			</div>
+		</main>
+	</div>
+
+	<script>
+		// Client-side tab switching
+		const tabButtons = document.querySelectorAll('.tab-button');
+		const menuItems = document.querySelectorAll('.menu-item');
+
+		tabButtons.forEach(button => {
+			button.addEventListener('click', () => {
+				const selectedTab = button.getAttribute('data-tab');
+
+				// Update active tab styling
+				tabButtons.forEach(btn => {
+					if (btn.getAttribute('data-tab') === selectedTab) {
+						btn.classList.remove('text-gray-400');
+						btn.classList.add('text-yellow-500', 'border-b-2', 'border-yellow-500');
+					} else {
+						btn.classList.remove('text-yellow-500', 'border-b-2', 'border-yellow-500');
+						btn.classList.add('text-gray-400');
+					}
+				});
+
+				// Show/hide menu items
+				menuItems.forEach(item => {
+					if (item.getAttribute('data-category') === selectedTab) {
+						item.classList.remove('hidden');
+					} else {
+						item.classList.add('hidden');
+					}
+				});
+			});
+		});
+	</script>
+</body>
+</html>
