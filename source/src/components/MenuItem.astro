@@ -19,46 +19,51 @@ const { item, isVisible = true } = Astro.props;
     <h3 class="text-white text-xl font-bold">
       {item.id}. {item.name}
     </h3>
-    <span class="text-yellow-500 text-xl font-bold whitespace-nowrap ml-4">
-      {item.price || item.upgratedPrice}€
-    </span>
+  
   </div>
 
-  {item.description && (
-    <p class="text-gray-400 text-sm leading-relaxed mb-4">
-      {item.description}
-    </p>
-  )}
-
-  {item.toppings && item.toppings.length > 0 && (
-    <div class="space-y-2">
-      {item.topping?.name && (
-        <div class="flex justify-between items-center">
-          <span class="text-white text-base">
-            {item.topping.name}
-          </span>
-          <div class="flex gap-3">
-            {item.topping.upgratedPrice && (
-              <span class="text-yellow-500 font-bold">
-                {item.topping.upgratedPrice}€
-              </span>
-            )}
+  {
+    item.description && (
+      <p class="text-gray-400 text-sm leading-relaxed mb-4">
+        {item.description}
+      </p>
+    )
+  }
+  {
+    item.toppings?.length == 0 && (
+      <div class="text-yellow-500 -mt-6 w-full text-right text-xl font-bold whitespace-nowrap ml-4">
+        {item.price || item.upgratedPrice}€
+      </div>
+    )
+  }
+  {
+    item.toppings && item.toppings.length > 0 && (
+      <div class="space-y-2">
+        {item.topping?.name && (
+          <div class="flex justify-between items-center">
+            <span class="text-white text-base">{item.topping.name}</span>
+            <div class="flex gap-3">
+              {item.topping.upgratedPrice && (
+                <span class="text-yellow-500 font-bold">
+                  {item.topping.upgratedPrice}€
+                </span>
+              )}
+            </div>
           </div>
-        </div>
-      )}
-      {item.toppings.map((option) => (
-        <div class="flex justify-between items-center">
-          <span class="text-white text-base">{option.name}</span>
-          <div class="flex gap-3">
-            {option.upgratedPrice && (
-              <span class="text-yellow-500 font-bold">
-                {option.upgratedPrice}€
-              </span>
-            )}
+        )}
+        {item.toppings.map((option) => (
+          <div class="flex justify-between items-center">
+            <span class="text-white text-base">{option.name}</span>
+            <div class="flex gap-3">
+              {option.upgratedPrice && (
+                <span class="text-yellow-500 font-bold">
+                  {option.upgratedPrice}€
+                </span>
+              )}
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
-  )}
+        ))}
+      </div>
+    )
+  }
 </div>
-
