@@ -1,0 +1,64 @@
+---
+import type { IFood } from "../libs/types";
+
+interface Props {
+  item: IFood;
+  isVisible?: boolean;
+}
+
+const { item, isVisible = true } = Astro.props;
+---
+
+<div
+  data-category={item.category}
+  class={`menu-item bg-gray-900 rounded-2xl p-5 border border-gray-800 ${
+    !isVisible ? "hidden" : ""
+  }`}
+>
+  <div class="flex justify-between items-start mb-2">
+    <h3 class="text-white text-xl font-bold">
+      {item.id}. {item.name}
+    </h3>
+    <span class="text-yellow-500 text-xl font-bold whitespace-nowrap ml-4">
+      {item.price || item.upgratedPrice}€
+    </span>
+  </div>
+
+  {item.description && (
+    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+      {item.description}
+    </p>
+  )}
+
+  {item.toppings && item.toppings.length > 0 && (
+    <div class="space-y-3">
+      {item.topping?.name && (
+        <div class="flex justify-between items-center">
+          <span class="text-white text-base">
+            {item.topping.name}
+          </span>
+          <div class="flex gap-3">
+            {item.topping.upgratedPrice && (
+              <span class="text-yellow-500 font-bold">
+                {item.topping.upgratedPrice}€
+              </span>
+            )}
+          </div>
+        </div>
+      )}
+      {item.toppings.map((option) => (
+        <div class="flex justify-between items-center">
+          <span class="text-white text-base">{option.name}</span>
+          <div class="flex gap-3">
+            {option.upgratedPrice && (
+              <span class="text-yellow-500 font-bold">
+                {option.upgratedPrice}€
+              </span>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  )}
+</div>
+

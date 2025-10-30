@@ -1,0 +1,117 @@
+---
+// Side menu navigation component
+---
+
+<div
+  id="overlay"
+  class="fixed inset-0 bg-black bg-opacity-50 hidden z-40"
+>
+</div>
+
+<div
+  id="side-menu"
+  class="fixed top-0 left-0 h-full w-72 bg-[#111] text-white transform -translate-x-full transition-transform duration-300 z-50 shadow-lg"
+>
+  <div class="p-6">
+    <button
+      id="close-menu"
+      class="text-gray-400 hover:text-yellow-400 mb-6"
+    >
+      ✕ Schließen
+    </button>
+
+    <ul class="space-y-4">
+      <li id="link-home" class="font-semibold hover:text-yellow-400 cursor-pointer">
+        Startseite
+      </li>
+      <li
+        id="link-speisekarte"
+        class="font-semibold hover:text-yellow-400 cursor-pointer"
+      >
+        Speisekarte in Gunzenhausen
+      </li>
+      <li
+        id="link-speisekarte2"
+        class="font-semibold hover:text-yellow-400 cursor-pointer"
+      >
+        Speisekarte in Feuchtwangen
+      </li>
+      <li
+        id="link-blog"
+        class="font-semibold cursor-pointer hover:text-yellow-400"
+      >
+        Blog
+      </li>
+      <li
+        id="link-contact"
+        class="font-semibold cursor-pointer hover:text-yellow-400"
+      >
+        Kontakt
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  function attachMenuEvents() {
+    const menuToggle = document.getElementById("menu-toggle");
+    const sideMenu = document.getElementById("side-menu");
+    const closeMenu = document.getElementById("close-menu");
+    const overlay = document.getElementById("overlay");
+    const linkContact = document.getElementById("link-contact");
+    const linkHome = document.getElementById("link-home");
+    const linkSpeisekarte = document.getElementById("link-speisekarte");
+    const linkSpeisekarte2 = document.getElementById("link-speisekarte2");
+    const linkBlog = document.getElementById("link-blog");
+
+    if (menuToggle && sideMenu && closeMenu && overlay) {
+      menuToggle.onclick = () => {
+        sideMenu.classList.remove("-translate-x-full");
+        overlay.classList.remove("hidden");
+      };
+      closeMenu.onclick = () => {
+        sideMenu.classList.add("-translate-x-full");
+        overlay.classList.add("hidden");
+      };
+      overlay.onclick = () => {
+        sideMenu.classList.add("-translate-x-full");
+        overlay.classList.add("hidden");
+      };
+    }
+
+    if (linkContact) {
+      linkContact.onclick = () => {
+        window.location.href = "contact.html";
+      };
+    }
+
+    if (linkHome) {
+      linkHome.onclick = () => {
+        window.location.href = "index.html";
+      };
+    }
+
+    if (linkSpeisekarte) {
+      linkSpeisekarte.onclick = () => {
+        window.location.href = "menu.html";
+      };
+    }
+
+    if (linkSpeisekarte2) {
+      linkSpeisekarte2.onclick = () => {
+        window.location.href = "menu_feuchtwangen.html";
+      };
+    }
+
+    if (linkBlog) {
+      linkBlog.onclick = () => {
+        window.location.href = "index.html";
+      };
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    attachMenuEvents();
+  });
+</script>
+

@@ -1,0 +1,74 @@
+---
+interface Props {
+  categories: string[];
+}
+
+const { categories } = Astro.props;
+---
+
+<div class="flex overflow-x-auto px-4 gap-4 mb-6 scrollbar-hide">
+  {
+    categories.map((tab, index) => (
+      <button
+        data-tab={tab}
+        class={`tab-button whitespace-nowrap pb-2 px-2 font-medium text-sm transition-colors ${
+          index === 0
+            ? "text-yellow-500 border-b-2 border-yellow-500"
+            : "text-gray-400"
+        }`}
+      >
+        {tab}
+      </button>
+    ))
+  }
+</div>
+
+<script>
+  // Client-side tab switching
+  const tabButtons = document.querySelectorAll(".tab-button");
+  const menuItems = document.querySelectorAll(".menu-item");
+
+  tabButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const selectedTab = button.getAttribute("data-tab");
+
+      // Update active tab styling
+      tabButtons.forEach((btn) => {
+        if (btn.getAttribute("data-tab") === selectedTab) {
+          btn.classList.remove("text-gray-400");
+          btn.classList.add(
+            "text-yellow-500",
+            "border-b-2",
+            "border-yellow-500"
+          );
+        } else {
+          btn.classList.remove(
+            "text-yellow-500",
+            "border-b-2",
+            "border-yellow-500"
+          );
+          btn.classList.add("text-gray-400");
+        }
+      });
+
+      // Show/hide menu items
+      menuItems.forEach((item) => {
+        if (item.getAttribute("data-category") === selectedTab) {
+          item.classList.remove("hidden");
+        } else {
+          item.classList.add("hidden");
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .scrollbar-hide {
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+</style>
+
