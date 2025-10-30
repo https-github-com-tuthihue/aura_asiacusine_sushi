@@ -153,9 +153,7 @@ const cartCount = 3; // static demo
         background-color: #1c1c1c; /* Dark gray for header */
       }
       /* Main content background color */
-      main {
-        background-color: #222; /* Slightly lighter gray for main content */
-      }
+   
       /* Scrollbar styling for mobile */
       ::-webkit-scrollbar {
         width: 6px;
@@ -196,7 +194,8 @@ const cartCount = 3; // static demo
       <Header cartCount={cartCount} />
 
       <!-- Main Content -->
-      <main class="pt-20 pb-8">
+	   <!-- background-color: #121212; -->
+      <main class="pt-20 pb-8 bg-[#121212]">
         <!-- Title -->
         <h2 class="text-yellow-500 text-3xl font-bold text-center py-6">
           Unsere Speisekarte
@@ -206,7 +205,7 @@ const cartCount = 3; // static demo
         <TabNavigation categories={categories} />
 
         <!-- Menu Items -->
-        <div class="px-4 space-y-4">
+        <div class="px-4 space-y-3">
           {
             foods.map((item) => (
               <MenuItem 
