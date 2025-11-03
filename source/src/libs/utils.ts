@@ -23,11 +23,16 @@ export function parseFoods(raw: any[]): IFood[] {
         toppings: [],
         topping: {
           name: row["Topping"]?.trim() || undefined,
-          upgratedPrice: row["Preis für Hauptspeise"]
-            ? row["Preis für Hauptspeise"]
-            : row["Preis für Vorspeise"]
+          price: row["Preis für Vorspeise"]
             ? row["Preis für Vorspeise"]
             : undefined,
+          upgratedPrice: row["Preis für Hauptspeise"]
+            ? row["Preis für Hauptspeise"]
+            : undefined,
+            allergieCode: row["Allergiecode"] || undefined,
+            description: row["Beschreibung"] || undefined,
+            vegetarian: row["vegetarisches Gericht"]?.toLowerCase() === "x",
+            
           
         }
       };
