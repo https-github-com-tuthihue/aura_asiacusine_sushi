@@ -4,12 +4,14 @@ export function parseFoods(raw: any[]): IFood[] {
   const foods: IFood[] = [];
   let current: IFood | null = null;
 
-  for (const row of raw) {
-    if (row.STT) {
+  for (let i = 0; i < raw.length; i++) {
+    const row = raw[i];
+
+    if (row.STT && row['Dish name']?.trim()) {
       // Đây là món chính
       current = {
         id: Number(row.STT),
-        category: row["category name"]?.trim() || undefined,
+        category: row[""]?.trim() ? row[""]?.trim() : nearestCategory(i, raw),
         name: row["Dish name"]?.trim() || undefined,
         price: row["Preis für Vorspeise"]
           ? row["Preis für Vorspeise"]
@@ -29,12 +31,10 @@ export function parseFoods(raw: any[]): IFood[] {
           upgratedPrice: row["Preis für Hauptspeise"]
             ? row["Preis für Hauptspeise"]
             : undefined,
-            allergieCode: row["Allergiecode"] || undefined,
-            description: row["Beschreibung"] || undefined,
-            vegetarian: row["vegetarisches Gericht"]?.toLowerCase() === "x",
-            
-          
-        }
+          allergieCode: row["Allergiecode"] || undefined,
+          description: row["Beschreibung"] || undefined,
+          vegetarian: row["vegetarisches Gericht"]?.toLowerCase() === "x",
+        },
       };
       foods.push(current);
     } else if (current && row["Topping"]) {
@@ -49,5 +49,16 @@ export function parseFoods(raw: any[]): IFood[] {
       });
     }
   }
+
   return foods;
+}
+
+function nearestCategory(index: number, raw: any[]): string {
+  // tìm category gần nhất trước index
+  for (let i = index; i >= 0; i--) {
+    if(raw[i]['']?.trim()) {
+      return raw[i]['']?.trim() || undefined;
+    }
+  }
+  return '';
 }

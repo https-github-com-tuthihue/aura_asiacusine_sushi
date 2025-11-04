@@ -2,19 +2,21 @@
 
   {
     "STT": 1,
-    "category name": "SUPPE",
-    "Dish name": "Miso Suppe",
+    "": "SUPPE",
+    "Dish name": "Gemüsesuppe",
     "Topping": "",
     "Preis für Vorspeise": 5,
     "Preis für Hauptspeise": "",
     "Allergiecode": "D,F",
-    "Beschreibung": "Suppe mit Tofu, Seetang, Miso Paste",
+    "Beschreibung": "Suppe mit verschiedenen frischen Gemüse",
     "vegetarisches Gericht": "x",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SUPPE"
   },
   {
     "STT": 2,
-    "category name": "SUPPE",
+    "": "SUPPE",
     "Dish name": "Tom Yam Suppe",
     "Topping": "",
     "Preis für Vorspeise": 5.8,
@@ -22,23 +24,27 @@
     "Allergiecode": "B",
     "Beschreibung": "Suppe mit Champignon, Garnelen, Lauchzwiebeln, Koriander, Limettensaft,leicht scharf",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SUPPE"
   },
   {
     "STT": 3,
-    "category name": "SUPPE",
+    "": "SUPPE",
     "Dish name": "Asia Soul Suppe",
     "Topping": "",
     "Preis für Vorspeise": 5.5,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "F",
+    "Allergiecode": "F,6",
     "Beschreibung": "Geschmacksintensive Suppe mit zerkleinerter Ente,Hähnchen,Pilze,Tofu und Eier Stücken. Koriander on top. Milde Schärfe",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SUPPE"
   },
   {
     "STT": 4,
-    "category name": "SUPPE",
+    "": "SUPPE",
     "Dish name": "Catch the Fish Suppe",
     "Topping": "",
     "Preis für Vorspeise": 6.9,
@@ -46,23 +52,27 @@
     "Allergiecode": "B,D,1,2,4",
     "Beschreibung": "Suppe mit Lachs, Champignons, Garnelen, Surimi, Muschel, Zitronenblättern, Limettensaft",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SUPPE"
   },
   {
     "STT": 5,
-    "category name": "SUPPE",
+    "": "SUPPE",
     "Dish name": "Hausgemachte Saigon Ramen",
     "Topping": "A) filetiertem Hähnchenschenkel",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": 16.9,
-    "Allergiecode": "A,C,F",
+    "Allergiecode": "A,C,F6",
     "Beschreibung": "Eine traditionelle Asiatische Suppe mit frischen Eiernudeln, Kräutern,gebratenem Knoblauch,Zwiebeln und einer klaren würzigen Brühe . Wahlweise mit",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SUPPE"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) gegrilltem Schweinefleisch",
     "Preis für Vorspeise": "",
@@ -70,11 +80,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) gegrilltem Rindfleisch (Entrecote 200gr)",
     "Preis für Vorspeise": "",
@@ -82,11 +94,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 6,
-    "category name": "SUPPE",
+    "": "SUPPE",
     "Dish name": "Vietnam Suppe Pho",
     "Topping": "Tofu",
     "Preis für Vorspeise": "",
@@ -94,11 +108,13 @@
     "Allergiecode": "F.H",
     "Beschreibung": "Bekannte vietnamesische Pho Suppe mit Reisbandnudeln, frischen Kräutern und einer kräftigen klaren Brühe. Wahlweise mit",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SUPPE"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "Hähnchenfilet",
     "Preis für Vorspeise": "",
@@ -106,11 +122,13 @@
     "Allergiecode": "H.D",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "Rindfleisch (Entrecote)",
     "Preis für Vorspeise": "",
@@ -118,11 +136,13 @@
     "Allergiecode": "H.D",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 7,
-    "category name": "SALATE KALTE VORSPEISEN",
+    "": "SALATE KALTE VORSPEISEN",
     "Dish name": "Seetangsalat",
     "Topping": "",
     "Preis für Vorspeise": 6.3,
@@ -130,11 +150,13 @@
     "Allergiecode": "K",
     "Beschreibung": "Algensalat serviert mit grünem Salat,knackigen Kimchigurken und Sesam",
     "vegetarisches Gericht": "x",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SALATE KALTE VORSPEISEN"
   },
   {
     "STT": 8,
-    "category name": "SALATE KALTE VORSPEISEN",
+    "": "SALATE KALTE VORSPEISEN",
     "Dish name": "Avocado Salat",
     "Topping": "",
     "Preis für Vorspeise": "6,8",
@@ -142,95 +164,111 @@
     "Allergiecode": "G,K",
     "Beschreibung": "Gemüsesalat mit hausgemachter Dressingsosse  und frischenAvocado,serviert mit Mango- und Cocktailsauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SALATE KALTE VORSPEISEN"
   },
   {
     "STT": 9,
-    "category name": "SALATE KALTE VORSPEISEN",
+    "": "SALATE KALTE VORSPEISEN",
     "Dish name": "Hausgemachter frischer Salat",
-    "Topping": "Classic",
+    "Topping": "A) Classic",
     "Preis für Vorspeise": 6.3,
     "Preis für Hauptspeise": "9,8",
     "Allergiecode": "D.E",
     "Beschreibung": "Verschiedene frische  Blattsalate mit Parika,Mango,Cocktailtomaten,Koriander, Balsamikum, Minze, Zwiebeln und hausgemachter Dressingsauce oder leicht scharfer Fischsauce mit Limetten und Knoblauch",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SALATE KALTE VORSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
-    "Topping": "Tofu",
+    "Topping": "B) Tofu",
     "Preis für Vorspeise": "6,9",
     "Preis für Hauptspeise": 11.5,
     "Allergiecode": "DE",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
-    "Topping": "gegrilltes Hähnchenfilet",
+    "Topping": "C) gegrilltes Hähnchenfilet",
     "Preis für Vorspeise": "6,9",
     "Preis für Hauptspeise": "13,5",
     "Allergiecode": "DE",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
-    "Topping": "Tempura Garnelen",
+    "Topping": "D) Tempura Garnelen",
     "Preis für Vorspeise": "7,9",
     "Preis für Hauptspeise": "14,9",
     "Allergiecode": "ADEB",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
-    "Topping": "gegrilltem Lachs",
+    "Topping": "E) gegrilltem Lachs",
     "Preis für Vorspeise": "7,9",
     "Preis für Hauptspeise": "14,9",
     "Allergiecode": "DE",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
-    "Topping": "gegrilltem Butterfisch",
+    "Topping": "F) gegrilltem Butterfisch",
     "Preis für Vorspeise": "7,9",
     "Preis für Hauptspeise": "14,9",
     "Allergiecode": "DE",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
-    "Topping": "gegrilltes Entrecote Rindfleisch",
+    "Topping": "G) gegrilltes Entrecote Rindfleisch",
     "Preis für Vorspeise": 7.9,
     "Preis für Hauptspeise": "14,9",
     "Allergiecode": "DEF",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 10,
-    "category name": "SALATE KALTE VORSPEISEN",
+    "": "SALATE KALTE VORSPEISEN",
     "Dish name": "Sommerrollen (6 Stück)",
     "Topping": "A) Vegetarisch",
     "Preis für Vorspeise": "6,3",
@@ -238,11 +276,13 @@
     "Allergiecode": "DEFK",
     "Beschreibung": "Sommerrolle gerollt mit Reispapier, gefüllt mit frischem verschiedenem Gemüse und Reisnudeln, serviert mit Erdnusssauce und Fischsauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SALATE KALTE VORSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Frischkäse",
     "Preis für Vorspeise": "6,8",
@@ -250,11 +290,13 @@
     "Allergiecode": "DEFGK",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) paniertem Hähnchen",
     "Preis für Vorspeise": 7.3,
@@ -262,11 +304,13 @@
     "Allergiecode": "ADEFK",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) gegrilltem Schweinefleisch",
     "Preis für Vorspeise": "7,3",
@@ -274,11 +318,13 @@
     "Allergiecode": "DEFK",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Tempura Garnelen",
     "Preis für Vorspeise": "7,9",
@@ -286,11 +332,13 @@
     "Allergiecode": "ABDEFK",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "F) Lachsfilet",
     "Preis für Vorspeise": "7,9",
@@ -298,11 +346,13 @@
     "Allergiecode": "DEFK",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 11,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Frühlingsrollen vegetarisch",
     "Topping": "",
     "Preis für Vorspeise": "5,9",
@@ -310,11 +360,13 @@
     "Allergiecode": "A.F",
     "Beschreibung": "Knusprige Frühlingsrollen mit vietnam. Gemüse, süss sauer Sauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 12,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Salmon Frühlingsrollen (2 Stück)",
     "Topping": "",
     "Preis für Vorspeise": "7,3",
@@ -322,11 +374,13 @@
     "Allergiecode": "ADF",
     "Beschreibung": "Knusprige hausgemachte Frühlingsrollen mit frischem Lachs, vietnam. Gemüse, serviert mit Sauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 13,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Gyoza",
     "Topping": "",
     "Preis für Vorspeise": "5,9",
@@ -334,11 +388,13 @@
     "Allergiecode": "F.A.",
     "Beschreibung": "Gebratene Teigtaschen gefüllt mit Hähnchen, Salat serviert mit dunkler Sauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 14,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Tsuki",
     "Topping": "",
     "Preis für Vorspeise": "5,9",
@@ -346,11 +402,13 @@
     "Allergiecode": "ABF",
     "Beschreibung": "Gebackene Teigtaschen gefüllt Garnele, Salat serviert mit Sauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 15,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Steamed Dumpling",
     "Topping": "",
     "Preis für Vorspeise": "5,9",
@@ -358,11 +416,13 @@
     "Allergiecode": "A.B.F",
     "Beschreibung": "Gedämpfte Teigtaschen gefüllt mit Garnelen serviert mit Salat und dunkler Sauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 16,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Potatoshrimp",
     "Topping": "",
     "Preis für Vorspeise": "6,5",
@@ -370,11 +430,13 @@
     "Allergiecode": "AB",
     "Beschreibung": "Garnelen im knusprigem Teigmantel serviert Sauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 17,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Tempura Gemüse",
     "Topping": "",
     "Preis für Vorspeise": "6,8",
@@ -382,11 +444,13 @@
     "Allergiecode": "A",
     "Beschreibung": "Verschiedene Gemüse und Zwiebel in knuspriger Panade serviert mit Sauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 18,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Tempura Garnelen (3 Stk.)",
     "Topping": "",
     "Preis für Vorspeise": "6,8",
@@ -394,11 +458,13 @@
     "Allergiecode": "A.B.F",
     "Beschreibung": "Panierte Garnelen, Gemüsesalat, dunkle Sauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 19,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Yakitori Chicken (3 Stk.)",
     "Topping": "",
     "Preis für Vorspeise": "6,8",
@@ -406,11 +472,13 @@
     "Allergiecode": "F",
     "Beschreibung": "Gegrillte Hähnchenspieße mit Teriyaki Sauce, Gemüsesalat",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 20,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Sate Chicken (2 Stk.)",
     "Topping": "",
     "Preis für Vorspeise": "6,8",
@@ -418,11 +486,13 @@
     "Allergiecode": "E",
     "Beschreibung": "Gegrillte Hähnchenspieße mit Erdnuss Sauce, Gemüsesalat",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 21,
-    "category name": "WARME VORSPEISEN",
+    "": "WARME VORSPEISEN",
     "Dish name": "Edamame",
     "Topping": "",
     "Preis für Vorspeise": "5,3",
@@ -430,23 +500,13 @@
     "Allergiecode": "F",
     "Beschreibung": "Junge japanische Sojabohnen mit Meersalz",
     "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "",
-    "Allergiecode": "",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "WARME VORSPEISEN"
   },
   {
     "STT": 25,
-    "category name": "HAUPTSPEISEN",
+    "": "HAUPTSPEISEN",
     "Dish name": "Lauwarmer Reisnudelsalat",
     "Topping": "A) Vegetarische Frühlingsrollen",
     "Preis für Vorspeise": "",
@@ -454,11 +514,13 @@
     "Allergiecode": "AED",
     "Beschreibung": "Reisnudelsalat frischem Gemüse, Erdnüssen, roten Zwiebeln, Kímchi und hausgemachter Sauce",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Tofu",
     "Preis für Vorspeise": "",
@@ -466,11 +528,13 @@
     "Allergiecode": "ED",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Salmon Frühlingsrollen (Lachs)",
     "Preis für Vorspeise": "",
@@ -478,11 +542,13 @@
     "Allergiecode": "ABED",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) gegrilltem Schweinefleisch",
     "Preis für Vorspeise": "",
@@ -490,11 +556,13 @@
     "Allergiecode": "EFD",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) gegrilltem Rindfleisch",
     "Preis für Vorspeise": "",
@@ -502,179 +570,209 @@
     "Allergiecode": "FED",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 26,
-    "category name": "HAUPTSPEISEN",
+    "": "HAUPTSPEISEN",
     "Dish name": "Fire Wok Noodles",
     "Topping": "A) Tofu",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": 12.9,
-    "Allergiecode": "FC",
+    "Allergiecode": "FC6",
     "Beschreibung": "Frische gebratene Eiernudeln mit frischem Gemüse und Zwiebeln wahlweise mit",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Hähnchenfilet",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": 13.5,
-    "Allergiecode": "C",
+    "Allergiecode": "C6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Paniertem Hühnerfleisch",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": 14.9,
-    "Allergiecode": "AC",
+    "Allergiecode": "AC6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) Knusprige Hähnchenkeulen (filetiert)",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": 14.9,
-    "Allergiecode": "C",
+    "Allergiecode": "C6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Knusprige Barbarie-Entenbrust",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AC",
+    "Allergiecode": "AC6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "H) Garnelen",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "BC",
+    "Allergiecode": "BC6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "R) Rindfleisch Entrecote",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "C",
+    "Allergiecode": "C6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 27,
-    "category name": "HAUPTSPEISEN",
+    "": "HAUPTSPEISEN",
     "Dish name": "Fried Udon Noodles",
     "Topping": "A) Tofu",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "12,9",
-    "Allergiecode": "A,F",
+    "Allergiecode": "A,F6",
     "Beschreibung": "Gebratene weiße Nudeln mit verschiedenem Gemüse, Zwiebeln, Sojasprossen wahlweise mit:",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Hähnchenfilet",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "13,5",
-    "Allergiecode": "A,F",
+    "Allergiecode": "A,F6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Paniertem Hühnerfleisch",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": 14.9,
-    "Allergiecode": "A,F",
+    "Allergiecode": "A,F6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) Knusprige Hähnchenkeulen (filetiert)",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": 14.9,
-    "Allergiecode": "A,F",
+    "Allergiecode": "A,F6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Knusprige Barbarie-Entenbrust",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": 16.9,
-    "Allergiecode": "A,F",
+    "Allergiecode": "A,F6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "H) Garnelen",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "A,F",
+    "Allergiecode": "A,F6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "R) Rindfleisch Entrecote",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "A,F",
+    "Allergiecode": "A,F6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 28,
-    "category name": "HAUPTSPEISEN",
+    "": "HAUPTSPEISEN",
     "Dish name": "Rote Curry Sauce",
     "Topping": "A) Tofu",
     "Preis für Vorspeise": "",
@@ -682,11 +780,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "Rotes Curry mit jungen frischen Gemüse, serviert mit Duftreis, milde Schärfe ,wahlweise mit",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Hähnchenfilet",
     "Preis für Vorspeise": "",
@@ -694,11 +794,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Paniertem Hühnerfleisch",
     "Preis für Vorspeise": "",
@@ -706,11 +808,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) Knusprige Hähnchenschenkel (filetiert)",
     "Preis für Vorspeise": "",
@@ -718,11 +822,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Knusprige Barbarie-Entenbrust",
     "Preis für Vorspeise": "",
@@ -730,11 +836,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "H) Garnelen",
     "Preis für Vorspeise": "",
@@ -742,11 +850,13 @@
     "Allergiecode": "AGB",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "L) Gegrilltem Lachs",
     "Preis für Vorspeise": "",
@@ -754,23 +864,27 @@
     "Allergiecode": "AGD",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "K) Gegrilltem Butterfisch",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AGD",
+    "Allergiecode": "AGD6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 29,
-    "category name": "HAUPTSPEISEN",
+    "": "HAUPTSPEISEN",
     "Dish name": "Mango Kokos Sauce",
     "Topping": "A) Tofu",
     "Preis für Vorspeise": "",
@@ -778,11 +892,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "Mango-Kokos-Sauce mit jungen frischen Gemüse, serviert mit Duftreis, wahlweise mit:",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Hähnchenfilet",
     "Preis für Vorspeise": "",
@@ -790,11 +906,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Paniertem Hühnerfleisch",
     "Preis für Vorspeise": "",
@@ -802,11 +920,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) Knusprige Hähnchenschenkel (filetiert)",
     "Preis für Vorspeise": "",
@@ -814,11 +934,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Knusprige Barbarie-Entenbrust",
     "Preis für Vorspeise": "",
@@ -826,11 +948,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "H) Garnelen",
     "Preis für Vorspeise": "",
@@ -838,11 +962,13 @@
     "Allergiecode": "AGB",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "L) Gegrilltem Lachs",
     "Preis für Vorspeise": "",
@@ -850,11 +976,13 @@
     "Allergiecode": "AGD",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "K) Gegrilltem Butterfisch",
     "Preis für Vorspeise": "",
@@ -862,11 +990,13 @@
     "Allergiecode": "AGD",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 30,
-    "category name": "HAUPTSPEISEN",
+    "": "HAUPTSPEISEN",
     "Dish name": "Erdnuss Sauce",
     "Topping": "A) Tofu",
     "Preis für Vorspeise": "",
@@ -874,11 +1004,13 @@
     "Allergiecode": "AGE",
     "Beschreibung": "Erdnuss-Kokos-Sauce mit jungen frischen Gemüse, serviert mit Duftreis, wahlweise mit",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Paniertem Hühnerfleisch",
     "Preis für Vorspeise": "",
@@ -886,11 +1018,13 @@
     "Allergiecode": "AGE",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) Knusprige Hähnchenschenkle (filetiert)",
     "Preis für Vorspeise": "",
@@ -898,11 +1032,13 @@
     "Allergiecode": "AGE",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Knusprige Barbarie-Entenbrust",
     "Preis für Vorspeise": "",
@@ -910,11 +1046,13 @@
     "Allergiecode": "AGE",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "L) Gegrilltem Lachs",
     "Preis für Vorspeise": "",
@@ -922,299 +1060,209 @@
     "Allergiecode": "AGED",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "K) Gegrilltem Butterfisch",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AGED",
+    "Allergiecode": "AGED6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 31,
-    "category name": "HAUPTSPEISEN",
+    "": "HAUPTSPEISEN",
     "Dish name": "Süß-Sauer Sauce",
     "Topping": "A) Tofu",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "12,9",
-    "Allergiecode": "AG",
+    "Allergiecode": "AG6",
     "Beschreibung": "Süß-Sauer-Sauce mit jungen frischen Gemüse, serviert mit Duftreis, wahlweise mit",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Paniertem Hühnerfleisch",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "14,9",
-    "Allergiecode": "AG",
+    "Allergiecode": "AG6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "D) Knusprige Hähnchenschenkel (filetiert)",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": 14.9,
-    "Allergiecode": "AG",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Knusprige Barbarie-Entenbrust",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AG",
+    "Allergiecode": "AG6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 32,
-    "category name": "HAUPTSPEISEN",
+    "": "HAUPTSPEISEN",
     "Dish name": "Dunkle Sauce",
     "Topping": "A) Tofu",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "12,9",
-    "Allergiecode": "AGF",
+    "Allergiecode": "AGF6",
     "Beschreibung": "Dunkle Sauce mit jungen frischen Gemüse, serviert mit Duftreis, wahlweise mit",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Hähnchenfilet",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "13,5",
-    "Allergiecode": "AGF",
+    "Allergiecode": "AGF6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Paniertem Hühnerfleisch",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "14,9",
-    "Allergiecode": "AGF",
+    "Allergiecode": "AGF6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) Knusprige Hähnchenschenkel (filetiert)",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "14,9",
-    "Allergiecode": "AGF",
+    "Allergiecode": "AGF6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Knusprige Barbarie-Entenbrust",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AGF",
+    "Allergiecode": "AGF6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "H) Garnelen",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "ABGF",
+    "Allergiecode": "ABGF6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "R) Rindfleisch Entrecote",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AGF",
+    "Allergiecode": "AGF6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 33,
-    "category name": "HAUPTSPEISEN",
+    "": "HAUPTSPEISEN",
     "Dish name": "Scharfe Sauce",
     "Topping": "A) Tofu",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "12,9",
-    "Allergiecode": "AF",
+    "Allergiecode": "AF6",
     "Beschreibung": "Scharfe Sauce mit jungen frischen Gemüse, Zitronengras, Petersilie, Chili, Zwiebeln, serviert mit Duftreis, wahlweise mit",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Hähnchenfilet",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "13,5",
-    "Allergiecode": "AF",
+    "Allergiecode": "AF6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Paniertem Hühnerfleisch",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "14,9",
-    "Allergiecode": "AF",
+    "Allergiecode": "AF6",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "D) Knusprige Hähnchenschenkel (filetiert)",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "14,9",
-    "Allergiecode": "AF",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "E) Knusprige Barbarie-Entenbrust",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AF",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "H) Garnelen",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "ABF",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "L) Gegrilltem Lachs",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "ADF",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "K) Gegrilltem Butterfisch",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "ADF",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": 34,
-    "category name": "HAUPTSPEISEN",
-    "Dish name": "Teriyaki Sauce",
-    "Topping": "B) Gegrilltem Hähnchenfilet",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "14,9",
-    "Allergiecode": "AF",
-    "Beschreibung": "Gedämpftes frisches Gemüse mit würziger Teriyaki Sauce ,serviert mit Duftreis und Salat , wahlweise mit",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "H) Gegrillten Garnelen",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AFB",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "L) Gegrilltem Lachs",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AFD",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
-    "Dish name": "",
-    "Topping": "K) Gegrilltem Butterfisch",
-    "Preis für Vorspeise": "",
-    "Preis für Hauptspeise": "16,9",
-    "Allergiecode": "AFD",
-    "Beschreibung": "",
-    "vegetarisches Gericht": "",
-    "": ""
-  },
-  {
-    "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1222,11 +1270,125 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "STT": "",
+    "": "",
+    "Dish name": "",
+    "Topping": "E) Knusprige Barbarie-Entenbrust",
+    "Preis für Vorspeise": "",
+    "Preis für Hauptspeise": "16,9",
+    "Allergiecode": "AF6",
+    "Beschreibung": "",
+    "vegetarisches Gericht": "",
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "STT": "",
+    "": "",
+    "Dish name": "",
+    "Topping": "H) Garnelen",
+    "Preis für Vorspeise": "",
+    "Preis für Hauptspeise": "16,9",
+    "Allergiecode": "ABF6",
+    "Beschreibung": "",
+    "vegetarisches Gericht": "",
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "STT": "",
+    "": "",
+    "Dish name": "",
+    "Topping": "L) Gegrilltem Lachs",
+    "Preis für Vorspeise": "",
+    "Preis für Hauptspeise": "16,9",
+    "Allergiecode": "ADF6",
+    "Beschreibung": "",
+    "vegetarisches Gericht": "",
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "STT": "",
+    "": "",
+    "Dish name": "",
+    "Topping": "K) Gegrilltem Butterfisch",
+    "Preis für Vorspeise": "",
+    "Preis für Hauptspeise": "16,9",
+    "Allergiecode": "ADF6",
+    "Beschreibung": "",
+    "vegetarisches Gericht": "",
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "STT": 34,
+    "": "HAUPTSPEISEN",
+    "Dish name": "Teriyaki Sauce",
+    "Topping": "B) Gegrilltem Hähnchenfilet",
+    "Preis für Vorspeise": "",
+    "Preis für Hauptspeise": "14,9",
+    "Allergiecode": "AF6",
+    "Beschreibung": "Gedämpftes frisches Gemüse mit würziger Teriyaki Sauce ,serviert mit Duftreis und Salat , wahlweise mit",
+    "vegetarisches Gericht": "",
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HAUPTSPEISEN"
+  },
+  {
+    "STT": "",
+    "": "",
+    "Dish name": "",
+    "Topping": "H) Gegrillten Garnelen",
+    "Preis für Vorspeise": "",
+    "Preis für Hauptspeise": "16,9",
+    "Allergiecode": "AFB6",
+    "Beschreibung": "",
+    "vegetarisches Gericht": "",
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "STT": "",
+    "": "",
+    "Dish name": "",
+    "Topping": "L) Gegrilltem Lachs",
+    "Preis für Vorspeise": "",
+    "Preis für Hauptspeise": "16,9",
+    "Allergiecode": "AFD6",
+    "Beschreibung": "",
+    "vegetarisches Gericht": "",
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "STT": "",
+    "": "",
+    "Dish name": "",
+    "Topping": "K) Gegrilltem Butterfisch",
+    "Preis für Vorspeise": "",
+    "Preis für Hauptspeise": "16,9",
+    "Allergiecode": "AFD6",
+    "Beschreibung": "",
+    "vegetarisches Gericht": "",
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 35,
-    "category name": "GRILL Spezialitäten",
+    "": "GRILL SPEZIALITÄTEN",
     "Dish name": "Grill Dishes",
     "Topping": "B) Gegrilltem Hähnchenfilet",
     "Preis für Vorspeise": "",
@@ -1234,11 +1396,13 @@
     "Allergiecode": "AFG",
     "Beschreibung": "Serviert mit frischem Salat, Kimchigurken, gegrilltem Gemüse, frittiertem Duftreis oder Süßkartoffeln und hausgemachter Sauce, wahlweise mit",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "GRILL Spezialitäten"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "H) Gegrillten Garnelen",
     "Preis für Vorspeise": "",
@@ -1246,11 +1410,13 @@
     "Allergiecode": "ABFG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "R) Gegrilltem Rindfleisch Entrecote",
     "Preis für Vorspeise": "",
@@ -1258,11 +1424,13 @@
     "Allergiecode": "AFG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "L) Gegrilltem Lachs",
     "Preis für Vorspeise": "",
@@ -1270,23 +1438,27 @@
     "Allergiecode": "ADFG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
-    "Topping": "K)Gegrilltem Butterfisch",
+    "Topping": "L) Gegrilltem Lachs",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "26,9",
     "Allergiecode": "ADFG",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 42,
-    "category name": "AURA GRILL",
+    "": "AURA GRILL",
     "Dish name": "Grillplatte für 2 Personen",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1294,11 +1466,13 @@
     "Allergiecode": "ADFG",
     "Beschreibung": "Serviert mit frischem Salat, Kimchigurken, gegrilltem Gemüse, frittierter Duftreis oder Süßkartoffeln und hausgemachter Sauce, mit gegrilltem Rindfleisch vom Entrecote, gegrilltem Hähnchenfilet und gegrilltem Butterfisch",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "AURA GRILL"
   },
   {
     "STT": 43,
-    "category name": "Happy Kid",
+    "": "HAPPY KID",
     "Dish name": "Tempura Garnelen",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1306,11 +1480,13 @@
     "Allergiecode": "A,B",
     "Beschreibung": "Mit Süßkartoffelpommes oder Reis",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Happy Kid"
   },
   {
     "STT": 44,
-    "category name": "Happy Kid",
+    "": "HAPPY KID",
     "Dish name": "Paniertes Hähnchenfilet",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1318,11 +1494,13 @@
     "Allergiecode": "A",
     "Beschreibung": "Mit Süßkartoffelpommes oder Reis",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Happy Kid"
   },
   {
     "STT": 45,
-    "category name": "Happy Kid",
+    "": "HAPPY KID",
     "Dish name": "Hähnchenspieße",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1330,11 +1508,27 @@
     "Allergiecode": "F",
     "Beschreibung": "Mit Süßkartoffelpommes oder Reis, wahlweise mit süßsauer Sauce oder jap. Mayonnaise",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Happy Kid"
+  },
+  {
+    "STT": "",
+    "": "",
+    "Dish name": "",
+    "Topping": "D) Knusprige Hähnchenschenkel (filetiert)",
+    "Preis für Vorspeise": "",
+    "Preis für Hauptspeise": 14.9,
+    "Allergiecode": "AG6",
+    "Beschreibung": "",
+    "vegetarisches Gericht": "",
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 46,
-    "category name": "Beilagen",
+    "": "BEILAGEN",
     "Dish name": "Portion Süßkartoffel Pommes",
     "Topping": "",
     "Preis für Vorspeise": 4.5,
@@ -1342,11 +1536,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Beilagen"
   },
   {
     "STT": 50,
-    "category name": "Beilagen",
+    "": "BEILAGEN",
     "Dish name": "Extra",
     "Topping": "A) Extra Reis",
     "Preis für Vorspeise": 3,
@@ -1354,11 +1550,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Beilagen"
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Sushi Reis",
     "Preis für Vorspeise": 3.9,
@@ -1366,11 +1564,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Ingwer oder Wasabi",
     "Preis für Vorspeise": 1,
@@ -1378,11 +1578,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) Extra Sauce nach Wahl",
     "Preis für Vorspeise": "3,5",
@@ -1390,11 +1592,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Extra Dressing Sauce",
     "Preis für Vorspeise": 2,
@@ -1402,11 +1606,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "F) Verpackung",
     "Preis für Vorspeise": 1,
@@ -1414,11 +1620,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "G) Extra frische gebratene Nudeln",
     "Preis für Vorspeise": 4,
@@ -1426,11 +1634,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "SUSHIKARTE",
+    "": "SUSHIKARTE",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1438,23 +1648,27 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SUSHIKARTE"
   },
   {
     "STT": "",
-    "category name": "NIGIRI 1 STK",
-    "Dish name": "",
+    "": "",
+    "Dish name": "NIGIRI 1 STK",
     "Topping": "",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "",
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "NIGIRI 1 STK"
   },
   {
     "STT": 120,
-    "category name": "",
+    "": "",
     "Dish name": "Sake",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1462,11 +1676,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachs",
     "vegetarisches Gericht": "",
-    "": "com nam ca hoi"
+    "DANH MỤC": "com nam ca hoi",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 121,
-    "category name": "",
+    "": "",
     "Dish name": "Maguro",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1474,11 +1690,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Thunfisch",
     "vegetarisches Gericht": "",
-    "": "com nam Thun"
+    "DANH MỤC": "com nam Thun",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 122,
-    "category name": "",
+    "": "",
     "Dish name": "Ebi",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1486,11 +1704,13 @@
     "Allergiecode": "B",
     "Beschreibung": "Riesengarnele",
     "vegetarisches Gericht": "",
-    "": "com nam tom luoc"
+    "DANH MỤC": "com nam tom luoc",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 123,
-    "category name": "",
+    "": "",
     "Dish name": "Cindara",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1498,11 +1718,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Butterfisch",
     "vegetarisches Gericht": "",
-    "": "com nam ca trang"
+    "DANH MỤC": "com nam ca trang",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 124,
-    "category name": "",
+    "": "",
     "Dish name": "Tako",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1510,11 +1732,13 @@
     "Allergiecode": "B",
     "Beschreibung": "Oktopus",
     "vegetarisches Gericht": "",
-    "": "com nam muc"
+    "DANH MỤC": "com nam muc",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 125,
-    "category name": "",
+    "": "",
     "Dish name": "Kani",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1522,11 +1746,13 @@
     "Allergiecode": "B",
     "Beschreibung": "Krebsfleisch",
     "vegetarisches Gericht": "",
-    "": "com nam thanh cua"
+    "DANH MỤC": "com nam thanh cua",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 126,
-    "category name": "",
+    "": "",
     "Dish name": "Tobico",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1534,11 +1760,13 @@
     "Allergiecode": "B",
     "Beschreibung": "Flugfischkoviar",
     "vegetarisches Gericht": "",
-    "": "trung ca be"
+    "DANH MỤC": "trung ca be",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 127,
-    "category name": "",
+    "": "",
     "Dish name": "Ikura",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1546,11 +1774,13 @@
     "Allergiecode": "B",
     "Beschreibung": "Lachskaviar",
     "vegetarisches Gericht": "",
-    "": "trung ca lon"
+    "DANH MỤC": "trung ca lon",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 128,
-    "category name": "",
+    "": "",
     "Dish name": "Unagi",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1558,11 +1788,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Süßwasseraal",
     "vegetarisches Gericht": "",
-    "": "com nam luon"
+    "DANH MỤC": "com nam luon",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 129,
-    "category name": "",
+    "": "",
     "Dish name": "Inari",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1570,11 +1802,13 @@
     "Allergiecode": "",
     "Beschreibung": "Tofu",
     "vegetarisches Gericht": "",
-    "": "com nam dau phu"
+    "DANH MỤC": "com nam dau phu",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 130,
-    "category name": "",
+    "": "",
     "Dish name": "Tamago",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1582,11 +1816,13 @@
     "Allergiecode": "C",
     "Beschreibung": "Ormelette",
     "vegetarisches Gericht": "",
-    "": "com nam trung"
+    "DANH MỤC": "com nam trung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 131,
-    "category name": "",
+    "": "",
     "Dish name": "Flambeed Maguro",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1594,11 +1830,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Flambierter Thunfisch",
     "vegetarisches Gericht": "",
-    "": "thun kho"
+    "DANH MỤC": "thun kho",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 132,
-    "category name": "",
+    "": "",
     "Dish name": "Flambeed Sake",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1606,11 +1844,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Flambierter Lachs",
     "vegetarisches Gericht": "",
-    "": "lach kho"
+    "DANH MỤC": "lach kho",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "SPEZIAL NIGIRI 2 STK",
+    "": "SPEZIAL NIGIRI 2 STK",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1618,11 +1858,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SPEZIAL NIGIRI 2 STK"
   },
   {
     "STT": 133,
-    "category name": "",
+    "": "",
     "Dish name": "Spicy Sake",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1630,11 +1872,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachs Tatar",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 134,
-    "category name": "",
+    "": "",
     "Dish name": "Shikan Sake",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1642,11 +1886,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachs auf grünem Spargel, flambiert",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 135,
-    "category name": "",
+    "": "",
     "Dish name": "Homaya Tuna",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1654,11 +1900,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Thunfisch auf Avocado, flambiert",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 136,
-    "category name": "",
+    "": "",
     "Dish name": "Sakura Inari",
     "Topping": "A) Thunfisch",
     "Preis für Vorspeise": "",
@@ -1666,11 +1914,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Thunfischtatar mit Mais in Tofutasche Flambiert",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Lachs",
     "Preis für Vorspeise": "",
@@ -1678,11 +1928,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachstatar mit Mais in Tofutasche Flambiert",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 137,
-    "category name": "",
+    "": "",
     "Dish name": "TATARE",
     "Topping": "A) Thunfisch",
     "Preis für Vorspeise": "11,5",
@@ -1690,11 +1942,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Thunfisch-Tatar mit Avocado, Lauchzwiebeln mit scharfer Sauce und Seetangsalat, serviert mit vietnamesischem Banh Da",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Lachs",
     "Preis für Vorspeise": 9.5,
@@ -1702,11 +1956,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachs-Tatar mit Avocado, Lauchzwiebeln mit scharfer Sauce und Seetangsalat, serviert mit vietnamesischem Banh Da",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "HOSOMAKI 6 STK",
+    "": "HOSOMAKI 6 STK",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1714,11 +1970,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "HOSOMAKI 6 STK"
   },
   {
     "STT": 138,
-    "category name": "",
+    "": "",
     "Dish name": "Mango",
     "Topping": "",
     "Preis für Vorspeise": "3,5",
@@ -1726,11 +1984,13 @@
     "Allergiecode": "K",
     "Beschreibung": "Mango,Sesam",
     "vegetarisches Gericht": "",
-    "": "maki xoai , vung"
+    "DANH MỤC": "maki xoai , vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 139,
-    "category name": "",
+    "": "",
     "Dish name": "Tempura",
     "Topping": "",
     "Preis für Vorspeise": "4,3",
@@ -1738,11 +1998,13 @@
     "Allergiecode": "A.B.",
     "Beschreibung": "Garnele",
     "vegetarisches Gericht": "",
-    "": "maki tom chien"
+    "DANH MỤC": "maki tom chien",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 140,
-    "category name": "",
+    "": "",
     "Dish name": "Kappa",
     "Topping": "",
     "Preis für Vorspeise": "3,5",
@@ -1750,11 +2012,13 @@
     "Allergiecode": "K",
     "Beschreibung": "Gurke & Sesam",
     "vegetarisches Gericht": "",
-    "": "maki dua chuot, vung"
+    "DANH MỤC": "maki dua chuot, vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 141,
-    "category name": "",
+    "": "",
     "Dish name": "Shiko",
     "Topping": "",
     "Preis für Vorspeise": "3,5",
@@ -1762,11 +2026,13 @@
     "Allergiecode": "",
     "Beschreibung": "eingelegter Rettich",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 142,
-    "category name": "",
+    "": "",
     "Dish name": "Avocado",
     "Topping": "",
     "Preis für Vorspeise": "3,9",
@@ -1774,11 +2040,13 @@
     "Allergiecode": "",
     "Beschreibung": "Avocado",
     "vegetarisches Gericht": "",
-    "": "maki bo"
+    "DANH MỤC": "maki bo",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 143,
-    "category name": "",
+    "": "",
     "Dish name": "Spargel",
     "Topping": "",
     "Preis für Vorspeise": "4,2",
@@ -1786,11 +2054,13 @@
     "Allergiecode": "G.",
     "Beschreibung": "Grüner Spargel, Frischkäse",
     "vegetarisches Gericht": "",
-    "": "maki mang tay,kase"
+    "DANH MỤC": "maki mang tay,kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 144,
-    "category name": "",
+    "": "",
     "Dish name": "Rucola",
     "Topping": "",
     "Preis für Vorspeise": "3,9",
@@ -1798,11 +2068,13 @@
     "Allergiecode": "G.",
     "Beschreibung": "Rucola, Frischkäse",
     "vegetarisches Gericht": "",
-    "": "maki rucula, kase"
+    "DANH MỤC": "maki rucula, kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 145,
-    "category name": "",
+    "": "",
     "Dish name": "Inagi",
     "Topping": "",
     "Preis für Vorspeise": 3,
@@ -1810,11 +2082,13 @@
     "Allergiecode": "F.K",
     "Beschreibung": "Tofu, Sesam",
     "vegetarisches Gericht": "",
-    "": "maki tofu, vung"
+    "DANH MỤC": "maki tofu, vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 146,
-    "category name": "",
+    "": "",
     "Dish name": "Ebi",
     "Topping": "",
     "Preis für Vorspeise": "4,5",
@@ -1822,11 +2096,13 @@
     "Allergiecode": "B",
     "Beschreibung": "Großgarnelen",
     "vegetarisches Gericht": "",
-    "": "maki tom luoc"
+    "DANH MỤC": "maki tom luoc",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 147,
-    "category name": "",
+    "": "",
     "Dish name": "Sake",
     "Topping": "",
     "Preis für Vorspeise": "4,5",
@@ -1834,11 +2110,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachs",
     "vegetarisches Gericht": "",
-    "": "maki lachs"
+    "DANH MỤC": "maki lachs",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 148,
-    "category name": "",
+    "": "",
     "Dish name": "Tekka",
     "Topping": "",
     "Preis für Vorspeise": "4,9",
@@ -1846,11 +2124,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Thunfisch",
     "vegetarisches Gericht": "",
-    "": "maki Thun"
+    "DANH MỤC": "maki Thun",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 149,
-    "category name": "",
+    "": "",
     "Dish name": "Butterfisch",
     "Topping": "",
     "Preis für Vorspeise": "4,5",
@@ -1858,11 +2138,13 @@
     "Allergiecode": "DK",
     "Beschreibung": "Butterfisch, Sesam",
     "vegetarisches Gericht": "",
-    "": "maki ca trang,vung"
+    "DANH MỤC": "maki ca trang,vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 150,
-    "category name": "",
+    "": "",
     "Dish name": "Tetuna",
     "Topping": "",
     "Preis für Vorspeise": "5,7",
@@ -1870,11 +2152,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Thunfischtatar, Schnittlauch,Chilisauce. Pikant",
     "vegetarisches Gericht": "",
-    "": "thun bam, he,sot cay"
+    "DANH MỤC": "thun bam, he,sot cay",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 151,
-    "category name": "",
+    "": "",
     "Dish name": "Kaiba",
     "Topping": "",
     "Preis für Vorspeise": "5,7",
@@ -1882,11 +2166,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachstatar, Schnittlauch, Chilisauce.Pikant",
     "vegetarisches Gericht": "",
-    "": "lach bam,he,sot cay"
+    "DANH MỤC": "lach bam,he,sot cay",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 152,
-    "category name": "",
+    "": "",
     "Dish name": "Chicken",
     "Topping": "",
     "Preis für Vorspeise": "4,9",
@@ -1894,11 +2180,13 @@
     "Allergiecode": "",
     "Beschreibung": "Hähnchen",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 153,
-    "category name": "",
+    "": "",
     "Dish name": "Salmonskin Roll (5 grosse Rollen)",
     "Topping": "",
     "Preis für Vorspeise": "5,9",
@@ -1906,11 +2194,13 @@
     "Allergiecode": "D.G",
     "Beschreibung": "Frittierte Lachshaut, Gurke, Frischkäse, Avocado",
     "vegetarisches Gericht": "",
-    "": "da ca, dua chuot,bo voi kase"
+    "DANH MỤC": "da ca, dua chuot,bo voi kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 154,
-    "category name": "",
+    "": "",
     "Dish name": "Maki Paniert",
     "Topping": "",
     "Preis für Vorspeise": "2,5",
@@ -1918,11 +2208,13 @@
     "Allergiecode": "A.D.K",
     "Beschreibung": "EXTRA! - Hosomaki paniert",
     "vegetarisches Gericht": "",
-    "": "maki chien"
+    "DANH MỤC": "maki chien",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "INSIDE OUT 8 STK",
+    "": "INSIDE OUT 8 STK",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -1930,11 +2222,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "INSIDE OUT 8 STK"
   },
   {
     "STT": 156,
-    "category name": "",
+    "": "",
     "Dish name": "Tezu",
     "Topping": "",
     "Preis für Vorspeise": "6,9",
@@ -1942,11 +2236,13 @@
     "Allergiecode": "CGK",
     "Beschreibung": "Tamago (Omelett), Gurke, Frischkäse,Sesam",
     "vegetarisches Gericht": "",
-    "": "trung,dua,kase, ngoai vung"
+    "DANH MỤC": "trung,dua,kase, ngoai vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 157,
-    "category name": "",
+    "": "",
     "Dish name": "Sayuri",
     "Topping": "",
     "Preis für Vorspeise": "7,5",
@@ -1954,11 +2250,13 @@
     "Allergiecode": "GK",
     "Beschreibung": "Spargel,Rucola,Frischkäse,Sesam",
     "vegetarisches Gericht": "",
-    "": "mang tay,rucula,kase,ngoai vung"
+    "DANH MỤC": "mang tay,rucula,kase,ngoai vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 158,
-    "category name": "",
+    "": "",
     "Dish name": "Hanabi",
     "Topping": "",
     "Preis für Vorspeise": "8,9",
@@ -1966,11 +2264,13 @@
     "Allergiecode": "",
     "Beschreibung": "Gurke ,Mango,Apfel, on top mit Avocado und Sauce",
     "vegetarisches Gericht": "",
-    "": "dua,xoai,tao ngoai bo voi sot"
+    "DANH MỤC": "dua,xoai,tao ngoai bo voi sot",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 159,
-    "category name": "",
+    "": "",
     "Dish name": "Sachiko",
     "Topping": "",
     "Preis für Vorspeise": "8,9",
@@ -1978,11 +2278,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachs,Gurke,Mango",
     "vegetarisches Gericht": "",
-    "": "Lach,xoai, dua chuot"
+    "DANH MỤC": "Lach,xoai, dua chuot",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 160,
-    "category name": "",
+    "": "",
     "Dish name": "Vegetarisches Inside out",
     "Topping": "",
     "Preis für Vorspeise": "7,5",
@@ -1990,11 +2292,13 @@
     "Allergiecode": "G",
     "Beschreibung": "Avocado, Gurke, Rucola, Frischkäse",
     "vegetarisches Gericht": "",
-    "": "bo,dua,rucula, kase"
+    "DANH MỤC": "bo,dua,rucula, kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 161,
-    "category name": "",
+    "": "",
     "Dish name": "Rucola Inside out",
     "Topping": "",
     "Preis für Vorspeise": 6.9,
@@ -2002,35 +2306,41 @@
     "Allergiecode": "G",
     "Beschreibung": "Rucola,Gurke,Mango,Frischkäse",
     "vegetarisches Gericht": "",
-    "": "rucula,dua,xoai,kase"
+    "DANH MỤC": "rucula,dua,xoai,kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 162,
-    "category name": "",
-    "Dish name": "Spargel Inside out",
+    "": "",
+    "Dish name": "Mango Inside out",
     "Topping": "",
     "Preis für Vorspeise": "8,3",
     "Preis für Hauptspeise": "",
     "Allergiecode": "G",
     "Beschreibung": "Grüner Spargel, Gurke, Avocado, Frischkäse",
     "vegetarisches Gericht": "",
-    "": "mang tay,dua,bo voi kase"
+    "DANH MỤC": "mang tay,dua,bo voi kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 163,
-    "category name": "",
-    "Dish name": "Mango Inside out",
+    "": "",
+    "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "8,3",
     "Preis für Hauptspeise": "",
     "Allergiecode": "G",
     "Beschreibung": "Mango, Spargel, Gurke, Frischkäse",
     "vegetarisches Gericht": "",
-    "": "xoai,mang tay,dua,kase"
+    "DANH MỤC": "xoai,mang tay,dua,kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 164,
-    "category name": "",
+    "": "",
     "Dish name": "California Inside out",
     "Topping": "",
     "Preis für Vorspeise": "7,9",
@@ -2038,11 +2348,13 @@
     "Allergiecode": "B",
     "Beschreibung": "Surimi, Avocado, Mango, Tobiko",
     "vegetarisches Gericht": "",
-    "": "thanh cua,bo,xoai,trung ca"
+    "DANH MỤC": "thanh cua,bo,xoai,trung ca",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 165,
-    "category name": "",
+    "": "",
     "Dish name": "Ebi Inside out",
     "Topping": "",
     "Preis für Vorspeise": "8,7",
@@ -2050,11 +2362,13 @@
     "Allergiecode": "B",
     "Beschreibung": "Großgarnelen, Gurke, Avocado, Tobiko mit leicht scharfer Sauce",
     "vegetarisches Gericht": "",
-    "": "tom luoc,dua,bo,trung ca, sot cay"
+    "DANH MỤC": "tom luoc,dua,bo,trung ca, sot cay",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 166,
-    "category name": "",
+    "": "",
     "Dish name": "Salmon Inside out",
     "Topping": "",
     "Preis für Vorspeise": "8,7",
@@ -2062,11 +2376,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachs, Avocado",
     "vegetarisches Gericht": "",
-    "": "lach, bo"
+    "DANH MỤC": "lach, bo",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 167,
-    "category name": "",
+    "": "",
     "Dish name": "Ruco Salmon Inside out",
     "Topping": "",
     "Preis für Vorspeise": "8,7",
@@ -2074,11 +2390,13 @@
     "Allergiecode": "DG",
     "Beschreibung": "Lachs, Rucola,Gurke, Frischkäse",
     "vegetarisches Gericht": "",
-    "": "Lach,rucula,dua, kase"
+    "DANH MỤC": "Lach,rucula,dua, kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 168,
-    "category name": "",
+    "": "",
     "Dish name": "Tuna Inside out",
     "Topping": "",
     "Preis für Vorspeise": "8,9",
@@ -2086,11 +2404,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Thunfisch, Avocado,Rucola",
     "vegetarisches Gericht": "",
-    "": "thun,bo,rucula"
+    "DANH MỤC": "thun,bo,rucula",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 169,
-    "category name": "",
+    "": "",
     "Dish name": "Salmonskin Inside out",
     "Topping": "",
     "Preis für Vorspeise": "8,9",
@@ -2098,11 +2418,13 @@
     "Allergiecode": "BG",
     "Beschreibung": "Knusprig frittierte Lachshaut, Gurke,Rettich, Frischkäse",
     "vegetarisches Gericht": "",
-    "": "da ca,dua,cai vang, kase"
+    "DANH MỤC": "da ca,dua,cai vang, kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 170,
-    "category name": "",
+    "": "",
     "Dish name": "Baked Chicken Inside out",
     "Topping": "",
     "Preis für Vorspeise": "8,9",
@@ -2110,11 +2432,13 @@
     "Allergiecode": "K",
     "Beschreibung": "Gebr. Hähnchen, Mango, Gurke, Sesam, leicht scharfe Sauce",
     "vegetarisches Gericht": "",
-    "": "Ga,xoai,dua,vung,sot cay"
+    "DANH MỤC": "Ga,xoai,dua,vung,sot cay",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "SPEZIAL ROLL 8 STK",
+    "": "SPEZIAL ROLL 8 STK",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -2122,11 +2446,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SPEZIAL ROLL 8 STK"
   },
   {
     "STT": 171,
-    "category name": "",
+    "": "",
     "Dish name": "Tempura Garnelen",
     "Topping": "",
     "Preis für Vorspeise": "9,9",
@@ -2134,11 +2460,13 @@
     "Allergiecode": "A.B.K",
     "Beschreibung": "Tempura Garnelen, Avocado, Sesam",
     "vegetarisches Gericht": "",
-    "": "tom chien,bo,vung"
+    "DANH MỤC": "tom chien,bo,vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 172,
-    "category name": "",
+    "": "",
     "Dish name": "Ahiru Duck Tempura",
     "Topping": "",
     "Preis für Vorspeise": "10,9",
@@ -2146,11 +2474,13 @@
     "Allergiecode": "A.K",
     "Beschreibung": "Tempura Ente, Sesam, Schnittlauch, Chili Sauce",
     "vegetarisches Gericht": "",
-    "": "vit,he,vung,sot cay"
+    "DANH MỤC": "vit,he,vung,sot cay",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 173,
-    "category name": "",
+    "": "",
     "Dish name": "Chicken Tempura",
     "Topping": "",
     "Preis für Vorspeise": "10,9",
@@ -2158,11 +2488,13 @@
     "Allergiecode": "A.G",
     "Beschreibung": "Tempura Hähnchen, Mango,Frischkäse",
     "vegetarisches Gericht": "",
-    "": "Ga,xoai,kase"
+    "DANH MỤC": "Ga,xoai,kase",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 174,
-    "category name": "",
+    "": "",
     "Dish name": "Tokio Roll",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2170,11 +2502,13 @@
     "Allergiecode": "BD.G",
     "Beschreibung": "Lachs, Avocado, Frischkäse, umhüllt mit Avocado, Lachs-Tatar und Sauce",
     "vegetarisches Gericht": "",
-    "": "Lach,bo,kase,ngoai dap bo, lach bom , sot"
+    "DANH MỤC": "Lach,bo,kase,ngoai dap bo, lach bom , sot",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 175,
-    "category name": "",
+    "": "",
     "Dish name": "Osaka Roll",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2182,11 +2516,13 @@
     "Allergiecode": "B.D.G.",
     "Beschreibung": "Surimi, Gurke, Avocado, umhüllt mit flambiertem Lachs, Thunfisch, Butterfisch und hausgemachter Cocktail-Sauce",
     "vegetarisches Gericht": "",
-    "": "thanh cua,dua,bo,ngoai dap 2lach,2thun,1catrang,sot"
+    "DANH MỤC": "thanh cua,dua,bo,ngoai dap 2lach,2thun,1catrang,sot",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 176,
-    "category name": "",
+    "": "",
     "Dish name": "Tuna Roll",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2194,11 +2530,13 @@
     "Allergiecode": "D.G K",
     "Beschreibung": "Thunfisch, Gurke, Spargel, on Top Thunfisch Tatar mit Spicy Sauce und Sesam",
     "vegetarisches Gericht": "",
-    "": "thun,dua,mang tay,ngoai Thun bom,sot,vung"
+    "DANH MỤC": "thun,dua,mang tay,ngoai Thun bom,sot,vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 177,
-    "category name": "",
+    "": "",
     "Dish name": "Aburi Salmon Roll",
     "Topping": "",
     "Preis für Vorspeise": "13,9",
@@ -2206,11 +2544,13 @@
     "Allergiecode": "D.G",
     "Beschreibung": "Lachs, Avocado, Gurke, umhüllt mit flambiertem Lachs und hausgemachter Cocktail-Sauce",
     "vegetarisches Gericht": "",
-    "": "lach,bo,dua,ngoai dap lach kho, sot"
+    "DANH MỤC": "lach,bo,dua,ngoai dap lach kho, sot",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 178,
-    "category name": "",
+    "": "",
     "Dish name": "Kanazawa Roll",
     "Topping": "",
     "Preis für Vorspeise": "15,9",
@@ -2218,11 +2558,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Spargel, Avocado, Mango, Gurke, garniert mit flambiertem Lachstatar",
     "vegetarisches Gericht": "",
-    "": "mang tay,bo,xoai,dua,dap Lach bam kho"
+    "DANH MỤC": "mang tay,bo,xoai,dua,dap Lach bam kho",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 179,
-    "category name": "",
+    "": "",
     "Dish name": "Makuro Roll",
     "Topping": "",
     "Preis für Vorspeise": "15,9",
@@ -2230,11 +2572,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Thunfischtatar, Spargel, Mango, umhüllt mit flambiertem Thunfisch und Spicy Sauce",
     "vegetarisches Gericht": "",
-    "": "thun bam,mang tay,xoai,dap Thun kho, sot cay"
+    "DANH MỤC": "thun bam,mang tay,xoai,dap Thun kho, sot cay",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 180,
-    "category name": "",
+    "": "",
     "Dish name": "Mango Roll",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2242,11 +2586,13 @@
     "Allergiecode": "DG",
     "Beschreibung": "Mango, Frischkäse, Gurken umhüllt mit Avocado, mit flambiertem Lachs und flambiertem Thunfisch",
     "vegetarisches Gericht": "",
-    "": "xoai,kase,dua,ngoia dap bo,Lach voi Thun kho"
+    "DANH MỤC": "xoai,kase,dua,ngoia dap bo,Lach voi Thun kho",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 181,
-    "category name": "",
+    "": "",
     "Dish name": "Ruci Roll",
     "Topping": "",
     "Preis für Vorspeise": "13,9",
@@ -2254,11 +2600,13 @@
     "Allergiecode": "DG",
     "Beschreibung": "Rucola, Frischkäse, Mango, Spargel umhüllt mit Lachs und hausgemachter Cocktail-Sauce",
     "vegetarisches Gericht": "",
-    "": "rucula,kase,xoai,mang tay, dap lach voi sot cocktail"
+    "DANH MỤC": "rucula,kase,xoai,mang tay, dap lach voi sot cocktail",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 182,
-    "category name": "",
+    "": "",
     "Dish name": "Avo Tempura",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2266,11 +2614,13 @@
     "Allergiecode": "BG",
     "Beschreibung": "Tempura Riesengarnelen , Gurke, umhüllt mit Avocado und hausgemachter Cocktail-Sauce",
     "vegetarisches Gericht": "",
-    "": "tom chien,dua,dap bo, sot"
+    "DANH MỤC": "tom chien,dua,dap bo, sot",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 183,
-    "category name": "",
+    "": "",
     "Dish name": "Yukiko",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2278,11 +2628,13 @@
     "Allergiecode": "BDG",
     "Beschreibung": "Knusprig frittierte Lachshaut, Gurke,Rettich, Frischkäse, Lachs und Kaviar on top",
     "vegetarisches Gericht": "",
-    "": "da ca,dua,cai vang,kase, dap lach voi trung ca"
+    "DANH MỤC": "da ca,dua,cai vang,kase, dap lach voi trung ca",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 184,
-    "category name": "",
+    "": "",
     "Dish name": "Kaido",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2290,11 +2642,13 @@
     "Allergiecode": "BDG",
     "Beschreibung": "Tempura Garnelen, Mango, Gurke, flambierter Lachs und Kaviar on top",
     "vegetarisches Gericht": "",
-    "": "tomm chien,xoai,dua,dap lach kho voi trung ca"
+    "DANH MỤC": "tomm chien,xoai,dua,dap lach kho voi trung ca",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 185,
-    "category name": "",
+    "": "",
     "Dish name": "Tempura Sake",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2302,11 +2656,13 @@
     "Allergiecode": "DG",
     "Beschreibung": "Tempura Lachs, Frischkäse, Gurke, Mango, Lachs on top",
     "vegetarisches Gericht": "",
-    "": "lach chien,kase,dua,xoai,dap lach,"
+    "DANH MỤC": "lach chien,kase,dua,xoai,dap lach,",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 186,
-    "category name": "",
+    "": "",
     "Dish name": "Yasai Roll",
     "Topping": "",
     "Preis für Vorspeise": "12,9",
@@ -2314,11 +2670,13 @@
     "Allergiecode": "GK",
     "Beschreibung": "Spargel,Mango,Gurken,Frischkäse,Sesam umhüllt mit Avocado",
     "vegetarisches Gericht": "",
-    "": "mang tay, xoai,dua,kase,vung,dap bo"
+    "DANH MỤC": "mang tay, xoai,dua,kase,vung,dap bo",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 187,
-    "category name": "",
+    "": "",
     "Dish name": "Kaido Dragon",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2326,11 +2684,13 @@
     "Allergiecode": "GE",
     "Beschreibung": "Tempura Hähnchen, Gurke, Frischkäse, umhüllt mit Avocado und hausgem. Erdnuss Sauce",
     "vegetarisches Gericht": "",
-    "": "ga chien,dua,kase,dap bo voi sot Lac"
+    "DANH MỤC": "ga chien,dua,kase,dap bo voi sot Lac",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 188,
-    "category name": "",
+    "": "",
     "Dish name": "Saigon Roll",
     "Topping": "",
     "Preis für Vorspeise": "15,9",
@@ -2338,11 +2698,13 @@
     "Allergiecode": "DG",
     "Beschreibung": "knusprig frittierte Lachshaut,Avocado, Gurke,Frischkäse, umhüllt mit flambiertem Butterfisch und flambiertem Aal",
     "vegetarisches Gericht": "",
-    "": "da ca,bo,dua,kase,dap ca trang voi luon kho"
+    "DANH MỤC": "da ca,bo,dua,kase,dap ca trang voi luon kho",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 189,
-    "category name": "",
+    "": "",
     "Dish name": "Chicken Tropicana",
     "Topping": "",
     "Preis für Vorspeise": "9,9",
@@ -2350,11 +2712,13 @@
     "Allergiecode": "GEK",
     "Beschreibung": "Gebratenes Hähnchen,Ananas, Sesam ,mit Erdnuss Sauce , leicht Pikant",
     "vegetarisches Gericht": "",
-    "": "ga chien,qua dua, vung voi sot Lac"
+    "DANH MỤC": "ga chien,qua dua, vung voi sot Lac",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 190,
-    "category name": "",
+    "": "",
     "Dish name": "Sate Roll",
     "Topping": "",
     "Preis für Vorspeise": "9,9",
@@ -2362,11 +2726,13 @@
     "Allergiecode": "GEK",
     "Beschreibung": "Sate Hähnchen ,Mango, Avocado serviert mit Erdnuss Sauce",
     "vegetarisches Gericht": "",
-    "": "ga sate,xoai,bo,voi sot Lac"
+    "DANH MỤC": "ga sate,xoai,bo,voi sot Lac",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "CRISPYROLL 6 STK",
+    "": "CRISPYROLL 6 STK",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -2374,11 +2740,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "CRISPYROLL 6 STK"
   },
   {
     "STT": 500,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy Veggie Roll",
     "Topping": "",
     "Preis für Vorspeise": "9,3",
@@ -2386,11 +2754,13 @@
     "Allergiecode": "A.G.",
     "Beschreibung": "Gurke, Avocado, Rettich, Spargel, Frischkäse",
     "vegetarisches Gericht": "",
-    "": "dua,bo,cai vang,mang tay, voi bo"
+    "DANH MỤC": "dua,bo,cai vang,mang tay, voi bo",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 501,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy Pineapple Roll",
     "Topping": "",
     "Preis für Vorspeise": "9,5",
@@ -2398,11 +2768,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "Ananas, Frischkäse,Gurke,Rettich",
     "vegetarisches Gericht": "",
-    "": "Qua Dua,kase,dua voi cai vang"
+    "DANH MỤC": "Qua Dua,kase,dua voi cai vang",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 502,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy Sake Mix Roll",
     "Topping": "",
     "Preis für Vorspeise": "9,7",
@@ -2410,11 +2782,13 @@
     "Allergiecode": "ABDGK",
     "Beschreibung": "Lachs, Surimi, Avocado, Frischkäse, Flugkaviar, Sesam",
     "vegetarisches Gericht": "",
-    "": "lach,thanh cua, bo, kase,trung ca voi vung"
+    "DANH MỤC": "lach,thanh cua, bo, kase,trung ca voi vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 503,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy Sake Roll",
     "Topping": "",
     "Preis für Vorspeise": "9,7",
@@ -2422,11 +2796,13 @@
     "Allergiecode": "ADGK",
     "Beschreibung": "Lachs,Frischkäse,Mango,Sesam",
     "vegetarisches Gericht": "",
-    "": "lach,kase,xoai,Vung"
+    "DANH MỤC": "lach,kase,xoai,Vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 504,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy Chicken Roll",
     "Topping": "",
     "Preis für Vorspeise": "9,7",
@@ -2434,11 +2810,13 @@
     "Allergiecode": "A.G.KE",
     "Beschreibung": "Hähnchen, Frischkäse,Gurke, Mango, Sesam",
     "vegetarisches Gericht": "",
-    "": "ga,kase,dua,xoai voi vung"
+    "DANH MỤC": "ga,kase,dua,xoai voi vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 505,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy sweet Chicken Roll",
     "Topping": "",
     "Preis für Vorspeise": "9,9",
@@ -2446,11 +2824,13 @@
     "Allergiecode": "AGKE",
     "Beschreibung": "Hähnchen, Ananas,Frischkäse, Sesam",
     "vegetarisches Gericht": "",
-    "": "ga,qua dua, kase voi vung"
+    "DANH MỤC": "ga,qua dua, kase voi vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 506,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy Duck Roll",
     "Topping": "",
     "Preis für Vorspeise": "9,9",
@@ -2458,11 +2838,13 @@
     "Allergiecode": "A.KG",
     "Beschreibung": "Ente, Gurke,Frischkäse, Sesam",
     "vegetarisches Gericht": "",
-    "": "Vit,dua,kase voi vung"
+    "DANH MỤC": "Vit,dua,kase voi vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 507,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy Scampi Roll",
     "Topping": "",
     "Preis für Vorspeise": "10,9",
@@ -2470,11 +2852,13 @@
     "Allergiecode": "A.B.G",
     "Beschreibung": "Garnelen, Frischkäse, Gurke, Avocado",
     "vegetarisches Gericht": "",
-    "": "tom,kase,dua,bo"
+    "DANH MỤC": "tom,kase,dua,bo",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 508,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy Pineapple Scampi Roll",
     "Topping": "",
     "Preis für Vorspeise": "11,5",
@@ -2482,11 +2866,13 @@
     "Allergiecode": "ABG",
     "Beschreibung": "Garnelen, Frischkäse, Ananas, Mango",
     "vegetarisches Gericht": "",
-    "": "tom,kase,qua dua, xoai"
+    "DANH MỤC": "tom,kase,qua dua, xoai",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 509,
-    "category name": "",
+    "": "",
     "Dish name": "Crispy Ibodai Roll",
     "Topping": "",
     "Preis für Vorspeise": "9,9",
@@ -2494,11 +2880,13 @@
     "Allergiecode": "AGK",
     "Beschreibung": "Butterfisch,Frischäse,Avocado,Gurke,Sesam",
     "vegetarisches Gericht": "",
-    "": "ca trang,kase,bo,dua voi vung"
+    "DANH MỤC": "ca trang,kase,bo,dua voi vung",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "SASHIMI",
+    "": "SASHIMI",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -2506,11 +2894,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SASHIMI"
   },
   {
     "STT": 195,
-    "category name": "",
+    "": "",
     "Dish name": "Maguro",
     "Topping": "",
     "Preis für Vorspeise": "14,9",
@@ -2518,11 +2908,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Thunfisch Sashimi garniert mit Salat",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 196,
-    "category name": "",
+    "": "",
     "Dish name": "Sake",
     "Topping": "",
     "Preis für Vorspeise": "13,9",
@@ -2530,11 +2922,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Sake Sashimi garniert mit Salat",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 197,
-    "category name": "",
+    "": "",
     "Dish name": "Sashimi Mix",
     "Topping": "",
     "Preis für Vorspeise": "15,9",
@@ -2542,11 +2936,13 @@
     "Allergiecode": "D",
     "Beschreibung": "Lachs und Thunfisch Sashimi garniert mit Salat",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "SUSHIMENÜ",
+    "": "SUSHIMENÜ",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -2554,11 +2950,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "SUSHIMENÜ"
   },
   {
     "STT": 200,
-    "category name": "",
+    "": "",
     "Dish name": "Om Mani Padme Platte",
     "Topping": "",
     "Preis für Vorspeise": 18.9,
@@ -2566,11 +2964,13 @@
     "Allergiecode": "AGK",
     "Beschreibung": "Inari Nigiri (1 Stk.), Avocado Nigiri (1 Stk.), Kappa Maki (6 Stk.), Veg. Inside out (6 Stk.), Mini Baked Roll (8 Stk.), Avocado Roll (4 Stk.)",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "1nigiri dau 1 nigiri bo,1maki dua,1 cuon 160<1 nua dap vung 1 nua dap bo>1 maki bo chien",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 201,
-    "category name": "",
+    "": "",
     "Dish name": "Buddha Garden",
     "Topping": "",
     "Preis für Vorspeise": 19.9,
@@ -2578,11 +2978,13 @@
     "Allergiecode": "AGK",
     "Beschreibung": "Mango Maki (6 Stk.), Rucola Inside Out (6 Stk.), Avocado Roll (4 Stk.), Crispy Veggie Roll (6 Stk.)",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "1maki xoai, 1 cuon 161<1nua dap vung 1 nua dap bo>1 cuon chien chay",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 202,
-    "category name": "",
+    "": "",
     "Dish name": "Freestyle",
     "Topping": "",
     "Preis für Vorspeise": "22,9",
@@ -2590,11 +2992,13 @@
     "Allergiecode": "ADGK",
     "Beschreibung": "Lachs Nigiri (1 Stk.), Thunfisch Nigiri (1 Stk.), Kanazawa Roll (4 Stk.), Riesengarnelen Nigiri (1 Stk.), Crispy Sake Mix Roll (6 Stk.)",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "1nigiri lac 1nigiri thun,1nigiri tom,4 stk cua cuon 178, 1 cuon ca chien",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 203,
-    "category name": "",
+    "": "",
     "Dish name": "Sake Springs",
     "Topping": "",
     "Preis für Vorspeise": "22,9",
@@ -2602,11 +3006,13 @@
     "Allergiecode": "ADGK",
     "Beschreibung": "Lachs Nigiri (2 Stk.), Lachs Maki (6 Stk.), Lachs Inside out (4 Stk.), Aburi Salmon Roll (6 Stk.)",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "2nigiri lach,1makilac,1cuon 177<1nua dap lach,1 nua trung ca>",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 204,
-    "category name": "",
+    "": "",
     "Dish name": "Almost Chicken Menü",
     "Topping": "",
     "Preis für Vorspeise": "23,9",
@@ -2614,11 +3020,13 @@
     "Allergiecode": "AGK",
     "Beschreibung": "Crispy Chicken Roll (6 Stk.), Baked Chicken Inside Out (8 Stk.), Chicken Maki (6 Stk.)",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "1maki ga,1 cuon 170.1 cuon ga chien",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 205,
-    "category name": "",
+    "": "",
     "Dish name": "Almost Fish Menü",
     "Topping": "",
     "Preis für Vorspeise": "23,9",
@@ -2626,11 +3034,13 @@
     "Allergiecode": "DK",
     "Beschreibung": "Verschiedene Fisch Nigiri (4 Stk.), Salmon inside out (8 Stk.), Verschiedene Fisch Sashimi (4 Stk.)",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "1nigiri lach,1nigiri thun,1nigiri tom,1nigiri ca trang,1cuon 166,2sashimi lach 2 sashimi thun",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 206,
-    "category name": "",
+    "": "",
     "Dish name": "Temple of Geisha (52 Stk.) (2 Personen)",
     "Topping": "",
     "Preis für Vorspeise": 59,
@@ -2638,11 +3048,13 @@
     "Allergiecode": "ABDEGK",
     "Beschreibung": "Serviert mit: Zwei Asia Soul Suppen, Kimchi, Lachs Nigiri (2 Stk.), Thunfisch Nigiri (2 Stk.), Riesengarnelen Nigiri (2 Stk.), Butterfisch Nigiri (2 Stk.), Kappa Maki (6 Stk.), Aburi Salmon Roll (4 Stk.), Avocado Maki (6 Stk.), Lachs Maki (6 Stk.), Crispy Fish Roll (6 Stk.), Thunfisch Maki (6 Stk.), Lachs Inside Avocado Outside Roll (4 Stk.), Crispy Chicken Roll (6 Stk.)",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "2 suppen,kimchi,2nigiri lach,2nigiri thun,2nigiri tom,2 nigiri ca trang,1maki dua,1maki bo,1maki lach,1maki thun,1 cuon 177<1nua dap lach 1 nua dap bo>,1maki ca trang chien,1 cuon ga chien",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 207,
-    "category name": "",
+    "": "",
     "Dish name": "Aura Sushi Platte (50 Stk.) (2 Personen)",
     "Topping": "",
     "Preis für Vorspeise": 69,
@@ -2650,11 +3062,13 @@
     "Allergiecode": "ABDEGK",
     "Beschreibung": "Serviert wahlweise mit: Zwei Asia Soul Suppen oder 2 Portionen Veg. Frühlingsrollen, Kimchi, Mango Roll (8 Stk.), Big Roll mit Lachs und Gemüse (10 Stk.), Lachs Sashimi (2 Stk.), Thunfisch Sashimi (2 Stk.), Flambierte Lachs Nigiri (2 Stk.), Flambierte Thunfisch Nigiri (2 Stk.), Crispy Scampi Roll (6 Stk.), Shinko Maki (6 Stk.), Crispy sweet Chicken Roll (6 Stk.), Kappa Maki (6 Stk.), Sakura Inari (2 Stk.)",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "2 nigiri lach dap mang,2nigiri thun dap bo,1 cuon 180,1 cuon big roll mit lach 10stk. 1 cuon 507,1maki cai vang,1 cuon 505,1maki dua,2 nigiri sakura",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "NACHTISCH",
+    "": "NACHTISCH",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -2662,11 +3076,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "NACHTISCH"
   },
   {
     "STT": 210,
-    "category name": "",
+    "": "",
     "Dish name": "Gebackene Banane mit",
     "Topping": "A) Honig",
     "Preis für Vorspeise": 4.9,
@@ -2674,11 +3090,13 @@
     "Allergiecode": "A",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Eiskugel nach Wunsch",
     "Preis für Vorspeise": "6,5",
@@ -2686,11 +3104,13 @@
     "Allergiecode": "A.G",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 211,
-    "category name": "",
+    "": "",
     "Dish name": "Gebackene Ananas mit Honig",
     "Topping": "",
     "Preis für Vorspeise": 4.9,
@@ -2698,11 +3118,13 @@
     "Allergiecode": "A",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 212,
-    "category name": "",
+    "": "",
     "Dish name": "Gebackene Apfel mit Honig",
     "Topping": "",
     "Preis für Vorspeise": "4,9",
@@ -2710,11 +3132,13 @@
     "Allergiecode": "A.G",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 213,
-    "category name": "",
+    "": "",
     "Dish name": "Mochi Eis",
     "Topping": "",
     "Preis für Vorspeise": "7,9",
@@ -2722,11 +3146,13 @@
     "Allergiecode": "AG",
     "Beschreibung": "Jap. Reiskucheneis serviert mit Obst",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 214,
-    "category name": "",
+    "": "",
     "Dish name": "Portion Eis",
     "Topping": "",
     "Preis für Vorspeise": 6.9,
@@ -2734,23 +3160,27 @@
     "Allergiecode": "G",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 215,
-    "category name": "",
+    "": "",
     "Dish name": "Matcha Eis mit Obst",
     "Topping": "",
     "Preis für Vorspeise": "7,2",
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": "G",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "Alkoholfreie Getränke",
+    "": "ALKOHOLFREIE GETRÄNKE",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -2758,11 +3188,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Alkoholfreie Getränke"
   },
   {
     "STT": 220,
-    "category name": "",
+    "": "",
     "Dish name": "Cola",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.3,
@@ -2770,11 +3202,13 @@
     "Allergiecode": "1,2,3,4,13",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 221,
-    "category name": "",
+    "": "",
     "Dish name": "Fanta",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.3,
@@ -2782,11 +3216,13 @@
     "Allergiecode": "1,2,3,4",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 222,
-    "category name": "",
+    "": "",
     "Dish name": "Cola Light",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.3,
@@ -2794,11 +3230,13 @@
     "Allergiecode": "1,2,3,4,13",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 223,
-    "category name": "",
+    "": "",
     "Dish name": "Sprite",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.3,
@@ -2806,11 +3244,13 @@
     "Allergiecode": 4,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 225,
-    "category name": "",
+    "": "",
     "Dish name": "Cola Zero",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.3,
@@ -2818,11 +3258,13 @@
     "Allergiecode": "1,2,3,4,13",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 226,
-    "category name": "",
+    "": "",
     "Dish name": "Spezi",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.3,
@@ -2830,11 +3272,13 @@
     "Allergiecode": "2,4",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 227,
-    "category name": "",
+    "": "",
     "Dish name": "Tonic Water",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.6,
@@ -2842,11 +3286,13 @@
     "Allergiecode": 2,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 228,
-    "category name": "",
+    "": "",
     "Dish name": "Premium Wasser",
     "Topping": "0,45L",
     "Preis für Vorspeise": 3.9,
@@ -2854,11 +3300,13 @@
     "Allergiecode": "",
     "Beschreibung": "Still/Spritzig",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 229,
-    "category name": "",
+    "": "",
     "Dish name": "Premium Wasser",
     "Topping": "0,75L",
     "Preis für Vorspeise": 5.8,
@@ -2866,11 +3314,13 @@
     "Allergiecode": "",
     "Beschreibung": "Still/Spritzig",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 230,
-    "category name": "",
+    "": "",
     "Dish name": "Premium Wasser in Glaskaraffe",
     "Topping": "0,5L",
     "Preis für Vorspeise": 4.6,
@@ -2878,11 +3328,13 @@
     "Allergiecode": "",
     "Beschreibung": "Still/Spritzig",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "Kalte Hausgemachte Getränke",
+    "": "KALTE HAUSGEMACHTE GETRÄNKE",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -2890,11 +3342,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Kalte Hausgemachte Getränke"
   },
   {
     "STT": 231,
-    "category name": "",
+    "": "",
     "Dish name": "Coconut Shake",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
@@ -2902,11 +3356,13 @@
     "Allergiecode": 234,
     "Beschreibung": "Coconut Creme, Minze, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 232,
-    "category name": "",
+    "": "",
     "Dish name": "Let’s Date",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
@@ -2914,11 +3370,13 @@
     "Allergiecode": 234,
     "Beschreibung": "Erdbeerpüree, Coconut Creme, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 233,
-    "category name": "",
+    "": "",
     "Dish name": "Love",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
@@ -2926,11 +3384,13 @@
     "Allergiecode": 234,
     "Beschreibung": "Rosensirup, Limette, Minze, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 234,
-    "category name": "",
+    "": "",
     "Dish name": "Mango Shake",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
@@ -2938,11 +3398,13 @@
     "Allergiecode": 234,
     "Beschreibung": "Frischer Mango püriert, Kokosmilch",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 235,
-    "category name": "",
+    "": "",
     "Dish name": "Red dream - Erdbeer Shake",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
@@ -2950,11 +3412,13 @@
     "Allergiecode": 234,
     "Beschreibung": "Frische Erdbeeren püriert, Limette, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 236,
-    "category name": "",
+    "": "",
     "Dish name": "La passion - Passionfrucht Shake",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
@@ -2962,11 +3426,13 @@
     "Allergiecode": 234,
     "Beschreibung": "Weisser Pfirsichsaft, Limette, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 237,
-    "category name": "",
+    "": "",
     "Dish name": "Rainbow - Heidelbeer Shake",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
@@ -2974,11 +3440,13 @@
     "Allergiecode": 234,
     "Beschreibung": "Frische Heidelbeeren Erdbeeren püriert, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 238,
-    "category name": "",
+    "": "",
     "Dish name": "Limone",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
@@ -2986,11 +3454,13 @@
     "Allergiecode": 234,
     "Beschreibung": "Limonensaft, Ingwer, Minze, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 239,
-    "category name": "",
+    "": "",
     "Dish name": "Tropical Shake",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
@@ -2998,23 +3468,27 @@
     "Allergiecode": 234,
     "Beschreibung": "Guavennektar, Passionsfruchtpüree, Limette, Coconut Sirup, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 240,
-    "category name": "",
-    "Dish name": "Cucumber Shake",
+    "": "",
+    "Dish name": "Tropical Shake",
     "Topping": "0,45L",
     "Preis für Vorspeise": 6.9,
     "Preis für Hauptspeise": "",
     "Allergiecode": 234,
     "Beschreibung": "Gurke, Minze, Limetten, Ginger Ale, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 241,
-    "category name": "",
+    "": "",
     "Dish name": "Aura-frischer hausgemachter Jasmin Amber Eistee",
     "Topping": "A) Weißer Pfirsich",
     "Preis für Vorspeise": "7,9",
@@ -3022,11 +3496,13 @@
     "Allergiecode": 234,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Lychee",
     "Preis für Vorspeise": "7,9",
@@ -3034,11 +3510,13 @@
     "Allergiecode": 234,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Erdbeer",
     "Preis für Vorspeise": "7,9",
@@ -3046,11 +3524,13 @@
     "Allergiecode": 234,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) Mango",
     "Preis für Vorspeise": "7,9",
@@ -3058,11 +3538,13 @@
     "Allergiecode": 234,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Maracuja",
     "Preis für Vorspeise": "7,9",
@@ -3070,11 +3552,13 @@
     "Allergiecode": 234,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "F) Wassermelone",
     "Preis für Vorspeise": "7,9",
@@ -3082,11 +3566,13 @@
     "Allergiecode": 234,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "G) Heidelbeer",
     "Preis für Vorspeise": "7,9",
@@ -3094,11 +3580,13 @@
     "Allergiecode": 234,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "H) Rosensaft",
     "Preis für Vorspeise": "7,9",
@@ -3106,11 +3594,13 @@
     "Allergiecode": 234,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "Säfte und Schorlen",
+    "": "SÄFTE UND SCHORLEN",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -3118,11 +3608,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Säfte und Schorlen"
   },
   {
     "STT": 242,
-    "category name": "",
+    "": "",
     "Dish name": "Apfelsaft",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.6,
@@ -3130,11 +3622,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 243,
-    "category name": "",
+    "": "",
     "Dish name": "Orangensaft",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.6,
@@ -3142,11 +3636,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 244,
-    "category name": "",
+    "": "",
     "Dish name": "Johannisbeernektar",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.6,
@@ -3154,11 +3650,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 245,
-    "category name": "",
+    "": "",
     "Dish name": "Maracujanektar",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.6,
@@ -3166,107 +3664,125 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 246,
-    "category name": "",
+    "": "",
     "Dish name": "Ananassaft",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.6,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 12,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 247,
-    "category name": "",
+    "": "",
     "Dish name": "Mangonektar",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.6,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 2,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 248,
-    "category name": "",
+    "": "",
     "Dish name": "Guavennektar",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.6,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 123,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 249,
-    "category name": "",
+    "": "",
     "Dish name": "Lycheenektar",
     "Topping": "0,3L",
     "Preis für Vorspeise": 3.6,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": "1,2",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 250,
-    "category name": "Bier",
+    "": "BIER",
     "Dish name": "Fürst Carl Radler",
     "Topping": "0,5l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Bier"
   },
   {
     "STT": 251,
-    "category name": "",
+    "": "",
     "Dish name": "Fürst Carl Schlossgold",
     "Topping": "0,5l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 252,
-    "category name": "",
+    "": "",
     "Dish name": "Fürst Carl Dunkel",
     "Topping": "0,5l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 253,
-    "category name": "",
+    "": "",
     "Dish name": "Fürst Carl Urhell",
     "Topping": "0,5l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 254,
-    "category name": "",
+    "": "",
     "Dish name": "Fürst Carl Alkoholfrei",
     "Topping": "0,5l",
     "Preis für Vorspeise": 4.3,
@@ -3274,71 +3790,83 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 255,
-    "category name": "",
+    "": "",
     "Dish name": "Kirin Japanisches Bier",
     "Topping": "0,3l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 256,
-    "category name": "",
+    "": "",
     "Dish name": "Asahi Jpanisches Bier",
     "Topping": "0,3l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 257,
-    "category name": "",
+    "": "",
     "Dish name": "Gutmann Weizen Hell",
     "Topping": "0,5l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 258,
-    "category name": "",
+    "": "",
     "Dish name": "Gutmann Weizen Dunkel",
     "Topping": "0,5l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 259,
-    "category name": "",
+    "": "",
     "Dish name": "Gutmann Weizen Leicht",
     "Topping": "0,5l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 260,
-    "category name": "",
+    "": "",
     "Dish name": "Gutmann Weizen Hell (alkoholfrei)",
     "Topping": "0,5l",
     "Preis für Vorspeise": 4.3,
@@ -3346,47 +3874,55 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
-    "STT": "",
-    "category name": "",
+    "STT": 261,
+    "": "",
     "Dish name": "Tsingtao Chinesisches Bier",
     "Topping": "0,3l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
-    "STT": 261,
-    "category name": "",
+    "STT": 262,
+    "": "",
     "Dish name": "Weizen Mix",
     "Topping": "A) Cola 0,5l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": "14,1,2,3,4,13",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 262,
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) Sprite 0,5l",
     "Preis für Vorspeise": 4.3,
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 263,
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -3394,11 +3930,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 264,
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -3406,11 +3944,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 265,
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -3418,11 +3958,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 266,
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -3430,11 +3972,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 267,
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -3442,23 +3986,27 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "Aperetifs&Longdrinks",
+    "": "APERETIFS&LONGDRINKS",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Aperetifs&Longdrinks"
   },
   {
     "STT": 268,
-    "category name": "",
+    "": "",
     "Dish name": "Aperol Spritz",
     "Topping": "",
     "Preis für Vorspeise": 6.8,
@@ -3466,11 +4014,13 @@
     "Allergiecode": 12.1,
     "Beschreibung": "Aperol, Prosecco, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 269,
-    "category name": "",
+    "": "",
     "Dish name": "Aperol Orange",
     "Topping": "",
     "Preis für Vorspeise": 6.9,
@@ -3478,11 +4028,13 @@
     "Allergiecode": 12.1,
     "Beschreibung": "Aperol, Prosecco, Orangensaft, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 270,
-    "category name": "",
+    "": "",
     "Dish name": "Aperol Fanta",
     "Topping": "",
     "Preis für Vorspeise": 6.9,
@@ -3490,11 +4042,13 @@
     "Allergiecode": "12.3,4,10",
     "Beschreibung": "Aperol, Fanta, Prosecco, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 271,
-    "category name": "",
+    "": "",
     "Dish name": "Aperol Maracuja Spritz",
     "Topping": "",
     "Preis für Vorspeise": 7.8,
@@ -3502,11 +4056,13 @@
     "Allergiecode": 12.1,
     "Beschreibung": "Aperol, Frischer Maracuja, Prosecco, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 272,
-    "category name": "",
+    "": "",
     "Dish name": "Hugo",
     "Topping": "",
     "Preis für Vorspeise": 6.8,
@@ -3514,11 +4070,13 @@
     "Allergiecode": 11,
     "Beschreibung": "Holundersirup, Prosecco, Soda, Limetten",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 273,
-    "category name": "",
+    "": "",
     "Dish name": "Prosecco",
     "Topping": "A) 0,2l",
     "Preis für Vorspeise": "5,9",
@@ -3526,11 +4084,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "B) White Peach Sirup",
     "Preis für Vorspeise": "6,9",
@@ -3538,11 +4098,13 @@
     "Allergiecode": "2,34",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "C) Lemon Sirup",
     "Preis für Vorspeise": "6,9",
@@ -3550,11 +4112,13 @@
     "Allergiecode": "2,34",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "D) Rosen Sirup",
     "Preis für Vorspeise": "6,9",
@@ -3562,11 +4126,13 @@
     "Allergiecode": "2,34",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "",
+    "": "",
     "Dish name": "",
     "Topping": "E) Cherry Sirup",
     "Preis für Vorspeise": "6,9",
@@ -3574,11 +4140,13 @@
     "Allergiecode": "2,34",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 274,
-    "category name": "",
+    "": "",
     "Dish name": "Lillet Wild Berry",
     "Topping": "",
     "Preis für Vorspeise": 7.3,
@@ -3586,11 +4154,13 @@
     "Allergiecode": 13,
     "Beschreibung": "Lillet Wild Berry, Beerenmix, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 275,
-    "category name": "",
+    "": "",
     "Dish name": "Gin Tonic",
     "Topping": "",
     "Preis für Vorspeise": "6,9",
@@ -3598,11 +4168,13 @@
     "Allergiecode": 2,
     "Beschreibung": "Gin, Tonic Water, Limette",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 276,
-    "category name": "",
+    "": "",
     "Dish name": "Whisky Cola",
     "Topping": "",
     "Preis für Vorspeise": 6.9,
@@ -3610,11 +4182,13 @@
     "Allergiecode": "12,3,4,13",
     "Beschreibung": "Jack Daniels, Cola",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 277,
-    "category name": "",
+    "": "",
     "Dish name": "Wodka Orange",
     "Topping": "",
     "Preis für Vorspeise": "6,9",
@@ -3622,11 +4196,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 278,
-    "category name": "",
+    "": "",
     "Dish name": "Sake",
     "Topping": "0,15l",
     "Preis für Vorspeise": "5,2",
@@ -3634,11 +4210,13 @@
     "Allergiecode": "",
     "Beschreibung": "Japanischer Reiswein (warm serviert), 0,15L",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "Cocktails",
+    "": "COCKTAILS",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -3646,11 +4224,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Cocktails"
   },
   {
     "STT": 280,
-    "category name": "",
+    "": "",
     "Dish name": "Sex On The Beach",
     "Topping": "0,45L",
     "Preis für Vorspeise": "8,5",
@@ -3658,11 +4238,13 @@
     "Allergiecode": "1,3",
     "Beschreibung": "Wodka Peach, Orangensaft, Ananassaft, Nektar, Grenadine",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 281,
-    "category name": "",
+    "": "",
     "Dish name": "Pina Colada",
     "Topping": "0,45L",
     "Preis für Vorspeise": "8,5",
@@ -3670,11 +4252,13 @@
     "Allergiecode": "3,8",
     "Beschreibung": "Weiffer Rum, Kokossirup, Ananassaft, Maracujasaft, Kokosmilch",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 282,
-    "category name": "",
+    "": "",
     "Dish name": "Moscow Mule",
     "Topping": "0,45L",
     "Preis für Vorspeise": 8.5,
@@ -3682,11 +4266,13 @@
     "Allergiecode": "1,3",
     "Beschreibung": "Wodka, Limetten, Spicy Ginger, Zuckersirup",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 283,
-    "category name": "",
+    "": "",
     "Dish name": "Espresso Martini",
     "Topping": "0,45L",
     "Preis für Vorspeise": "8,9",
@@ -3694,11 +4280,13 @@
     "Allergiecode": "3,8",
     "Beschreibung": "Wodka, Kahlua, Espresso, Zuckersirup",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 284,
-    "category name": "",
+    "": "",
     "Dish name": "Violet Mojito",
     "Topping": "0,45L",
     "Preis für Vorspeise": "8,5",
@@ -3706,11 +4294,13 @@
     "Allergiecode": "1,2,2003",
     "Beschreibung": "Vietnamesischer Reisschnaps, Limette, Minze, Ginger Ale, Butterfly Flower",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 285,
-    "category name": "",
+    "": "",
     "Dish name": "Caipirinha",
     "Topping": "0,45L",
     "Preis für Vorspeise": 8.5,
@@ -3718,11 +4308,13 @@
     "Allergiecode": "",
     "Beschreibung": "Cochaca, Limette, Rohrzucker",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 286,
-    "category name": "",
+    "": "",
     "Dish name": "Tequila Sunrise",
     "Topping": "0,45L",
     "Preis für Vorspeise": 8.5,
@@ -3730,11 +4322,13 @@
     "Allergiecode": "1,2,2003",
     "Beschreibung": "Tequila, Orangensaft, Grenadine, Zitronensaft",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 287,
-    "category name": "",
+    "": "",
     "Dish name": "Old Mojito",
     "Topping": "0,45L",
     "Preis für Vorspeise": 7.9,
@@ -3742,11 +4336,13 @@
     "Allergiecode": "1,3",
     "Beschreibung": "Havana Club Rum, Limette, Soda, Minze, Brauner Zucker",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 288,
-    "category name": "",
+    "": "",
     "Dish name": "Planters Punch",
     "Topping": "0,45L",
     "Preis für Vorspeise": 8.5,
@@ -3754,11 +4350,13 @@
     "Allergiecode": "2,3",
     "Beschreibung": "Rum, Kokossirup, Orangensaft, Limette, Grenadine",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 289,
-    "category name": "",
+    "": "",
     "Dish name": "Tropicana",
     "Topping": "0,45L",
     "Preis für Vorspeise": 8.5,
@@ -3766,23 +4364,27 @@
     "Allergiecode": "2,3",
     "Beschreibung": "Rum, Limette, Coconut Sirup, Guavennektar, Maracujasaft, Soda",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "Digestif",
+    "": "DIGESTIF",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
     "Preis für Hauptspeise": "",
-    "Allergiecode": "",
+    "Allergiecode": 14,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Digestif"
   },
   {
     "STT": 300,
-    "category name": "",
+    "": "",
     "Dish name": "Nep Moi (Reisschnaps)",
     "Topping": "4cl",
     "Preis für Vorspeise": 5.5,
@@ -3790,11 +4392,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 301,
-    "category name": "",
+    "": "",
     "Dish name": "Ramazzotti",
     "Topping": "4cl",
     "Preis für Vorspeise": 5.5,
@@ -3802,11 +4406,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 302,
-    "category name": "",
+    "": "",
     "Dish name": "Baileys",
     "Topping": "4cl",
     "Preis für Vorspeise": 5.5,
@@ -3814,11 +4420,13 @@
     "Allergiecode": "G,3",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 303,
-    "category name": "",
+    "": "",
     "Dish name": "Drambuie Likör",
     "Topping": "4cl",
     "Preis für Vorspeise": 5.5,
@@ -3826,11 +4434,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 304,
-    "category name": "",
+    "": "",
     "Dish name": "Wodka Three Sixty",
     "Topping": "4cl",
     "Preis für Vorspeise": 5.5,
@@ -3838,11 +4448,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 305,
-    "category name": "",
+    "": "",
     "Dish name": "Chivas Regal",
     "Topping": "4cl",
     "Preis für Vorspeise": 6.8,
@@ -3850,11 +4462,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": "",
-    "category name": "Warme Getränke",
+    "": "WARME GETRÄNKE",
     "Dish name": "",
     "Topping": "",
     "Preis für Vorspeise": "",
@@ -3862,11 +4476,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": "Warme Getränke"
   },
   {
     "STT": 310,
-    "category name": "",
+    "": "",
     "Dish name": "Kaffee",
     "Topping": "",
     "Preis für Vorspeise": 3.3,
@@ -3874,11 +4490,13 @@
     "Allergiecode": 13,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 311,
-    "category name": "",
+    "": "",
     "Dish name": "Espresso",
     "Topping": "",
     "Preis für Vorspeise": 2.5,
@@ -3886,11 +4504,13 @@
     "Allergiecode": 13,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 312,
-    "category name": "",
+    "": "",
     "Dish name": "Doppelter Espresso",
     "Topping": "",
     "Preis für Vorspeise": 4.2,
@@ -3898,11 +4518,13 @@
     "Allergiecode": 13,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 313,
-    "category name": "",
+    "": "",
     "Dish name": "Cappuccino",
     "Topping": "",
     "Preis für Vorspeise": 3.9,
@@ -3910,11 +4532,13 @@
     "Allergiecode": 13,
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 314,
-    "category name": "",
+    "": "",
     "Dish name": "Hot Orange",
     "Topping": "",
     "Preis für Vorspeise": 3.9,
@@ -3922,11 +4546,13 @@
     "Allergiecode": "",
     "Beschreibung": "Ingwer, Orange, Minze, Honig",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 315,
-    "category name": "",
+    "": "",
     "Dish name": "Hot Lemon",
     "Topping": "",
     "Preis für Vorspeise": 3.9,
@@ -3934,11 +4560,13 @@
     "Allergiecode": "",
     "Beschreibung": "Ingwer, Zitrone, Minze, Honig",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 316,
-    "category name": "",
+    "": "",
     "Dish name": "Jasmintee",
     "Topping": "",
     "Preis für Vorspeise": 4.9,
@@ -3946,11 +4574,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 317,
-    "category name": "",
+    "": "",
     "Dish name": "Oolongtee",
     "Topping": "",
     "Preis für Vorspeise": 4.9,
@@ -3958,11 +4588,13 @@
     "Allergiecode": "",
     "Beschreibung": "",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   },
   {
     "STT": 318,
-    "category name": "",
+    "": "",
     "Dish name": "Chrysanthementee",
     "Topping": "",
     "Preis für Vorspeise": 5.9,
@@ -3970,6 +4602,8 @@
     "Allergiecode": "",
     "Beschreibung": "Chrysanthemenblüte mit frischem Ingwer",
     "vegetarisches Gericht": "",
-    "": ""
+    "DANH MỤC": "",
+    "__1": "",
+    "__2": ""
   }
 ]
