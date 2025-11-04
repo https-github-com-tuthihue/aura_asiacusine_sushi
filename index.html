@@ -170,12 +170,39 @@
           </div>
         </div>
         
-        <a href="tel:09831 - 882 28 68" class="btn-gold rounded px-4 py-2 shadow-md hover:bg-yellow-400 flex items-center gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.279a2 2 0 011.895 1.316l1.046 3.139a1 1 0 01-.217 1.09l-1.12 1.12a11.042 11.042 0 005.516 5.516l1.12-1.12a1 1 0 011.09-.217l3.138 1.046A2 2 0 0119 16.721V19a2 2 0 01-2 2h-1c-7.18 0-13-5.82-13-13V5z" />
-          </svg>
-          Jetzt anrufen
-        </a>
+        <!-- Phone Popover Menu with Alpine.js -->
+        <div x-data="{ open: false }" class="relative">
+          <button @click="open = !open" class="btn-gold rounded px-4 py-2 shadow-md hover:bg-yellow-400 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.279a2 2 0 011.895 1.316l1.046 3.139a1 1 0 01-.217 1.09l-1.12 1.12a11.042 11.042 0 005.516 5.516l1.12-1.12a1 1 0 011.09-.217l3.138 1.046A2 2 0 0119 16.721V19a2 2 0 01-2 2h-1c-7.18 0-13-5.82-13-13V5z" />
+            </svg>
+            Jetzt anrufen
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          
+          <!-- Phone Popover Menu -->
+          <div x-show="open" 
+               @click.away="open = false"
+               x-transition:enter="transition ease-out duration-200"
+               x-transition:enter-start="opacity-0 scale-95"
+               x-transition:enter-end="opacity-100 scale-100"
+               x-transition:leave="transition ease-in duration-150"
+               x-transition:leave-start="opacity-100 scale-100"
+               x-transition:leave-end="opacity-0 scale-95"
+               class="absolute z-50 mt-1 w-44 rounded-lg shadow-lg overflow-hidden"
+               style="background-color: #1C1C1C; border: 1px solid #f3c948;">
+            <a href="tel:09831-8822868" class="block px-2 py-3 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-colors border-b border-gray-700">
+              <div class="font-semibold"> Gunzenhausen</div>
+              <!-- <div class="text-xs text-gray-400">09831 - 882 28 68</div> -->
+            </a>
+            <a href="tel:09852-9080400" class="block px-2 py-3 text-yellow-400 hover:bg-yellow-400 hover:text-black transition-colors">
+              <div class="font-semibold"> Feuchtwangen</div>
+              <!-- <div class="text-xs text-gray-400">09852 9080400</div> -->
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -275,22 +302,19 @@
         </iframe>
       <p class="text-sm text-gray-300 font-medium text-left pt-4 max-w-sm leading-relaxed">
         
-      <h2 class="text-1xl font-extrabold pb-2">Im September eröffnet ein neues <br> kulinarisches Erlebnis!</h2>
+      <!-- <h2 class="text-1xl font-extrabold pb-2">Im September eröffnet ein neues <br> kulinarisches Erlebnis!</h2> -->
       
-      <section class="w-[370px]">
-        <img src="./image/banner.png" 
-            alt="Banner – Aura Restaurant Eröffnung – Modernes Sushi- & Asia-Cuisine-Erlebnis in Feuchtwangen" 
-            class="rounded-xl shadow-lg w-full object-cover" 
-            onerror="this.style.display='none'"/>
-        <p class="pt-1">Dinkelsbühler Str 6, 91555 Feuchtwangen</p>
-      </section>
+      <p class="text-sm text-gray-300 font-medium text-left pt-1 max-w-sm leading-relaxed">
+        Feuchtwangen - Dinkelsbühler Str 6, 91555
+        </p>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83471.03999790401!2d10.3355553!3d49.17266745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4798ea389e5c8ba7%3A0x3ccf9afa6f13f08!2s91555%20Feuchtwangen%2C%20Germany!5e0!3m2!1sen!2s!4v1762273450692!5m2!1sen!2s" 
+          width="100%" height="200" style="border:0; border-radius:2%;" allowfullscreen="" loading="lazy">
+        </iframe>
+      <p class="text-sm text-gray-300 font-medium text-left pt-4 max-w-sm leading-relaxed">
+        
+      <h2 class="text-1xl font-extrabold pb-2">Im September eröffnet ein neues <br> kulinarisches Erlebnis!</h2>
 
-       <!-- Dinkelsbühler Str 6, 91555 Feuchtwangen
-      </p>
-       <iframe
-       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2619.123456789012!2d10.119123!3d49.280123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795441234567890%3A0xabcdef123456789!2sDinkelsbühler%20Str%206%2C%2091555%20Feuchtwangen!5e0!3m2!1sde!2sde!4v1700000000000!5m2!1sde!2sde"
-        width="100%" height="200" style="border:0;border-radius:2%;" allowfullscreen="" loading="lazy">
-      </iframe> -->
     </section>
         
     
