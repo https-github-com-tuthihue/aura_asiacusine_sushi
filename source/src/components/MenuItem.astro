@@ -22,11 +22,13 @@ const { item, isVisible = true } = Astro.props;
         item.allergieCode ? (
           <sup class="text-xs text-yellow-600 absolute align-super -top-1 right-0 translate-x-[120%]  flex items-center">
             {item.allergieCode}
-            <img
-              src="/veget.png"
-              alt="Vegetarian"
-              class="inline w-3 h-3 ml-0.5 -mt-0.5"
-            />
+            {item.vegetarian ? (
+              <img
+                src="/veget.png"
+                alt="Vegetarian"
+                class="inline w-3 h-3 ml-0.5 -mt-0.5"
+              />
+            ) : null}
           </sup>
         ) : null
       }
@@ -58,6 +60,13 @@ const { item, isVisible = true } = Astro.props;
                 <sup class="text-xs text-yellow-600 align-super ml-1">
                   {item.topping.allergieCode}
                 </sup>
+              ) : null}
+              {item.topping.vegetarian ? (
+                <img
+                  src="/veget.png"
+                  alt="Vegetarian"
+                  class="inline w-3 h-3 ml-0.5 -mt-0.5"
+                />
               ) : null}
             </span>
 

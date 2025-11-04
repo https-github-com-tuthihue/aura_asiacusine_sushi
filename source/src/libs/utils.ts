@@ -21,7 +21,7 @@ export function parseFoods(raw: any[]): IFood[] {
           : undefined,
         allergieCode: row["Allergiecode"] || undefined,
         description: row["Beschreibung"] || undefined,
-        vegetarian: row["vegetarisches Gericht"]?.toLowerCase() === "x",
+        vegetarian: row["vegetarisches Gericht"]?.toLowerCase() === "x" || false,
         toppings: [],
         topping: {
           name: row["Topping"]?.trim() || undefined,
@@ -33,9 +33,10 @@ export function parseFoods(raw: any[]): IFood[] {
             : undefined,
           allergieCode: row["Allergiecode"] || undefined,
           description: row["Beschreibung"] || undefined,
-          vegetarian: row["vegetarisches Gericht"]?.toLowerCase() === "x",
+          vegetarian: row["vegetarisches Gericht"]?.toLowerCase() === "x" || false,
         },
       };
+      console.log(current.name, current.vegetarian);
       foods.push(current);
     } else if (current && row["Topping"]) {
       // Đây là topping của món trước
