@@ -1,0 +1,889 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#0a0a0a;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.menu-hero{
+    position:relative;
+    height:55vh;
+
+    background:url('../images/homepage/hero.png')
+    center/cover no-repeat;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+}
+
+.menu-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.7);
+}
+
+.menu-hero-content{
+    position:relative;
+    z-index:2;
+    padding:20px;
+}
+
+.menu-hero-content span{
+    color:#e0b84c;
+    letter-spacing:4px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.menu-hero-content h1{
+    font-size:64px;
+    margin:20px 0;
+}
+
+.menu-hero-content p{
+    color:rgba(255,255,255,0.75);
+    line-height:1.8;
+}
+
+/* =========================
+   MENU GALLERY
+========================= */
+
+.menu-gallery{
+    max-width:1400px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+/* =========================
+   SLIDER
+========================= */
+
+.slider-container{
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:24px;
+
+    background:#111;
+
+    border:1px solid rgba(224,184,76,0.12);
+}
+
+/* GLOW EFFECT */
+
+.slider-container::before{
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background:
+    radial-gradient(
+        circle at center,
+        rgba(224,184,76,0.05),
+        transparent 70%
+    );
+
+    pointer-events:none;
+
+    z-index:1;
+}
+
+.slider-track-wrapper{
+    overflow:hidden;
+    width:100%;
+    touch-action:pan-y;
+}
+
+.slider-track{
+    display:flex;
+    align-items:center;
+    transition:transform 0.35s ease;
+}
+
+/* =========================
+   SLIDE
+========================= */
+
+.slider-slide{
+    min-width:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    padding:30px;
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+.slider-slide img{
+
+    width:auto;
+    height:auto;
+
+    max-width:100%;
+    max-height:85vh;
+
+    object-fit:contain;
+
+    display:block;
+
+    margin:auto;
+
+    border-radius:18px;
+}
+
+/* =========================
+   ARROWS
+========================= */
+
+.slider-arrow{
+    position:absolute;
+
+    top:50%;
+    transform:translateY(-50%);
+
+    width:52px;
+    height:52px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:rgba(0,0,0,0.6);
+
+    color:#f3c948;
+
+    font-size:2rem;
+
+    cursor:pointer;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    z-index:10;
+
+    transition:0.3s ease;
+}
+
+.slider-arrow:hover{
+    background:#e0b84c;
+    color:#111;
+}
+
+.slider-arrow.prev{
+    left:20px;
+}
+
+.slider-arrow.next{
+    right:20px;
+}
+
+.slider-arrow:disabled{
+    opacity:0.3;
+    cursor:not-allowed;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.slider-footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    gap:20px;
+
+    padding:24px 10px 0;
+}
+
+.slider-counter{
+    color:rgba(255,255,255,0.8);
+}
+
+/* DOTS */
+
+.slider-dots{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.slider-dot{
+    width:12px;
+    height:12px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,0.2);
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+}
+
+.slider-dot.active{
+    background:#f3c948;
+    transform:scale(1.1);
+}
+
+/* =========================
+   CONTACT
+========================= */
+
+.menu-contact{
+    padding:100px 20px;
+    text-align:center;
+}
+
+.menu-contact h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.menu-contact p{
+    color:rgba(255,255,255,0.7);
+    margin-bottom:36px;
+}
+
+.call-btn{
+    display:inline-flex;
+
+    align-items:center;
+    justify-content:center;
+
+    padding:16px 42px;
+
+    border-radius:999px;
+
+    background:#e0b84c;
+
+    color:#111;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:0.3s ease;
+}
+
+.call-btn:hover{
+    background:#f3cc62;
+    transform:translateY(-2px);
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .menu-hero{
+        height:45vh;
+        padding:120px 20px 80px;
+    }
+
+    .menu-hero-content h1{
+        font-size:42px;
+    }
+
+    .menu-gallery{
+        padding:40px 10px;
+    }
+
+    .slider-slide{
+        padding:10px;
+    }
+
+    .slider-slide img{
+
+        width:auto;
+        height:auto;
+
+        max-width:100%;
+
+        max-height:none;
+
+        object-fit:contain;
+    }
+
+    .slider-arrow{
+        width:40px;
+        height:40px;
+        font-size:1.4rem;
+    }
+
+    .slider-arrow.prev{
+        left:8px;
+    }
+
+    .slider-arrow.next{
+        right:8px;
+    }
+
+    .slider-footer{
+        flex-direction:column;
+        gap:14px;
+    }
+
+    .menu-contact h2{
+        font-size:34px;
+    }
+
+}
+
+/* =========================
+   TABS
+========================= */
+/* =========================
+   MENU TABS
+========================= */
+
+.menu-tabs{
+
+    position:sticky;
+
+    top:82px;
+
+    z-index:80;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:50px;
+
+    padding:18px 20px;
+
+    margin-bottom:40px;
+
+    background:
+    rgba(5,5,5,0.96);
+
+    backdrop-filter:
+    blur(14px);
+
+    -webkit-backdrop-filter:
+    blur(14px);
+
+    border-bottom:
+    1px solid rgba(224,184,76,0.06);
+}
+
+/* TAB */
+
+.menu-tab{
+
+    background:none;
+
+    border:none;
+
+    color:
+    rgba(255,255,255,0.78);
+
+    font-size:18px;
+
+    font-weight:400;
+
+    letter-spacing:0.3px;
+
+    cursor:pointer;
+
+    padding:10px 4px;
+
+    position:relative;
+
+    transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+/* UNDERLINE */
+
+.menu-tab::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:-6px;
+
+    transform:
+    translateX(-50%);
+
+    width:0%;
+
+    height:1px;
+
+    border-radius:999px;
+
+    background:#f3c948;
+
+    transition:0.35s ease;
+
+    box-shadow:
+    0 0 12px rgba(243,201,72,0.9);
+}
+
+/* HOVER */
+
+.menu-tab:hover{
+
+    color:#e0b84c;
+}
+
+.menu-tab:hover::after{
+
+    width:100%;
+}
+
+/* ACTIVE */
+
+.menu-tab.active{
+
+    color:#e0b84c;
+}
+
+.menu-tab.active::after{
+
+    width:100%;
+}
+
+/* TRACK */
+
+.slider-track{
+
+    display:none;
+}
+
+.slider-track.active-track{
+
+    display:flex;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .menu-tabs{
+
+        top:74px;
+
+        gap:32px;
+
+        padding:16px;
+
+        overflow-x:auto;
+
+        justify-content:center;
+
+        scrollbar-width:none;
+    }
+
+    .menu-tabs::-webkit-scrollbar{
+
+        display:none;
+    }
+
+    .menu-tab{
+
+        flex-shrink:0;
+
+        font-size:16px;
+    }
+
+}
+
+/* =========================
+   MITTAGSMENÜ SECTION
+========================= */
+
+.mittags-section {
+    padding: 110px 20px;
+    background: linear-gradient(135deg, #0a0a0a 0%, #121212 100%);
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.mittags-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mittags-subtitle {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #e0b84c;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    background: rgba(224, 184, 76, 0.1);
+    padding: 6px 20px;
+    border-radius: 40px;
+}
+
+.mittags-header h2 {
+    font-size: 48px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #fff, #e0b84c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.mittags-time,
+.mittags-note {
+    font-size: 14px;
+    color: #aaa;
+    margin: 4px 0;
+}
+
+.mittags-included {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #e0b84c;
+    background: rgba(224, 184, 76, 0.08);
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 40px;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.mittags-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+/* =========================
+   CARD - KIỂU ĐĨA TRÒN HIỆN ĐẠI
+========================= */
+
+.mittags-card {
+    background: #141414;
+    border-radius: 28px;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    border: 1px solid rgba(224, 184, 76, 0.1);
+    position: relative;
+}
+
+.mittags-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(224, 184, 76, 0.4);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(224, 184, 76, 0.2);
+}
+
+/* === HÌNH ẢNH DẠNG ĐĨA === */
+.mittags-image {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    background: linear-gradient(145deg, #1a1a2e, #0d0d1a);
+}
+
+.mittags-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+        object-position: center bottom;
+
+    transition: transform 0.6s ease;
+}
+
+/* TẠO HIỆU ỨNG ĐĨA CONG NHẸ */
+.mittags-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(to top, #141414, transparent);
+    pointer-events: none;
+}
+
+.mittags-card:hover .mittags-image img {
+    transform: scale(1.08);
+}
+
+/* === BADGE === */
+.sushi-badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 30px;
+    z-index: 2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.veg-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 30px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.veg-badge::before {
+    content: "🌱";
+    font-size: 12px;
+}
+
+/* === NỘI DUNG === */
+.mittags-content {
+    padding: 22px 24px 24px;
+}
+
+/* HEADER CARD */
+.mittags-top {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.mittags-id {
+    background: rgba(224, 184, 76, 0.15);
+    padding: 4px 12px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #e0b84c;
+    letter-spacing: 0.5px;
+}
+
+.mittags-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    line-height: 1.3;
+}
+
+/* DESCRIPTION */
+.mittags-description {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    border-left: 2px solid #e0b84c;
+    padding-left: 12px;
+}
+
+/* === OPTIONS === */
+.mittags-options {
+    margin-top: 8px;
+}
+
+.mittags-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.06);
+}
+
+.mittags-option:last-child {
+    border-bottom: none;
+}
+
+.mittags-option-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.mittags-option-label {
+    font-size: 15px;
+    color: #ddd;
+    font-weight: 500;
+}
+
+.mittags-option-allergen {
+    font-size: 10px;
+    color: #e0b84c;
+    background: rgba(224, 184, 76, 0.12);
+    padding: 2px 8px;
+    border-radius: 20px;
+}
+
+.mittags-option-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.mittags-option-price {
+    font-weight: 700;
+    color: #e0b84c;
+    font-size: 18px;
+}
+
+/* === SINGLE PRICE (món không có options) === */
+.mittags-single-price {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mittags-single-price span:first-child {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.mittags-single-price .mittags-option-price {
+    font-size: 20px;
+}
+
+/* === NÚT THÊM VÀO GIỎ === */
+.add-btn {
+    background: linear-gradient(135deg, #e0b84c, #c9a13b);
+    border: none;
+    padding: 8px 18px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    color: #111;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.add-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #f5c542, #e0b84c);
+    box-shadow: 0 4px 12px rgba(224, 184, 76, 0.4);
+}
+
+/* === FOOTER === */
+.mittags-footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 13px;
+    color: #888;
+    line-height: 1.6;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+    .mittags-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .mittags-header h2 {
+        font-size: 36px;
+    }
+    
+    .mittags-content {
+        padding: 18px 20px 20px;
+    }
+    
+    .mittags-name {
+        font-size: 18px;
+    }
+    
+    .mittags-image {
+        height: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mittags-section {
+        padding: 90px 16px;
+    }
+    
+    .mittags-option {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .mittags-option-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .mittags-header h2 {
+        font-size: 28px;
+    }
+    
+    .mittags-subtitle {
+        font-size: 11px;
+    }
+}

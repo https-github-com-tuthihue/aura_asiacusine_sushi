@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Feuchtwangen Menü | Aura Restaurant
+    </title>
+
+    <meta name="description"
+          content="Erkunden Sie das Feuchtwangen Menü des Aura Restaurants.">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/logo/favicon-16x16.png">
+    <link rel="manifest" href="../assets/images/logo/manifest.json">
+    <meta name="theme-color" content="#111111">
+
+    <link rel="stylesheet"
+          href="../assets/css/header.css">
+
+    <link rel="stylesheet"
+          href="../assets/css/footer.css">
+
+    <link rel="stylesheet"
+          href="../assets/css/menu-feuchtwangen.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+
+  "name": "Aura – Asia Cuisine & Sushi Feuchtwangen",
+  "url": "https://aurarestaurant.site/pages/menu-feuchtwangen.html",
+
+  "logo": "https://aurarestaurant.site/assets/images/logo/favicon-16x16.png",
+  "image": "https://aurarestaurant.site/assets/images/logo/android-chrome-192x192.png",
+
+  "telephone": "+49 9852 9080400",
+
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Dinkelsbühler Str. 6",
+    "addressLocality": "Feuchtwangen",
+    "postalCode": "91555",
+    "addressCountry": "DE"
+  },
+
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 49.165833,
+    "longitude": 10.325594
+  },
+
+  "servesCuisine": [
+    "Sushi",
+    "Asia Cuisine",
+    "Vietnamese Food"
+  ],
+
+  "priceRange": "$$",
+
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "11:00",
+      "closes": "22:00"
+    }
+  ]
+}
+</script>
+
+
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <div id="header-placeholder"></div>
+
+    <!-- HERO -->
+
+    <section class="menu-hero">
+
+        <div class="menu-overlay"></div>
+
+        <div class="menu-hero-content">
+
+            <span>
+                AURA RESTAURANT
+            </span>
+
+            <h1>
+                Feuchtwangen Menü
+            </h1>
+
+            <p>
+                Premium Asia Küche & Sushi
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- CATEGORY -->
+
+    <section class="menu-category-section">
+
+        <div class="menu-categories"
+             id="menuCategories">
+
+        </div>
+
+    </section>
+
+    <!-- MENU -->
+
+    <section class="menu-section">
+
+        <div class="menu-list"
+             id="menuList">
+
+        </div>
+
+    </section>
+
+    <!-- FLOATING CART -->
+
+    <a href="../cart.html"
+       class="floating-cart">
+
+        🛒
+
+        <span id="cartCount">
+            0
+        </span>
+
+    </a>
+
+    <!-- FOOTER -->
+
+    <div id="footer-placeholder"></div>
+
+<script src="../assets/js/menu-data.js"></script>
+<script>
+    // Khai báo biến global
+    window.activeCategory = 'all';
+
+    const menuList = document.getElementById('menuList');
+    const categoriesContainer = document.getElementById('menuCategories');
+
+    /* =========================
+       RENDER CATEGORY
+    ========================= */
+
+    function renderCategories() {
+        // Xóa nội dung cũ
+        categoriesContainer.innerHTML = '';
+        
+        // Thêm button "Alle"
+        const allButton = document.createElement('button');
+        allButton.className = 'category-btn active';
+        allButton.setAttribute('data-category', 'all');
+        allButton.innerText = 'Alle';
+        categoriesContainer.appendChild(allButton);
+        
+        // Thêm các category từ menuCategories
+        menuCategories.forEach(category => {
+            const button = document.createElement('button');
+            button.className = 'category-btn';
+            button.setAttribute('data-category', category.id);
+            button.innerText = category.title;
+            categoriesContainer.appendChild(button);
+        });
+        
+        // Thêm sự kiện click
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.category-btn').forEach(b => 
+                    b.classList.remove('active')
+                );
+                btn.classList.add('active');
+                activeCategory = btn.dataset.category;
+                renderMenu();
+            });
+        });
+    }
+
+    /* =========================
+       RENDER MENU
+    ========================= */
+
+function renderMenu() {
+    
+    let filteredItems = menuItems;
+    
+    if (activeCategory !== 'all') {
+        filteredItems = menuItems.filter(item => 
+            item.category === activeCategory
+        );
+    }
+    
+    if (filteredItems.length === 0) {
+        menuList.innerHTML = `
+            <div class="empty-menu">
+                <p>Keine Gerichte in dieser Kategorie gefunden.</p>
+            </div>
+        `;
+        return;
+    }
+    
+    menuList.innerHTML = filteredItems.map(item => {
+        const vegIcon = item.isVegetarian ? '<span class="vegetarian-icon">🌱</span>' : '';
+        
+        if (item.options && item.options.length > 0) {
+            return `
+                <div class="menu-card">
+                    <div class="menu-card-top">
+                        <h2>
+                            ${item.id ? item.id + '. ' : ''}${item.name}
+                            ${vegIcon}
+                        </h2>
+                        ${item.allergens ? `<span class="allergen-code">${item.allergens}</span>` : ''}
+                    </div>
+                    ${item.description ? `<p class="menu-description">${item.description}</p>` : ''}
+                    <div class="menu-options">
+                        ${item.options.map(option => `
+                            <div class="menu-option">
+                                <div class="option-left">
+                                    <span>${option.label}</span>
+                                    ${option.allergens ? `<small>${option.allergens}</small>` : ''}
+                                </div>
+                                <div class="option-right">
+                                    <span class="option-price">${option.price.toFixed(1)}€</span>
+                                    <button class="add-btn" onclick='addToCart(${JSON.stringify({id: item.id, name: item.name + " - " + option.label, price: option.price})})'>Hinzufügen</button>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        } else {
+            return `
+                <div class="menu-card">
+                    <div class="menu-card-top">
+                        <h2>
+                            ${item.id ? item.id + '. ' : ''}${item.name}
+                            ${vegIcon}
+                        </h2>
+                        ${item.allergens ? `<span class="allergen-code">${item.allergens}</span>` : ''}
+                    </div>
+                    ${item.description ? `<p class="menu-description">${item.description}</p>` : ''}
+                    <div class="menu-options">
+                        <div class="menu-option single-price">
+                            <div class="option-left"><span>Einzelpreis</span></div>
+                            <div class="option-right">
+                                <span class="option-price">${item.price.toFixed(1)}€</span>
+                                <button class="add-btn" onclick='addToCart(${JSON.stringify({id: item.id, name: item.name, price: item.price})})'>Hinzufügen</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+    }).join('');
+}
+
+    /* =========================
+       CART FUNCTIONS
+    ========================= */
+
+    function addToCart(product) {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        
+        const existing = cart.find(item => item.id === product.id && item.name === product.name);
+        
+        if (existing) {
+            existing.quantity += 1;
+        } else {
+            cart.push({
+                ...product,
+                quantity: 1
+            });
+        }
+        
+        localStorage.setItem('cart', JSON.stringify(cart));
+        
+        updateCartCount();
+        if (window.refreshHeaderCartCount) window.refreshHeaderCartCount();
+        
+        // Optional: Hiệu ứng thông báo
+        showAddToCartNotification();
+    }
+    
+    function showAddToCartNotification() {
+        // Tạo hiệu ứng thông báo ngắn (tùy chọn)
+        const notification = document.createElement('div');
+        notification.className = 'cart-notification';
+        notification.innerText = '✓ Zum Warenkorb hinzugefügt';
+        notification.style.cssText = `
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            z-index: 1000;
+            animation: fadeOut 2s ease forwards;
+        `;
+        document.body.appendChild(notification);
+        setTimeout(() => notification.remove(), 2000);
+    }
+
+    function updateCartCount() {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const total = cart.reduce((sum, item) => sum + item.quantity, 0);
+        
+        const bottomCount = document.getElementById('cartCount');
+        if (bottomCount) bottomCount.innerText = total;
+    }
+
+    function updateHeaderCartCount() {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const total = cart.reduce((sum, item) => sum + item.quantity, 0);
+        const cartCount = document.getElementById('cart-count');
+        if (cartCount) {
+            cartCount.innerText = total;
+        }
+    }
+
+    /* =========================
+       KHỞI TẠO TRANG
+    ========================= */
+    
+    // Kiểm tra xem menuCategories và menuItems đã được load từ menu-data.js chưa
+    if (typeof menuCategories !== 'undefined' && typeof menuItems !== 'undefined') {
+        renderMenu();
+        updateCartCount();
+        updateHeaderCartCount();
+        // renderCategories() được xử lý bởi categories.js để tránh xung đột
+    } else {
+        console.error('Lỗi: Không thể tải dữ liệu menu từ menu-data.js');
+        menuList.innerHTML = `
+            <div class="error-message">
+                <p>Fehler beim Laden der Menüdaten. Bitte versuchen Sie es später erneut.</p>
+            </div>
+        `;
+    }
+
+    /* =========================
+       HEADER & FOOTER LOADING
+    ========================= */
+
+    const headerFallback = `
+        <header class="header" id="mainHeader">
+            <div class="header-container">
+                <a href="../index.html" class="logo">
+                    <img src="../assets/images/logo/mstile-310x310.png" alt="Aura Restaurant Logo">
+                    <span>AURA</span>
+                </a>
+                <nav class="desktop-nav">
+                    <a href="../index.html">Startseite</a>
+                    <a href="./menu-feuchtwangen.html" class="active">Menü Feuchtwangen</a>
+                    <a href="./menu-gunzenhausen.html">Menü Gunzenhausen</a>
+                    <a href="../contact.html">Kontakt</a>
+                </nav>
+                <div class="header-actions">
+                    <a href="../cart.html" class="cart-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span id="cart-count">0</span>
+                    </a>
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="mobile-sidebar" id="mobileSidebar">
+            <div class="sidebar-header">
+                <h2>AURA</h2>
+                <button id="closeSidebar">✕</button>
+            </div>
+            <nav class="mobile-nav">
+                <a href="../index.html">Startseite</a>
+                <a href="./menu-feuchtwangen.html">Menü Feuchtwangen</a>
+                <a href="./menu-gunzenhausen.html">Menü Gunzenhausen</a>
+                <a href="../contact.html">Kontakt</a>
+                <a href="../cart.html">Warenkorb</a>
+            </nav>
+        </div>
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    `;
+
+    const footerFallback = `
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <a href="../index.html" class="footer-logo">AURA</a>
+                    <p class="footer-description">Authentische Asia Küche & Sushi Erlebnis.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Öffnungszeiten</h3>
+                    <div class="footer-hours">
+                        <p>Mo – So:</p>
+                        <p>11:00 – 15:00 Uhr</p>
+                        <p>&</p>
+                        <p>17:00 – 22:00 Uhr</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Kontakt</h3>
+                    <div class="footer-contact">
+                        <p><strong>Feuchtwangen</strong></p>
+                        <p>Dinkelsbühler Str 6, 91555 Feuchtwangen</p>
+                        <p>09852-9080400</p>
+                        <p style="margin-top: 16px;"><strong>Gunzenhausen</strong></p>
+                        <p>Gerberstraße 6 - 91710 Gunzenhausen</p>
+                        <p>09831-8822868</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Folge uns</h3>
+                    <div class="footer-social-column">
+                        <a href="https://www.instagram.com/aura_asiacusine_sushi/">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">TikTok</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Aura Restaurant. Alle Rechte vorbehalten.</p>
+            </div>
+        </footer>
+    `;
+
+    function insertHeader(html) {
+        const headerPlaceholder = document.getElementById('header-placeholder');
+        if (headerPlaceholder) headerPlaceholder.innerHTML = html;
+    }
+
+    function insertFooter(html) {
+        const footerPlaceholder = document.getElementById('footer-placeholder');
+        if (footerPlaceholder) footerPlaceholder.innerHTML = html;
+    }
+
+    function loadHeader() {
+        fetch('../components/header.html')
+            .then(response => {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.text();
+            })
+            .then(data => {
+                insertHeader(data);
+                const script = document.createElement('script');
+                script.src = '../assets/js/header.js';
+                document.body.appendChild(script);
+            })
+            .catch(() => {
+                insertHeader(headerFallback);
+                const script = document.createElement('script');
+                script.src = '../assets/js/header.js';
+                document.body.appendChild(script);
+            });
+    }
+
+    function loadFooter() {
+        fetch('../components/footer.html')
+            .then(response => {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.text();
+            })
+            .then(data => insertFooter(data))
+            .catch(() => insertFooter(footerFallback));
+    }
+
+    loadHeader();
+    loadFooter();
+
+    // Thêm CSS cho animation
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes fadeOut {
+            0% { opacity: 1; transform: translateY(0); }
+            70% { opacity: 1; transform: translateY(0); }
+            100% { opacity: 0; transform: translateY(-20px); }
+        }
+        .error-message, .empty-menu {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+            font-size: 16px;
+        }
+        .single-price .option-left span {
+            font-weight: normal;
+            color: #aaa;
+        }
+    `;
+    document.head.appendChild(style);
+
+</script>
+<script src="../assets/js/categories.js"></script>
+
+</body>
+
+</html>

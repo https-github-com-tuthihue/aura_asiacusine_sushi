@@ -1,284 +1,522 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="keywords" content="Aura Restaurant, Aura Asia Cuisine and Sushi, Sushi, Asia Restaurant, Asia Restaurant in Feuchtwangen, Asia Restaurant Gunzenhausen, Asia Cuisine, Asiatisches Restaurant, Sushi Feuchtwangen, Sushi Gunzenhausen, Asiatische Küche, Vietnamesische Spezialitäten">
-  <title>Aura Kontakt</title>
-  <meta name="description" content="Aura Restaurant – Asiatische Küche, Asia Cuisine, Sushi, Wokgerichte und vietnamesische Spezialitäten in Feuchtwangen und Gunzenhausen.">
-  <script>
-    fetch("components/favicon.html")
-      .then(res => res.text())
-      .then(data => {
-        document.head.insertAdjacentHTML("beforeend", data);
-    });
-  </script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <style>
-    /* Custom styles for dark background and gold accents */
-    body {
-      background-color: #141414; /* Main background color */
-      color: #f3c948;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    /* Header background color */
-    header {
-      background-color: #1C1C1C; /* Dark gray for header */
-    }
-    /* Main content background color */
-    main {
-      background-color: #222; /* Slightly lighter gray for main content */
-    }
-    /* Scrollbar styling for mobile */
-    ::-webkit-scrollbar {
-      width: 6px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #1f1f1f;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #f3c948;
-      border-radius: 3px;
-    }
-
-    /* Custom button style */
-    .btn-gold {
-      background-color: #f3c948;
-      color: #141414;
-      font-weight: 600;
-      transition: background-color 0.3s ease;
-    }
-    .btn-gold:hover, .btn-gold:focus {
-      background-color: #e1b72c;
-      outline: none;
-      color: #121212;
-    }
-
-    /* Mini cart bubble */
-    .cart-bubble {
-      background-color: #da2c38;
-      color: white;
-      font-weight: 700;
-      font-size: 0.7rem;
-      padding: 0 6px;
-      border-radius: 9999px;
-      position: absolute;
-      right: 0;
-      top: -6px;
-      user-select: none;
-    }
-    /* Link arrow icon */
-    .arrow-link::after {
-      content: '→';
-      margin-left: 0.3em;
-      font-weight: 700;
-    }
-    .logo {
-      height: 40px;
-    }
-
-  </style>
-</head>
-<body class="w-[414px] mx-auto" style="background-color: #0A0A0A;">
-
-  <!-- HEADER -->
-  <div id="header"></div>
-  <div class="relative w-full flex items-center justify-center">
-    <!-- Ảnh nền -->
-    <img src="image/banner_about.webp" alt="poster about aura restaurant" class="inset-0 w-full object-cover opacity-40">
-      <!-- Chữ -->
-    <h1 class="absolute text-2xl font-bold pt-20 text-center z-10 px-4">Aura Restaurant – Asiatische Küche & Sushi in Feuchtwangen und Gunzenhausen</h1>
-  </div>
-  <main class="pt-4 pb-16 px-6 space-y-4" style="background-color: #121212;">
-      <section>
-        <p class="text-left text-gray-300 text-base">Willkommen im <strong>Aura Restaurant</strong> – Ihrem Treffpunkt für authentische asiatische Küche und frisches Sushi. Bei uns erwartet Sie ein einzigartiges Geschmackserlebnis, das traditionelle Rezepte aus Asien mit modernen Akzenten verbindet.</p>
-      </section>
-
-      <section class="space-y-3">
-    <h2 class="text-xl font-bold flex items-center gap-2">
-      <!-- Map Pin Icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c1.657 0 3-1.343 3-3S13.657 5 12 5s-3 1.343-3 3 1.343 3 3 3z"/>
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22s8-4.5 8-11a8 8 0 10-16 0c0 6.5 8 11 8 11z"/>
-      </svg>
-      Unsere Standorte
-    </h2>
-    <p class="text-left text-gray-300 text-base">Besuchen Sie uns an zwei zentralen Adressen:</p>
-    <ul class="list-disc list-inside space-y-1 text-white">
-      <li><strong>Dinkelsbühler Str. 6, 91555 Feuchtwangen</strong></li>
-      <li><strong>Gerberstraße 6, 91710 Gunzenhausen</strong></li>
-    </ul>
-    <p class="text-left text-gray-300 text-base">An beiden Standorten genießen Sie die gleiche hohe Qualität, frische Zutaten und freundlichen Service.</p>
-  </section>
-
-  <section class="space-y-3">
-    <h2 class="text-xl font-bold flex items-center gap-2">
-      <!-- Sushi Icon (chopsticks style) -->
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l18-6m-18 6l18 6m-18-6v6m18-6v6"/>
-      </svg>
-      Asiatische Küche &amp; Sushi-Spezialitäten
-    </h2>
-    <p class="text-left text-gray-300 text-base">Im Aura Restaurant legen wir großen Wert auf Vielfalt und Frische. Unsere Speisekarte bietet Ihnen:</p>
-    <ul class="list-disc list-inside space-y-1 text-gray-100">
-      <li>Klassisches <strong>Sushi</strong> und kreative Sushi-Rollen</li>
-      <li><strong>Asiatische Spezialitäten</strong> wie gebratene Nudeln, Reisgerichte und Currys</li>
-      <li>Frische Suppen und Vorspeisen für den perfekten Start</li>
-      <li>Vegetarische und vegane Optionen für bewusste Genießer</li>
-    </ul>
-  </section>
-
-  <section class="space-y-3">
-    <h2 class="text-xl font-bold flex items-center gap-2">
-      <!-- Heart Icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-150 justify-center" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 010-6.364 4.5 4.5 0 016.364 0L12 2.682l1.318-1.364a4.5 4.5 0 016.364 6.364L12 21.682 4.318 6.318z"/>
-      </svg>
-      Warum Aura Restaurant?
-    </h2>
-      <div class="space-y-2 text-gray-200 text-base">
-        <div class="flex items-start gap-2">
-          <span class="text-yellow-400">✔</span>
-          <span>Authentische asiatische Küche mit Liebe zum Detail</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="text-yellow-400">✔</span>
-          <span>Hochwertige Zutaten und täglich frisches Sushi</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="text-yellow-400">✔</span>
-          <span>Angenehme Atmosphäre für Paare, Familien und Gruppen</span>
-        </div>
-        <div class="flex items-start gap-2">
-          <span class="text-yellow-400">✔</span>
-          <span>Zwei bequeme Standorte in Feuchtwangen und Gunzenhausen</span>
-        </div>
-  </section>
-
-  <section class="space-y-3">
-    <h2 class="text-xl font-bold flex items-center gap-2">
-      <!-- Clock Icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2m6-2a10 10 0 11-20 0 10 10 0 0120 0z"/>
-      </svg>
-      Öffnungszeiten
-    </h2>
-    <p class="text-left text-gray-100 text-base"><strong>Mo – So:</strong> 11:00 – 15:00 Uhr &amp; 17:00 – 22:00 Uhr</p>
-  </section>
-
-  <section class="space-y-3">
-    <h2 class="text-xl font-bold flex items-center gap-2">
-      <!-- Star Icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 17.75l-6.16 3.25L7 14l-5-4.75 6.91-1L12 2l3.09 6.25 6.91 1L17 14l1.16 7z"/>
-      </svg>
-      Besuchen Sie uns
-    </h2>
-    <p class="text-left text-gray-300 text-base">Ob für ein entspanntes Abendessen, einen besonderen Anlass oder einfach, um frisches Sushi zu genießen – das <strong>Aura Restaurant</strong> ist die richtige Adresse.</p>
-    <p class="text-left text-gray-300 text-base"><strong>👉 Reservieren Sie jetzt Ihren Tisch und genießen Sie unvergessliche Momente bei Aura Restaurant.</strong></p>
-  </section>
-  <!-- Hero Text & Buttons -->
-  <div class="flex justify-center gap-2 mt-3">
-    <a href="tel:09831 - 882 28 68" class="btn-gold rounded px-4 py-2 shadow-md hover:bg-yellow-400 flex items-center gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.279a2 2 0 011.895 1.316l1.046 3.139a1 1 0 01-.217 1.09l-1.12 1.12a11.042 11.042 0 005.516 5.516l1.12-1.12a1 1 0 011.09-.217l3.138 1.046A2 2 0 0119 16.721V19a2 2 0 01-2 2h-1c-7.18 0-13-5.82-13-13V5z" />
-      </svg>
-      Jetzt anrufen
-    </a>
-  </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA - Asia Küche & Sushi | Kontakt</title>
+    <meta name="description" content="Authentische Asia Küche und Sushi in Feuchtwangen & Gunzenhausen. Kontaktieren Sie Aura Restaurant für Reservierungen, Abholung und Events.">
     
-  </main>
-  <!-- FOOTER -->
-  <div id="footer"></div>
-    <!-- Side Menu -->
-  <div id="sidemenu"></div>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/homepage.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logo/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/logo/manifest.json">
+</head>
+<body>
 
-  <script>
-    // Load header
-    fetch("components/header.html")
-      .then(res => res.text())
-      .then(data => {
-        document.getElementById("header").innerHTML = data;
-        attachMenuEvents(); // sau khi header load thì gắn sự kiện
-      });
+    <!-- HEADER COMPONENT -->
+    <header class="header" id="mainHeader">
 
-    // Load footer
-    fetch("components/footer.html")
-      .then(res => res.text())
-      .then(data => document.getElementById("footer").innerHTML = data);
+        <div class="header-container">
 
-    // Load sidemenu
-    fetch("components/sidemenu.html")
-      .then(res => res.text())
-      .then(data => {
-        document.getElementById("sidemenu").innerHTML = data;
-        attachMenuEvents(); // sau khi sidemenu load thì gắn sự kiện
-      });
+            <!-- LOGO -->
+            <a href="./index.html" class="logo">
+                <img src="./assets/images/logo/mstile-310x310.png" alt="Aura Restaurant Logo">
+                <span>AURA</span>
+            </a>
 
-    function attachMenuEvents() {
-      const menuToggle = document.getElementById("menu-toggle");
-      const sideMenu = document.getElementById("side-menu");
-      const closeMenu = document.getElementById("close-menu");
-      const overlay = document.getElementById("overlay");
-      const linkContact = document.getElementById("link-contact");
-      const linkHome = document.getElementById("link-home");
-      const linkSpeisekarte = document.getElementById("link-speisekarte");
-      const linkSpeisekarte2 = document.getElementById("link-speisekarte2");
-      const linkBlog = document.getElementById("link-blog");
+            <!-- DESKTOP NAV -->
+            <nav class="desktop-nav">
 
+                <a href="./index.html">Startseite</a>
 
-      if (menuToggle && sideMenu && closeMenu && overlay) {
-        menuToggle.onclick = () => {
-          sideMenu.classList.remove("-translate-x-full");
-          overlay.classList.remove("hidden");
-        };
-        closeMenu.onclick = () => {
-          sideMenu.classList.add("-translate-x-full");
-          overlay.classList.add("hidden");
-        };
-        overlay.onclick = () => {
-          sideMenu.classList.add("-translate-x-full");
-          overlay.classList.add("hidden");
-        };
+                <a href="./pages/menu-feuchtwangen.html">
+                    Menü Feuchtwangen
+                </a>
+
+                <a href="./pages/menu-gunzenhausen.html">
+                    Menü Gunzenhausen
+                </a>
+
+                <a href="./contact.html" class="active">Kontakt</a>
+
+            </nav>
+
+            <!-- RIGHT ACTIONS -->
+            <div class="header-actions">
+
+                <!-- CART -->
+                <a href="./cart.html" class="cart-btn">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+
+                    </svg>
+
+                    <span id="cart-count">0</span>
+
+                </a>
+
+                <!-- MOBILE TOGGLE -->
+                <button class="mobile-toggle" id="mobileToggle">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- MOBILE SIDEBAR -->
+    <div class="mobile-sidebar" id="mobileSidebar">
+
+        <div class="sidebar-header">
+
+            <h2>AURA</h2>
+
+            <button id="closeSidebar">
+                ✕
+            </button>
+
+        </div>
+
+        <nav class="mobile-nav">
+
+            <a href="./index.html">Startseite</a>
+
+            <a href="./pages/menu-feuchtwangen.html">
+                Menü Feuchtwangen
+            </a>
+
+            <a href="./pages/menu-gunzenhausen.html">
+                Menü Gunzenhausen
+            </a>
+
+            <a href="./contact.html" class="active">Kontakt</a>
+
+            <a href="./cart.html">
+                Warenkorb
+            </a>
+
+        </nav>
+    </div>
+
+<!-- main content -->
+    <!-- =========================
+         HERO
+    ========================== -->
+
+<section class="contact-intro">
+
+    <div class="contact-intro-container">
+
+        <span class="section-tag">
+            AURA RESTAURANT
+        </span>
+
+        <h2>
+            Wir bringen Asia-Aromen
+            zu Ihrem Tisch
+        </h2>
+
+        <p>
+            Im Aura Restaurant verbinden wir authentische Asia Küche,
+            frisches Sushi und eine warme Atmosphäre für ein unvergessliches
+            Erlebnis.
+
+            Ob entspanntes Mittagessen, Familienessen oder Abend mit Freunden,
+            unsere Standorte in Feuchtwangen und Gunzenhausen freuen sich auf Sie.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="why-section">
+
+    <div class="why-container">
+
+        <div class="why-card">
+
+            <div class="why-icon">
+                🍣
+            </div>
+
+            <h3>
+                Frisches Sushi täglich
+            </h3>
+
+            <p>
+                Sorgfältig zubereitetes Sushi und Sashimi
+                mit frischen Zutaten jeden Tag.
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <div class="why-icon">
+                🍜
+            </div>
+
+            <h3>
+                Authentische Asia Küche
+            </h3>
+
+            <p>
+                Traditionelle Rezepte kombiniert mit
+                moderner Präsentation und Premium-Geschmack.
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <div class="why-icon">
+                ✨
+            </div>
+
+            <h3>
+                Gemütliche Atmosphäre
+            </h3>
+
+            <p>
+                Elegantes Ambiente und freundlicher Service
+                für ein entspanntes Erlebnis.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section class="contact-section">
+
+        <div class="contact-container">
+
+            <!-- FEUCHTWANGEN -->
+
+            <div class="contact-card">
+
+                <div class="branch-badge">
+
+                    FEUCHTWANGEN
+
+                </div>
+
+                <h2>
+                    Aura Restaurant
+                </h2>
+
+                <p class="contact-address">
+
+                    Dinkelsbühler Str 6,
+                    91555 Feuchtwangen
+
+                </p>
+
+                <div class="contact-info">
+
+                    <div class="info-item">
+
+                        <span>
+                            📞
+                        </span>
+
+                        <a href="tel:+499852123456">
+
+                            +49 9852 123456
+
+                        </a>
+
+                    </div>
+
+                    <div class="info-item">
+
+                        <span>
+                            🕒
+                        </span>
+
+                        <p>
+
+                            11:00 – 15:00 <br>
+                            17:00 – 22:00
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- BUTTONS -->
+
+                <div class="contact-buttons">
+
+                    <a href="tel:+499852123456"
+                       class="primary-btn">
+
+                        Jetzt anrufen
+
+                    </a>
+
+                    <a href="./pages/menu-feuchtwangen.html"
+                       class="secondary-btn">
+
+                        Speisekarte ansehen
+
+                    </a>
+
+                </div>
+
+                <!-- MAP -->
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.8300558455426!2d10.323018876018981!3d49.165833879022124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4798eb005e205f79%3A0x5eb6c11e35952db3!2sAura%20Asia%20Cusine%20and%20Sushi!5e0!3m2!1sen!2s!4v1764078590426!5m2!1sen!2s"
+                    width="100%"
+                    height="260"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+
+                </iframe>
+
+            </div>
+
+            <!-- GUNZENHAUSEN -->
+
+            <div class="contact-card">
+
+                <div class="branch-badge">
+
+                    GUNZENHAUSEN
+
+                </div>
+
+                <h2>
+                    Aura Restaurant
+                </h2>
+
+                <p class="contact-address">
+
+                    Gerberstraße 6,
+                    91710 Gunzenhausen
+
+                </p>
+
+                <div class="contact-info">
+
+                    <div class="info-item">
+
+                        <span>
+                            📞
+                        </span>
+
+                        <a href="tel:+499833789012">
+
+                            +49 9833 789012
+
+                        </a>
+
+                    </div>
+
+                    <div class="info-item">
+
+                        <span>
+                            🕒
+                        </span>
+
+                        <p>
+
+                            11:00 – 15:00 <br>
+                            17:00 – 22:00
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- BUTTONS -->
+
+                <div class="contact-buttons">
+
+                    <a href="tel:+499833789012"
+                       class="primary-btn">
+
+                        Jetzt anrufen
+
+                    </a>
+
+                    <a href="./pages/menu-gunzenhausen.html"
+                       class="secondary-btn">
+
+                        Speisekarte ansehen
+
+                    </a>
+
+                </div>
+
+                <!-- MAP -->
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.226268126376!2d10.751402476465883!3d49.11604907135663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4798cbd5b453cbc1%3A0x8421f9e8d7ee8729!2sAura%20asia%20cuisine%26sushi!5e0!3m2!1sde!2sde!4v1723197193470!5m2!1sde!2sde"
+                    width="100%"
+                    height="260"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+   
+    <!-- FOOTER COMPONENT -->
+    <div id="footer-container"></div>
+
+    <!-- JavaScript Files -->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/header.js"></script>
+    <script src="./assets/js/responsive.js"></script>
+    <script>
+      const footerContainer = document.getElementById('footer-container');
+      const footerFallback = `
+        <footer class="footer">
+
+            <div class="footer-container">
+
+                <!-- BRAND -->
+                <div class="footer-column">
+
+                    <a href="./index.html" class="footer-logo">
+                        AURA
+                    </a>
+
+                    <p class="footer-description">
+
+                        Authentische Asia Küche & Sushi Erfahrung.
+
+                    </p>
+
+                </div>
+
+                <!-- OPENING HOURS -->
+                <div class="footer-column">
+
+                    <h3>Öffnungszeiten</h3>
+
+                    <div class="footer-hours">
+
+                        <p>Mo – So:</p>
+                        <p>11:00 – 15:00 Uhr</p>
+                        <p>&</p>
+                        <p>17:00 – 22:00 Uhr</p>
+
+                    </div>
+
+                </div>
+
+                <!-- CONTACT -->
+                <div class="footer-column">
+
+                    <h3>Contact</h3>
+
+                    <div class="footer-contact">
+
+                        <p><strong>Feuchtwangen</strong></p>
+                        <p>Dinkelsbühler Str 6, 91555 Feuchtwangen</p>
+                        <p>09852-9080400</p>
+
+                        <p style="margin-top: 16px;"><strong>Gunzenhausen</strong></p>
+                        <p>Gerberstraße 6 - 91710 Gunzenhausen</p>
+                        <p>09831-8822868</p>
+
+                    </div>
+
+                </div>
+
+                <!-- SOCIAL -->
+                <div class="footer-column">
+
+                    <h3>Follow Us</h3>
+
+                    <div class="footer-social-column">
+
+                        <a href="https://www.instagram.com/aura_asiacusine_sushi/">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">TikTok</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- COPYRIGHT -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Aura Restaurant.
+                        Alle Rechte vorbehalten.
+            </div>
+
+        </footer>
+      `;
+
+      function insertFooter(html) {
+        if (footerContainer) {
+          footerContainer.innerHTML = html;
+        }
       }
 
-      // 👉 chuyển sang contact.html
-      if (linkContact) {
-        linkContact.onclick = () => {
-          window.location.href = "contact.html";
-        };
+      if (window.location.protocol === 'file:') {
+        insertFooter(footerFallback);
+      } else {
+        fetch('./components/footer.html')
+          .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok');
+            return response.text();
+          })
+          .then(html => insertFooter(html))
+          .catch(() => insertFooter(footerFallback));
       }
+    </script>
 
-      // 👉 chuyển sang index.html
-      if (linkHome) {
-        linkHome.onclick = () => {
-          window.location.href = "index.html";
-        };
-      }
-      
-      if (linkSpeisekarte) {
-        linkSpeisekarte.onclick = () => {
-          window.location.href = "menu.html";
-        };
-      }
-      if (linkSpeisekarte2) {
-        linkSpeisekarte2.onclick = () => {
-          window.location.href = "menu_feuchtwangen.html";
-        };
-      }
-
-      if (linkBlog) {
-        linkBlog.onclick = () => {
-          window.location.href = "index.html";
-        };
-      }
-
-    }
-
-  </script>
 </body>
 </html>

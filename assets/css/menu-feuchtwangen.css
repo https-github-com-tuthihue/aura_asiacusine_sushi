@@ -1,0 +1,736 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#050505;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* HERO */
+/* =========================
+   MENU HERO
+========================= */
+
+.menu-hero{
+
+    position:relative;
+
+    min-height:50vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    overflow:hidden;
+
+    padding:
+    140px 20px 80px;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.75)
+    ),
+    url('../images/homepage/hompage 1.webp');
+
+    background-size:cover;
+
+    background-position:center center;
+
+    background-repeat:no-repeat;
+}
+
+/* OVERLAY */
+
+.menu-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.15),
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.72)
+    );
+
+    z-index:1;
+}
+
+/* CONTENT */
+
+.menu-hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:0 10px;
+}
+
+/* SUBTITLE */
+
+.menu-hero-content span{
+
+    color:#e0b84c;
+
+    letter-spacing:5px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+    text-transform:uppercase;
+}
+
+/* TITLE */
+
+.menu-hero-content h1{
+
+    font-size:72px;
+
+    line-height:1.08;
+
+    margin:24px 0;
+
+    letter-spacing:-2px;
+
+    font-weight:700;
+}
+
+/* DESCRIPTION */
+
+.menu-hero-content p{
+
+    color:
+    rgba(255,255,255,0.76);
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media(max-width:992px){
+
+    .menu-hero-content h1{
+
+        font-size:58px;
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .menu-hero{
+
+        min-height:42vh;
+
+        padding:
+        120px 20px 70px;
+    }
+
+    .menu-hero-content span{
+
+        font-size:11px;
+
+        letter-spacing:4px;
+    }
+
+    .menu-hero-content h1{
+
+        font-size:44px;
+
+        line-height:1.12;
+
+        letter-spacing:-1px;
+
+        margin:18px 0;
+    }
+
+    .menu-hero-content p{
+
+        font-size:0.95rem;
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:480px){
+
+    .menu-hero{
+
+        min-height:38vh;
+
+        padding:
+        110px 18px 60px;
+    }
+
+    .menu-hero-content h1{
+
+        font-size:34px;
+
+        line-height:1.15;
+    }
+
+    .menu-hero-content p{
+
+        font-size:0.9rem;
+    }
+
+}
+
+/* CATEGORY */
+/* ========================================
+   CATEGORY SECTION - AURA RESTAURANT
+   Chế độ: Lướt ngang / Wrap xuống dòng
+   ======================================== */
+
+.menu-category-section {
+    padding: 20px 20px;
+    position: sticky;
+    top: 80px;
+    z-index: 100;
+    background: #050505;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/* CONTAINER CHÍNH */
+.categories-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* NÚT MỞ RỘNG / THU GỌN */
+.expand-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 18px;
+    margin-bottom: 16px;
+    background: rgba(224, 184, 76, 0.1);
+    border: 1px solid rgba(224, 184, 76, 0.3);
+    border-radius: 40px;
+    color: #e0b84c;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(4px);
+}
+
+.expand-toggle-btn:hover {
+    background: #e0b84c;
+    color: #111;
+    border-color: #e0b84c;
+}
+
+.expand-toggle-btn .toggle-icon {
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+/* ===== CHẾ ĐỘ 1: LƯỚT NGANG (MẶC ĐỊNH) ===== */
+.menu-categories-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    padding-bottom: 8px;
+}
+
+.menu-categories-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* ===== CHẾ ĐỘ 2: WRAP XUỐNG DÒNG ===== */
+.menu-categories-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+    padding-bottom: 8px;
+}
+
+/* ẨN/HIỆN CHẾ ĐỘ */
+.menu-categories-scroll.hidden {
+    display: none;
+}
+
+.menu-categories-wrap.hidden {
+    display: none;
+}
+
+/* ===== STYLE BUTTON CATEGORY ===== */
+.category-btn {
+    flex-shrink: 0;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 40px;
+    background: rgba(18, 18, 18, 0.9);
+    color: #e0e0e0;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    backdrop-filter: blur(2px);
+}
+
+/* Chế độ wrap - button có thể co giãn */
+.menu-categories-wrap .category-btn {
+    flex-shrink: 1;
+    white-space: nowrap;
+}
+
+.category-btn:hover {
+    background: rgba(224, 184, 76, 0.85);
+    color: #111;
+    transform: translateY(-2px);
+}
+
+.category-btn.active {
+    background: #e0b84c;
+    color: #111;
+    box-shadow: 0 2px 8px rgba(224, 184, 76, 0.3);
+}
+
+/* ===== NÚT "ALLE" ĐẶC BIỆT ===== */
+.category-btn.alle-btn {
+    background: rgba(224, 184, 76, 0.15);
+    border: 1px solid rgba(224, 184, 76, 0.4);
+    color: #e0b84c;
+}
+
+.category-btn.alle-btn.active {
+    background: #e0b84c;
+    color: #111;
+    border-color: #e0b84c;
+}
+
+.category-btn.alle-btn:hover {
+    background: rgba(224, 184, 76, 0.7);
+    color: #111;
+}
+
+/* ===== HIỆU ỨNG KHI CHUYỂN ĐỔI ===== */
+.menu-categories-scroll,
+.menu-categories-wrap {
+    transition: all 0.3s ease;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .menu-category-section {
+        padding: 14px 16px;
+        top: 70px;
+    }
+    
+    .expand-toggle-btn {
+        padding: 6px 14px;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .category-btn {
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+    
+    .menu-categories-scroll,
+    .menu-categories-wrap {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .category-btn {
+        padding: 7px 14px;
+        font-size: 11px;
+    }
+    
+    .expand-toggle-btn {
+        padding: 5px 12px;
+        font-size: 11px;
+    }
+}
+/* MENU SECTION */
+.menu-section {
+    padding: 20px;
+}
+
+.menu-list {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* MENU CARD */
+.menu-card {
+    background: linear-gradient(145deg, #07152e, #09111d);
+    border-radius: 24px;
+    border: 1px solid rgba(224, 184, 76, 0.12);
+    padding: 28px;
+    transition: 0.3s ease;
+}
+
+.menu-card:hover {
+    border-color: rgba(224, 184, 76, 0.4);
+}
+
+/* CARD TOP - TÊN MÓN VÀ ALLERGEN CÙNG HÀNG NGANG */
+.menu-card-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.menu-card-top h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+.allergen-code {
+    color: #f3c948;
+    font-size: 0.85rem;
+    font-weight: bold;
+    background: rgba(243, 201, 72, 0.15);
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* DESCRIPTION */
+.menu-description {
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 1.8;
+    margin-bottom: 26px;
+    max-width: 1200px;
+    font-size: 0.95rem;
+}
+
+/* OPTIONS CONTAINER */
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* MỖI OPTION LÀ 1 HÀNG NGANG */
+.menu-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px dashed rgba(224, 184, 76, 0.15);
+}
+
+.menu-option:last-child {
+    border-bottom: none;
+}
+
+/* PHẦN BÊN TRÁI - TÊN OPTION */
+.option-left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 10px;
+    flex: 2;
+}
+
+.option-left span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #e0e0e0;
+}
+
+.option-left small {
+    color: #f3c948;
+    font-weight: bold;
+    font-size: 0.75rem;
+    background: rgba(243, 201, 72, 0.1);
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+/* PHẦN BÊN PHẢI - GIÁ VÀ NÚT NGANG HÀNG */
+.option-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.option-price {
+    color: #f3c948;
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* NÚT THÊM VÀO GIỎ HÀNG */
+.add-btn {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 40px;
+    background: #e0b84c;
+    color: #111;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+.add-btn:hover {
+    background: #ffd76c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(224, 184, 76, 0.3);
+}
+
+/* TRƯỜNG HỢP MÓN ĐƠN (KHÔNG CÓ OPTION) */
+.menu-option.single-price {
+    justify-content: flex-end;
+    border-bottom: none;
+    padding-top: 0;
+}
+
+.menu-option.single-price .option-left {
+    flex: 1;
+}
+
+.menu-option.single-price .option-left span {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* FLOATING CART */
+.floating-cart {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #e0b84c;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    z-index: 999;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+.floating-cart:hover {
+    transform: scale(1.05);
+    background: #ffd76c;
+}
+
+#cartCount {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #111;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e0b84c;
+}
+
+/* RESPONSIVE - TABLET & MOBILE */
+@media (max-width: 768px) {
+    .menu-section {
+        padding: 16px;
+    }
+    
+    .menu-card {
+        padding: 20px;
+    }
+    
+    .menu-card-top h2 {
+        font-size: 1.4rem;
+    }
+    
+    .allergen-code {
+        font-size: 0.7rem;
+        padding: 3px 10px;
+    }
+    
+    .menu-description {
+        font-size: 0.85rem;
+        margin-bottom: 20px;
+    }
+    
+    /* TRÊN MOBILE: CHUYỂN OPTION THÀNH CỘT DỌC */
+    .menu-option {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 12px 0;
+    }
+    
+    .option-left {
+        width: 100%;
+    }
+    
+    .option-left span {
+        font-size: 1rem;
+    }
+    
+    .option-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .option-price {
+        font-size: 1.3rem;
+    }
+    
+    .add-btn {
+        padding: 8px 20px;
+        font-size: 0.85rem;
+    }
+    
+    .floating-cart {
+        width: 56px;
+        height: 56px;
+        font-size: 1.5rem;
+        right: 16px;
+        bottom: 16px;
+    }
+    
+    #cartCount {
+        width: 22px;
+        height: 22px;
+        font-size: 11px;
+    }
+}
+
+/* RESPONSIVE - DESKTOP NHỎ */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .menu-card-top h2 {
+        font-size: 1.6rem;
+    }
+    
+    .option-left span {
+        font-size: 1rem;
+    }
+    
+    .option-price {
+        font-size: 1.3rem;
+    }
+}
+
+/* HIỆU ỨNG NOTIFICATION KHI THÊM VÀO GIỎ */
+.cart-notification {
+    position: fixed;
+    bottom: 100px;
+    right: 24px;
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    z-index: 1000;
+    animation: slideInOut 2s ease forwards;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes slideInOut {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    15% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    85% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(50px);
+        visibility: hidden;
+    }
+}
+
+/* EMPTY STATE & ERROR */
+.empty-menu, .error-message {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(145deg, #07152e, #09111d);
+    border-radius: 24px;
+    border: 1px solid rgba(224, 184, 76, 0.12);
+}
+
+.empty-menu p, .error-message p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+}
+
+.desktop-nav a.active{
+
+    color:#e0b84c;
+}
+
+.desktop-nav a.active::after{
+
+    width:70%;
+}
