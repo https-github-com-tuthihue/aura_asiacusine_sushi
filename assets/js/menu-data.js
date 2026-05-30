@@ -433,9 +433,7 @@ const menuItems = [
         name: "Hähnchenspieße",
         allergens: "F",
         description: "Mit Süßkartoffelpommes oder Reis, wahlweise mit süßsauer Sauce oder jap. Mayonnaise",
-        options: [
-            { label: "Knusprige Hähnchenschenkel (filetiert)", price: 14.9 }
-        ]
+        price: 7.9
     },
 
     // ================= BEILAGEN =================
