@@ -245,7 +245,7 @@ const menuItems = [
         name: "Aura Cuisine Platte für 2 Personen",
         image: "../assets/images/menu/AuraCuisinePlatte.webp",
         allergens: "A,B,F,6",
-        description: "Veg. Sommerrolle, Edamame, veg. Frühlingsrollen, Gyoza , Tsuki und gebackene Dumpling",
+        description: "Veg. Sommerrolle, Edamame, veg. Frühlingsrollen, Gyoza , Tsuki, Potatoshrimp und gebackene Dumpling",
         price: 17.9
     },
 
@@ -254,7 +254,8 @@ const menuItems = [
         id: 25,
         category: "HAUPTSPEISEN",
         name: "Lauwarmer Reisnudelsalat",
-        allergens: "AED",
+        image: "../assets/images/menu/LauwarmerReisnudelsalat.webp",
+        allergens: "A,E,D",
         description: "Reisnudelsalat mit frischem Gemüse, Erdnüssen, roten Zwiebeln, Kimchi und hausgemachter Sauce",
         options: [
             { label: "A) Vegetarische Frühlingsrollen", allergens: "AED", price: 15.3 },
@@ -268,6 +269,7 @@ const menuItems = [
         id: 26,
         category: "HAUPTSPEISEN",
         name: "Fire Wok Noodles",
+        image: "../assets/images/menu/FireWokNoodles.webp",
         allergens: "FC6",
         description: "Frische gebratene Eiernudeln mit frischem Gemüse und Zwiebeln",
         options: [
