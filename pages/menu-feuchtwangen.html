@@ -208,78 +208,195 @@
     ========================= */
 
 function renderMenu() {
-    
+
     let filteredItems = menuItems;
-    
+
     if (activeCategory !== 'all') {
-        filteredItems = menuItems.filter(item => 
+
+        filteredItems = menuItems.filter(item =>
             item.category === activeCategory
         );
+
     }
-    
+
     if (filteredItems.length === 0) {
+
         menuList.innerHTML = `
             <div class="empty-menu">
                 <p>Keine Gerichte in dieser Kategorie gefunden.</p>
             </div>
         `;
+
         return;
     }
-    
+
     menuList.innerHTML = filteredItems.map(item => {
-        const vegIcon = item.isVegetarian ? '<span class="vegetarian-icon">🌱</span>' : '';
-        
+
+        const vegIcon =
+            item.isVegetarian
+            ? '<span class="vegetarian-icon">🌱</span>'
+            : '';
+
+        const imageHtml =
+            item.image
+            ? `
+                <div class="menu-image">
+                    <img
+                        src="${item.image}"
+                        alt="${item.name}"
+                        loading="lazy">
+                </div>
+            `
+            : '';
+
         if (item.options && item.options.length > 0) {
+
             return `
                 <div class="menu-card">
-                    <div class="menu-card-top">
-                        <h2>
-                            ${item.id ? item.id + '. ' : ''}${item.name}
-                            ${vegIcon}
-                        </h2>
-                        ${item.allergens ? `<span class="allergen-code">${item.allergens}</span>` : ''}
-                    </div>
-                    ${item.description ? `<p class="menu-description">${item.description}</p>` : ''}
-                    <div class="menu-options">
-                        ${item.options.map(option => `
-                            <div class="menu-option">
-                                <div class="option-left">
-                                    <span>${option.label}</span>
-                                    ${option.allergens ? `<small>${option.allergens}</small>` : ''}
-                                </div>
-                                <div class="option-right">
-                                    <span class="option-price">${option.price.toFixed(1)}€</span>
-                                    <button class="add-btn" onclick='addToCart(${JSON.stringify({id: item.id, name: item.name + " - " + option.label, price: option.price})})'>Hinzufügen</button>
-                                </div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-        } else {
-            return `
-                <div class="menu-card">
-                    <div class="menu-card-top">
-                        <h2>
-                            ${item.id ? item.id + '. ' : ''}${item.name}
-                            ${vegIcon}
-                        </h2>
-                        ${item.allergens ? `<span class="allergen-code">${item.allergens}</span>` : ''}
-                    </div>
-                    ${item.description ? `<p class="menu-description">${item.description}</p>` : ''}
-                    <div class="menu-options">
-                        <div class="menu-option single-price">
-                            <div class="option-left"><span>Einzelpreis</span></div>
-                            <div class="option-right">
-                                <span class="option-price">${item.price.toFixed(1)}€</span>
-                                <button class="add-btn" onclick='addToCart(${JSON.stringify({id: item.id, name: item.name, price: item.price})})'>Hinzufügen</button>
-                            </div>
+
+                    ${imageHtml}
+
+                    <div class="menu-card-content">
+
+                        <div class="menu-card-top">
+
+                            <h2>
+                                ${item.id ? item.id + '. ' : ''}
+                                ${item.name}
+                                ${vegIcon}
+                            </h2>
+
+                            ${item.allergens
+                                ? `<span class="allergen-code">${item.allergens}</span>`
+                                : ''}
+
                         </div>
+
+                        ${item.description
+                            ? `<p class="menu-description">${item.description}</p>`
+                            : ''}
+
+                        <div class="menu-options">
+
+                            ${item.options.map(option => `
+
+                                <div class="menu-option">
+
+                                    <div class="option-left">
+
+                                        <span>
+                                            ${option.label}
+                                        </span>
+
+                                        ${option.allergens
+                                            ? `<small>${option.allergens}</small>`
+                                            : ''}
+
+                                    </div>
+
+                                    <div class="option-right">
+
+                                        <span class="option-price">
+                                            ${option.price.toFixed(1)}€
+                                        </span>
+
+                                        <button
+                                            class="add-btn"
+                                            onclick='addToCart(${JSON.stringify({
+                                                id: item.id,
+                                                name: item.name + " - " + option.label,
+                                                price: option.price,
+                                                image: item.image || ""
+                                            })})'>
+
+                                            Hinzufügen
+
+                                        </button>
+
+                                    </div>
+
+                                </div>
+
+                            `).join('')}
+
+                        </div>
+
                     </div>
+
                 </div>
             `;
+
         }
+
+        return `
+            <div class="menu-card">
+
+                ${imageHtml}
+
+                <div class="menu-card-content">
+
+                    <div class="menu-card-top">
+
+                        <h2>
+                            ${item.id ? item.id + '. ' : ''}
+                            ${item.name}
+                            ${vegIcon}
+                        </h2>
+
+                        ${item.allergens
+                            ? `<span class="allergen-code">${item.allergens}</span>`
+                            : ''}
+
+                    </div>
+
+                    ${item.description
+                        ? `<p class="menu-description">${item.description}</p>`
+                        : ''}
+
+                    <div class="menu-options">
+
+                        <div class="menu-option single-price">
+
+                            <div class="option-left">
+
+                                <span>
+                                    Einzelpreis
+                                </span>
+
+                            </div>
+
+                            <div class="option-right">
+
+                                <span class="option-price">
+                                    ${item.price.toFixed(1)}€
+                                </span>
+
+                                <button
+                                    class="add-btn"
+                                    onclick='addToCart(${JSON.stringify({
+                                        id: item.id,
+                                        name: item.name,
+                                        price: item.price,
+                                        image: item.image || ""
+                                    })})'>
+
+                                    Hinzufügen
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        `;
+
     }).join('');
+
 }
 
     /* =========================

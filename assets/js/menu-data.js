@@ -230,6 +230,24 @@ const menuItems = [
         description: "Junge japanische Sojabohnen mit Meersalz",
         price: 5.3
     },
+        {
+        id: 22,
+        category: "WARME VORSPEISEN",
+        name: "Vorspeisen Mix",
+        image: "../assets/images/menu/vorspeisenmix.webp",
+        allergens: "A,B,F,6",
+        description: "Fünf verschiedene gebackene Vorspeisen",
+        price: 6.8
+    },
+    {
+        id: 23,
+        category: "WARME VORSPEISEN",
+        name: "Aura Cuisine Platte für 2 Personen",
+        image: "../assets/images/menu/AuraCuisinePlatte.webp",
+        allergens: "A,B,F,6",
+        description: "Veg. Sommerrolle, Edamame, veg. Frühlingsrollen, Gyoza , Tsuki und gebackene Dumpling",
+        price: 17.9
+    },
 
     // ================= HAUPTSPEISEN =================
     {
