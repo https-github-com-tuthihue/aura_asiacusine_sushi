@@ -994,6 +994,7 @@ section{
 }
 
 .offer-btn:hover{
+    color:white;
 
     transform:
     translateY(-3px);
@@ -1218,6 +1219,157 @@ section{
     .offer-decoration{
 
         font-size:32px;
+    }
+
+}
+.offer-date{
+
+    margin-top:12px;
+
+    color:rgba(255,255,255,0.65);
+
+    font-size:14px;
+
+    letter-spacing:1px;
+
+    font-style:italic;
+}
+
+/* nút khuyến mãi */
+/* =========================
+   FLOATING PROMOTION
+========================= */
+
+.promo-floating-btn{
+
+    position:fixed;
+
+    right:24px;
+
+    bottom:110px;
+
+    z-index:998;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:12px 18px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    background:
+    linear-gradient(
+        135deg,
+        #e0b84c,
+        #f3c948
+    );
+
+    color:#111;
+
+    font-weight:700;
+
+    box-shadow:
+    0 10px 35px rgba(224,184,76,0.35);
+
+    animation:
+    promoFloat 3s ease-in-out infinite,
+    promoPulse 2s infinite;
+
+    transition:.3s ease;
+}
+
+.promo-floating-btn:hover{
+
+    color:white;
+    transform:
+    translateY(-5px)
+    scale(1.05);
+}
+
+.promo-icon{
+
+    font-size:26px;
+}
+
+.promo-text{
+
+    display:flex;
+
+    flex-direction:column;
+
+    line-height:1.1;
+
+    font-size:11px;
+
+    letter-spacing:1px;
+}
+
+.promo-text strong{
+
+    font-size:18px;
+
+    margin-top:2px;
+}
+
+/* FLOAT */
+
+@keyframes promoFloat{
+
+    50%{
+
+        transform:
+        translateY(-8px);
+    }
+
+}
+
+/* PULSE */
+
+@keyframes promoPulse{
+
+    0%{
+
+        box-shadow:
+        0 0 0 0 rgba(224,184,76,.5);
+    }
+
+    70%{
+
+        box-shadow:
+        0 0 0 15px rgba(224,184,76,0);
+    }
+
+    100%{
+
+        box-shadow:
+        0 0 0 0 rgba(224,184,76,0);
+    }
+
+}
+@media(max-width:768px){
+
+    .promo-floating-btn{
+
+        right:15px;
+
+        bottom:90px;
+
+        padding:10px 14px;
+    }
+
+    .promo-icon{
+
+        font-size:22px;
+    }
+
+    .promo-text strong{
+
+        font-size:15px;
     }
 
 }
