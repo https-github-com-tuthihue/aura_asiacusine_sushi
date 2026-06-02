@@ -810,3 +810,414 @@ section{
     text-decoration: none;
     transition: 0.3s ease;
 }
+
+/* promotion banner */
+.summer-offer{
+
+    position:relative;
+
+    overflow:hidden;
+
+    max-width:1400px;
+
+    margin:100px auto;
+
+    padding:80px;
+
+    border-radius:32px;
+
+    background:
+    linear-gradient(
+        145deg,
+        #101010,
+        #070707
+    );
+
+    border:
+    1px solid rgba(224,184,76,0.18);
+
+    box-shadow:
+    0 0 80px rgba(224,184,76,0.08);
+}
+
+/* GOLD GLOW */
+
+.summer-offer::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:450px;
+    height:450px;
+
+    right:-150px;
+    top:-150px;
+
+    border-radius:50%;
+
+    background:
+    radial-gradient(
+        rgba(224,184,76,0.20),
+        transparent 70%
+    );
+
+    animation:
+    floatGlow 8s ease infinite;
+}
+
+@keyframes floatGlow{
+
+    50%{
+
+        transform:
+        translateY(30px);
+    }
+
+}
+
+.offer-tag{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    background:
+    rgba(224,184,76,0.12);
+
+    border:
+    1px solid rgba(224,184,76,0.3);
+
+    color:#f3c948;
+
+    font-size:13px;
+
+    letter-spacing:2px;
+}
+
+.offer-content h2{
+
+    margin-top:30px;
+
+    font-size:72px;
+
+    line-height:1;
+
+    color:white;
+}
+
+.offer-discount{
+
+    margin-top:20px;
+
+    font-size:110px;
+
+    font-weight:900;
+
+    color:#f3c948;
+
+    line-height:1;
+
+    text-shadow:
+    0 0 30px rgba(224,184,76,0.3);
+}
+
+.offer-discount span{
+
+    font-size:34px;
+
+    margin-left:10px;
+}
+
+.offer-subtitle{
+
+    margin-top:15px;
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:600;
+}
+
+.offer-text{
+
+    margin-top:25px;
+
+    max-width:650px;
+
+    line-height:1.9;
+
+    color:
+    rgba(255,255,255,0.75);
+}
+
+.offer-location{
+
+    margin-top:25px;
+
+    color:#f3c948;
+
+    font-weight:600;
+}
+
+.offer-buttons{
+
+    display:flex;
+
+    gap:16px;
+
+    margin-top:40px;
+}
+
+.offer-btn{
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    background:#e0b84c;
+
+    color:#111;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.3s;
+}
+
+.offer-btn:hover{
+
+    transform:
+    translateY(-3px);
+}
+
+.offer-btn-outline{
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    border:
+    1px solid rgba(224,184,76,0.4);
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.offer-btn-outline:hover{
+
+    background:
+    rgba(224,184,76,0.1);
+}
+
+.offer-decoration{
+
+    position:absolute;
+
+    right:60px;
+
+    bottom:60px;
+
+    font-size:80px;
+
+    animation:
+    floatIcons 5s ease infinite;
+}
+
+@keyframes floatIcons{
+
+    50%{
+
+        transform:
+        translateY(-15px);
+    }
+
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1024px){
+
+    .summer-offer{
+
+        padding:60px 40px;
+        margin:80px 20px;
+    }
+
+    .offer-content h2{
+
+        font-size:56px;
+    }
+
+    .offer-discount{
+
+        font-size:90px;
+    }
+
+    .offer-decoration{
+
+        font-size:60px;
+
+        right:30px;
+        bottom:30px;
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+    .summer-offer{
+
+        padding:40px 24px;
+
+        margin:60px 16px;
+
+        border-radius:24px;
+    }
+
+    .summer-offer::before{
+
+        width:250px;
+        height:250px;
+
+        right:-80px;
+        top:-80px;
+    }
+
+    .offer-tag{
+
+        font-size:11px;
+
+        letter-spacing:1px;
+
+        padding:8px 14px;
+    }
+
+    .offer-content h2{
+
+        margin-top:20px;
+
+        font-size:42px;
+
+        line-height:1.1;
+    }
+
+    .offer-discount{
+
+        font-size:72px;
+
+        margin-top:15px;
+    }
+
+    .offer-discount span{
+
+        display:block;
+
+        margin:0;
+
+        font-size:22px;
+    }
+
+    .offer-subtitle{
+
+        font-size:22px;
+    }
+
+    .offer-text{
+
+        font-size:15px;
+
+        line-height:1.8;
+    }
+
+    .offer-location{
+
+        font-size:14px;
+    }
+
+    .offer-buttons{
+
+        flex-direction:column;
+
+        align-items:stretch;
+
+        gap:12px;
+    }
+
+    .offer-btn,
+    .offer-btn-outline{
+
+        width:100%;
+
+        justify-content:center;
+
+        text-align:center;
+    }
+
+    .offer-decoration{
+
+        position:static;
+
+        margin-top:30px;
+
+        text-align:center;
+
+        font-size:42px;
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px){
+
+    .summer-offer{
+
+        padding:32px 20px;
+    }
+
+    .offer-content h2{
+
+        font-size:34px;
+    }
+
+    .offer-discount{
+
+        font-size:56px;
+    }
+
+    .offer-subtitle{
+
+        font-size:18px;
+    }
+
+    .offer-text{
+
+        font-size:14px;
+    }
+
+    .offer-decoration{
+
+        font-size:32px;
+    }
+
+}
