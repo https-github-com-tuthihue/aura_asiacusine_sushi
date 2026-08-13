@@ -89,7 +89,7 @@
 
 </head>
 
-<body>
+<body data-branch="Feuchtwangen Menu">
 
     <!-- HEADER -->
 
@@ -680,9 +680,37 @@ if(mainHeader){
             })
             .then(data => {
                 insertHeader(data);
-                const script = document.createElement('script');
-                script.src = '../assets/js/header.js';
+
+                /* =========================
+                BRANCH TITLE
+                ========================= */
+
+                const branchTitle =
+                    document.body.dataset.branch;
+
+                const branchElement =
+                    document.querySelector('.branch-title');
+
+                if(branchElement && branchTitle){
+
+                    branchElement.textContent =
+                        branchTitle;
+
+                }
+
+
+                /* =========================
+                HEADER JS
+                ========================= */
+
+                const script =
+                    document.createElement('script');
+
+                script.src =
+                    '../assets/js/header.js';
+
                 document.body.appendChild(script);
+
             })
             .catch(() => {
                 insertHeader(headerFallback);
